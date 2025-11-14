@@ -1,2 +1,2 @@
-# [Home page](https://klicogogo.github.io/ESPN-Fantasy-Fun-Stuff/index.html)
-# [Archive](https://klicogogo.github.io/ESPN-Fantasy-Fun-Stuff/archive.html)
+# [Home page](https://klicogogo.github.io/Fantasy-Fun-Stuff/homepage.html)
+# [Archive](https://klicogogo.github.io/Fantasy-Fun-Stuff/archive.html)
