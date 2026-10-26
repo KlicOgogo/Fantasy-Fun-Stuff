@@ -1,0 +1,2866 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .text-box {
+            width: 40%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px auto;
+            word-wrap: break-word;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            text-align: right;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        td:first-child {
+            border-left: none;
+        }
+        td:last-child {
+            border-right: none;
+        }
+        tbody tr:nth-child(odd) {
+            background: #F0F0F0;
+        }
+        th {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            background: #FFFFFF;
+            padding-left: 6px;
+        }
+
+        table[data-sticky] tr:nth-child(odd) td {
+            background: #F0F0F0;
+        }
+
+        table[data-sticky] tr:nth-child(even) td {
+            background: #FFFFFF;
+        }
+
+        table[data-sticky] th {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            background: #FFFFFF;
+            padding-left: 6px;
+        }
+
+        .collapsible {
+            background-color: #f1f1f1;
+            color: black;
+            cursor: pointer;
+            padding: 10px;
+            width: 30%;
+            border: none;
+            text-align: center;
+            outline: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #dcdcdc;
+        }
+
+        .content {
+            -webkit-overflow-scrolling: touch;
+            padding: 0 18px;
+            max-height: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-out;
+            background-color: white;
+            max-width: none;
+        }
+        .content.expanded {
+            -webkit-overflow-scrolling: touch;
+            padding: 0 18px;
+            max-height: none;
+            overflow-y: visible;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-in;
+            background-color: white;
+            max-width: none;
+        }
+
+        body {
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+        }
+
+        .centered-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .centered-list li {
+            margin: 3px 0;
+        }
+        .centered-list a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .collapsible {
+                width: 72%;
+            }
+            .text-box {
+                width: 96%;
+            }
+        }
+    </style>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="https://klicogogo.github.io/res/favicon.ico"/>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6N4SMS2DV4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6N4SMS2DV4');
+    </script>
+
+    <body align="center">
+        <title>RWH - Div 2-3 (hockey) 2026-27. Matchup 4 results</title>
+        <h1><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff/homepage.html" style="text-decoration:none;">Fantasy Fun Stuff (results)</a></h1>
+        
+            <h2><a href="https://fantasy.espn.com/hockey/league?leagueId=73362809" style="text-decoration:none;">RWH - Div 2-3</a></h2>
+                &nbsp;
+                <button class="collapsible"><h3>Scores</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица набора игрока в лиге по матчапам. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_28cbbe38_row0_col2, #T_28cbbe38_row0_col4, #T_28cbbe38_row0_col5, #T_28cbbe38_row1_col4, #T_28cbbe38_row2_col2, #T_28cbbe38_row2_col3, #T_28cbbe38_row2_col5, #T_28cbbe38_row4_col2, #T_28cbbe38_row4_col4, #T_28cbbe38_row5_col3, #T_28cbbe38_row6_col3, #T_28cbbe38_row9_col5, #T_28cbbe38_row11_col2, #T_28cbbe38_row12_col3 {
+  color: green;
+}
+#T_28cbbe38_row0_col3, #T_28cbbe38_row1_col3, #T_28cbbe38_row1_col5, #T_28cbbe38_row2_col4, #T_28cbbe38_row3_col3, #T_28cbbe38_row3_col5, #T_28cbbe38_row4_col3, #T_28cbbe38_row4_col5, #T_28cbbe38_row5_col2, #T_28cbbe38_row5_col4, #T_28cbbe38_row5_col5, #T_28cbbe38_row6_col2, #T_28cbbe38_row6_col4, #T_28cbbe38_row6_col5, #T_28cbbe38_row7_col3, #T_28cbbe38_row7_col4, #T_28cbbe38_row7_col5, #T_28cbbe38_row8_col2, #T_28cbbe38_row8_col3, #T_28cbbe38_row8_col4, #T_28cbbe38_row8_col5, #T_28cbbe38_row9_col2, #T_28cbbe38_row9_col4, #T_28cbbe38_row10_col2, #T_28cbbe38_row10_col3, #T_28cbbe38_row10_col4, #T_28cbbe38_row10_col5, #T_28cbbe38_row11_col4, #T_28cbbe38_row11_col5, #T_28cbbe38_row12_col2, #T_28cbbe38_row12_col5, #T_28cbbe38_row13_col3, #T_28cbbe38_row13_col4, #T_28cbbe38_row13_col5, #T_28cbbe38_row14_col2, #T_28cbbe38_row14_col3, #T_28cbbe38_row14_col5, #T_28cbbe38_row15_col2, #T_28cbbe38_row15_col4, #T_28cbbe38_row15_col5, #T_28cbbe38_row16_col2, #T_28cbbe38_row16_col5, #T_28cbbe38_row17_col3, #T_28cbbe38_row17_col4, #T_28cbbe38_row18_col3, #T_28cbbe38_row19_col4 {
+  color: ;
+}
+#T_28cbbe38_row1_col2, #T_28cbbe38_row3_col2, #T_28cbbe38_row3_col4 {
+  color: blue;
+}
+#T_28cbbe38_row7_col2, #T_28cbbe38_row9_col3, #T_28cbbe38_row11_col3, #T_28cbbe38_row13_col2, #T_28cbbe38_row14_col4, #T_28cbbe38_row15_col3, #T_28cbbe38_row16_col3, #T_28cbbe38_row16_col4, #T_28cbbe38_row17_col2, #T_28cbbe38_row18_col4, #T_28cbbe38_row18_col5, #T_28cbbe38_row19_col3, #T_28cbbe38_row19_col5 {
+  color: orange;
+}
+#T_28cbbe38_row12_col4, #T_28cbbe38_row17_col5, #T_28cbbe38_row18_col2, #T_28cbbe38_row19_col2 {
+  color: red;
+}
+</style>
+<table id="T_28cbbe38" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_28cbbe38_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_28cbbe38_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_28cbbe38_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_28cbbe38_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_28cbbe38_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_28cbbe38_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_28cbbe38_level0_col6" class="col_heading level0 col6" >&#128526;</th>
+      <th id="T_28cbbe38_level0_col7" class="col_heading level0 col7" >&#128527;</th>
+      <th id="T_28cbbe38_level0_col8" class="col_heading level0 col8" >&#128532;</th>
+      <th id="T_28cbbe38_level0_col9" class="col_heading level0 col9" >&#128557;</th>
+      <th id="T_28cbbe38_level0_col10" class="col_heading level0 col10" >Last4</th>
+      <th id="T_28cbbe38_level0_col11" class="col_heading level0 col11" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_28cbbe38_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_28cbbe38_row0_col1" class="data row0 col1" >Fenomeno</td>
+      <td id="T_28cbbe38_row0_col2" class="data row0 col2" >1056.7</td>
+      <td id="T_28cbbe38_row0_col3" class="data row0 col3" >1109.2</td>
+      <td id="T_28cbbe38_row0_col4" class="data row0 col4" >1272.9</td>
+      <td id="T_28cbbe38_row0_col5" class="data row0 col5" >1290.9</td>
+      <td id="T_28cbbe38_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_28cbbe38_row0_col7" class="data row0 col7" >3</td>
+      <td id="T_28cbbe38_row0_col8" class="data row0 col8" >0</td>
+      <td id="T_28cbbe38_row0_col9" class="data row0 col9" >0</td>
+      <td id="T_28cbbe38_row0_col10" class="data row0 col10" >4729.7</td>
+      <td id="T_28cbbe38_row0_col11" class="data row0 col11" >4729.7</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_28cbbe38_row1_col1" class="data row1 col1" >Seaport Bruins</td>
+      <td id="T_28cbbe38_row1_col2" class="data row1 col2" >1200.7</td>
+      <td id="T_28cbbe38_row1_col3" class="data row1 col3" >1100.3</td>
+      <td id="T_28cbbe38_row1_col4" class="data row1 col4" >1241.4</td>
+      <td id="T_28cbbe38_row1_col5" class="data row1 col5" >1186.1</td>
+      <td id="T_28cbbe38_row1_col6" class="data row1 col6" >1</td>
+      <td id="T_28cbbe38_row1_col7" class="data row1 col7" >1</td>
+      <td id="T_28cbbe38_row1_col8" class="data row1 col8" >0</td>
+      <td id="T_28cbbe38_row1_col9" class="data row1 col9" >0</td>
+      <td id="T_28cbbe38_row1_col10" class="data row1 col10" >4728.5</td>
+      <td id="T_28cbbe38_row1_col11" class="data row1 col11" >4728.5</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_28cbbe38_row2_col1" class="data row2 col1" >Vovan</td>
+      <td id="T_28cbbe38_row2_col2" class="data row2 col2" >1077.2</td>
+      <td id="T_28cbbe38_row2_col3" class="data row2 col3" >1242.9</td>
+      <td id="T_28cbbe38_row2_col4" class="data row2 col4" >1166.8</td>
+      <td id="T_28cbbe38_row2_col5" class="data row2 col5" >1216.2</td>
+      <td id="T_28cbbe38_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_28cbbe38_row2_col7" class="data row2 col7" >3</td>
+      <td id="T_28cbbe38_row2_col8" class="data row2 col8" >0</td>
+      <td id="T_28cbbe38_row2_col9" class="data row2 col9" >0</td>
+      <td id="T_28cbbe38_row2_col10" class="data row2 col10" >4703.1</td>
+      <td id="T_28cbbe38_row2_col11" class="data row2 col11" >4703.1</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_28cbbe38_row3_col1" class="data row3 col1" >Mr clutch</td>
+      <td id="T_28cbbe38_row3_col2" class="data row3 col2" >1224.6</td>
+      <td id="T_28cbbe38_row3_col3" class="data row3 col3" >975.1</td>
+      <td id="T_28cbbe38_row3_col4" class="data row3 col4" >1296.7</td>
+      <td id="T_28cbbe38_row3_col5" class="data row3 col5" >1108.3</td>
+      <td id="T_28cbbe38_row3_col6" class="data row3 col6" >2</td>
+      <td id="T_28cbbe38_row3_col7" class="data row3 col7" >0</td>
+      <td id="T_28cbbe38_row3_col8" class="data row3 col8" >0</td>
+      <td id="T_28cbbe38_row3_col9" class="data row3 col9" >0</td>
+      <td id="T_28cbbe38_row3_col10" class="data row3 col10" >4604.7</td>
+      <td id="T_28cbbe38_row3_col11" class="data row3 col11" >4604.7</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_28cbbe38_row4_col1" class="data row4 col1" >Moscow Penguins</td>
+      <td id="T_28cbbe38_row4_col2" class="data row4 col2" >1047.6</td>
+      <td id="T_28cbbe38_row4_col3" class="data row4 col3" >1143.8</td>
+      <td id="T_28cbbe38_row4_col4" class="data row4 col4" >1270.1</td>
+      <td id="T_28cbbe38_row4_col5" class="data row4 col5" >1123.2</td>
+      <td id="T_28cbbe38_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_28cbbe38_row4_col7" class="data row4 col7" >2</td>
+      <td id="T_28cbbe38_row4_col8" class="data row4 col8" >0</td>
+      <td id="T_28cbbe38_row4_col9" class="data row4 col9" >0</td>
+      <td id="T_28cbbe38_row4_col10" class="data row4 col10" >4584.7</td>
+      <td id="T_28cbbe38_row4_col11" class="data row4 col11" >4584.7</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_28cbbe38_row5_col1" class="data row5 col1" >ZP Legion</td>
+      <td id="T_28cbbe38_row5_col2" class="data row5 col2" >925.6</td>
+      <td id="T_28cbbe38_row5_col3" class="data row5 col3" >1230.2</td>
+      <td id="T_28cbbe38_row5_col4" class="data row5 col4" >1120.5</td>
+      <td id="T_28cbbe38_row5_col5" class="data row5 col5" >1190.3</td>
+      <td id="T_28cbbe38_row5_col6" class="data row5 col6" >0</td>
+      <td id="T_28cbbe38_row5_col7" class="data row5 col7" >1</td>
+      <td id="T_28cbbe38_row5_col8" class="data row5 col8" >0</td>
+      <td id="T_28cbbe38_row5_col9" class="data row5 col9" >0</td>
+      <td id="T_28cbbe38_row5_col10" class="data row5 col10" >4466.6</td>
+      <td id="T_28cbbe38_row5_col11" class="data row5 col11" >4466.6</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_28cbbe38_row6_col1" class="data row6 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_28cbbe38_row6_col2" class="data row6 col2" >1024.2</td>
+      <td id="T_28cbbe38_row6_col3" class="data row6 col3" >1216.2</td>
+      <td id="T_28cbbe38_row6_col4" class="data row6 col4" >1102.5</td>
+      <td id="T_28cbbe38_row6_col5" class="data row6 col5" >1057.8</td>
+      <td id="T_28cbbe38_row6_col6" class="data row6 col6" >0</td>
+      <td id="T_28cbbe38_row6_col7" class="data row6 col7" >1</td>
+      <td id="T_28cbbe38_row6_col8" class="data row6 col8" >0</td>
+      <td id="T_28cbbe38_row6_col9" class="data row6 col9" >0</td>
+      <td id="T_28cbbe38_row6_col10" class="data row6 col10" >4400.7</td>
+      <td id="T_28cbbe38_row6_col11" class="data row6 col11" >4400.7</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_28cbbe38_row7_col1" class="data row7 col1" >Penza</td>
+      <td id="T_28cbbe38_row7_col2" class="data row7 col2" >814.6</td>
+      <td id="T_28cbbe38_row7_col3" class="data row7 col3" >1161.6</td>
+      <td id="T_28cbbe38_row7_col4" class="data row7 col4" >1097</td>
+      <td id="T_28cbbe38_row7_col5" class="data row7 col5" >1136.4</td>
+      <td id="T_28cbbe38_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_28cbbe38_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_28cbbe38_row7_col8" class="data row7 col8" >1</td>
+      <td id="T_28cbbe38_row7_col9" class="data row7 col9" >0</td>
+      <td id="T_28cbbe38_row7_col10" class="data row7 col10" >4209.6</td>
+      <td id="T_28cbbe38_row7_col11" class="data row7 col11" >4209.6</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_28cbbe38_row8_col1" class="data row8 col1" >Force of Nature</td>
+      <td id="T_28cbbe38_row8_col2" class="data row8 col2" >994.1</td>
+      <td id="T_28cbbe38_row8_col3" class="data row8 col3" >1083.2</td>
+      <td id="T_28cbbe38_row8_col4" class="data row8 col4" >1014.4</td>
+      <td id="T_28cbbe38_row8_col5" class="data row8 col5" >1080.1</td>
+      <td id="T_28cbbe38_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_28cbbe38_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_28cbbe38_row8_col8" class="data row8 col8" >0</td>
+      <td id="T_28cbbe38_row8_col9" class="data row8 col9" >0</td>
+      <td id="T_28cbbe38_row8_col10" class="data row8 col10" >4171.8</td>
+      <td id="T_28cbbe38_row8_col11" class="data row8 col11" >4171.8</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_28cbbe38_row9_col1" class="data row9 col1" >Uralmash Smelters</td>
+      <td id="T_28cbbe38_row9_col2" class="data row9 col2" >966.4</td>
+      <td id="T_28cbbe38_row9_col3" class="data row9 col3" >855.5</td>
+      <td id="T_28cbbe38_row9_col4" class="data row9 col4" >1028</td>
+      <td id="T_28cbbe38_row9_col5" class="data row9 col5" >1270.8</td>
+      <td id="T_28cbbe38_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_28cbbe38_row9_col7" class="data row9 col7" >1</td>
+      <td id="T_28cbbe38_row9_col8" class="data row9 col8" >1</td>
+      <td id="T_28cbbe38_row9_col9" class="data row9 col9" >0</td>
+      <td id="T_28cbbe38_row9_col10" class="data row9 col10" >4120.7</td>
+      <td id="T_28cbbe38_row9_col11" class="data row9 col11" >4120.7</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_28cbbe38_row10_col1" class="data row10 col1" >Dida</td>
+      <td id="T_28cbbe38_row10_col2" class="data row10 col2" >867.8</td>
+      <td id="T_28cbbe38_row10_col3" class="data row10 col3" >1129.6</td>
+      <td id="T_28cbbe38_row10_col4" class="data row10 col4" >978</td>
+      <td id="T_28cbbe38_row10_col5" class="data row10 col5" >1138.6</td>
+      <td id="T_28cbbe38_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_28cbbe38_row10_col7" class="data row10 col7" >0</td>
+      <td id="T_28cbbe38_row10_col8" class="data row10 col8" >0</td>
+      <td id="T_28cbbe38_row10_col9" class="data row10 col9" >0</td>
+      <td id="T_28cbbe38_row10_col10" class="data row10 col10" >4114</td>
+      <td id="T_28cbbe38_row10_col11" class="data row10 col11" >4114</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_28cbbe38_row11_col1" class="data row11 col1" >Vodnik 2</td>
+      <td id="T_28cbbe38_row11_col2" class="data row11 col2" >1041.2</td>
+      <td id="T_28cbbe38_row11_col3" class="data row11 col3" >917.4</td>
+      <td id="T_28cbbe38_row11_col4" class="data row11 col4" >1049.3</td>
+      <td id="T_28cbbe38_row11_col5" class="data row11 col5" >1099.3</td>
+      <td id="T_28cbbe38_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_28cbbe38_row11_col7" class="data row11 col7" >1</td>
+      <td id="T_28cbbe38_row11_col8" class="data row11 col8" >1</td>
+      <td id="T_28cbbe38_row11_col9" class="data row11 col9" >0</td>
+      <td id="T_28cbbe38_row11_col10" class="data row11 col10" >4107.2</td>
+      <td id="T_28cbbe38_row11_col11" class="data row11 col11" >4107.2</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_28cbbe38_row12_col1" class="data row12 col1" >YoshkarOla Woodmans</td>
+      <td id="T_28cbbe38_row12_col2" class="data row12 col2" >854.6</td>
+      <td id="T_28cbbe38_row12_col3" class="data row12 col3" >1267.1</td>
+      <td id="T_28cbbe38_row12_col4" class="data row12 col4" >847.5</td>
+      <td id="T_28cbbe38_row12_col5" class="data row12 col5" >1098.4</td>
+      <td id="T_28cbbe38_row12_col6" class="data row12 col6" >0</td>
+      <td id="T_28cbbe38_row12_col7" class="data row12 col7" >1</td>
+      <td id="T_28cbbe38_row12_col8" class="data row12 col8" >0</td>
+      <td id="T_28cbbe38_row12_col9" class="data row12 col9" >1</td>
+      <td id="T_28cbbe38_row12_col10" class="data row12 col10" >4067.6</td>
+      <td id="T_28cbbe38_row12_col11" class="data row12 col11" >4067.6</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_28cbbe38_row13_col1" class="data row13 col1" >Vityaz Podolsk</td>
+      <td id="T_28cbbe38_row13_col2" class="data row13 col2" >842.2</td>
+      <td id="T_28cbbe38_row13_col3" class="data row13 col3" >1083.4</td>
+      <td id="T_28cbbe38_row13_col4" class="data row13 col4" >1018.6</td>
+      <td id="T_28cbbe38_row13_col5" class="data row13 col5" >1084.7</td>
+      <td id="T_28cbbe38_row13_col6" class="data row13 col6" >0</td>
+      <td id="T_28cbbe38_row13_col7" class="data row13 col7" >0</td>
+      <td id="T_28cbbe38_row13_col8" class="data row13 col8" >1</td>
+      <td id="T_28cbbe38_row13_col9" class="data row13 col9" >0</td>
+      <td id="T_28cbbe38_row13_col10" class="data row13 col10" >4028.9</td>
+      <td id="T_28cbbe38_row13_col11" class="data row13 col11" >4028.9</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_28cbbe38_row14_col1" class="data row14 col1" >St.Patrick's day</td>
+      <td id="T_28cbbe38_row14_col2" class="data row14 col2" >988.9</td>
+      <td id="T_28cbbe38_row14_col3" class="data row14 col3" >1007.7</td>
+      <td id="T_28cbbe38_row14_col4" class="data row14 col4" >949.7</td>
+      <td id="T_28cbbe38_row14_col5" class="data row14 col5" >1037.3</td>
+      <td id="T_28cbbe38_row14_col6" class="data row14 col6" >0</td>
+      <td id="T_28cbbe38_row14_col7" class="data row14 col7" >0</td>
+      <td id="T_28cbbe38_row14_col8" class="data row14 col8" >1</td>
+      <td id="T_28cbbe38_row14_col9" class="data row14 col9" >0</td>
+      <td id="T_28cbbe38_row14_col10" class="data row14 col10" >3983.6</td>
+      <td id="T_28cbbe38_row14_col11" class="data row14 col11" >3983.6</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_28cbbe38_row15_col1" class="data row15 col1" >RnD Bruins RWH</td>
+      <td id="T_28cbbe38_row15_col2" class="data row15 col2" >851.3</td>
+      <td id="T_28cbbe38_row15_col3" class="data row15 col3" >951.9</td>
+      <td id="T_28cbbe38_row15_col4" class="data row15 col4" >1062.4</td>
+      <td id="T_28cbbe38_row15_col5" class="data row15 col5" >1000.7</td>
+      <td id="T_28cbbe38_row15_col6" class="data row15 col6" >0</td>
+      <td id="T_28cbbe38_row15_col7" class="data row15 col7" >0</td>
+      <td id="T_28cbbe38_row15_col8" class="data row15 col8" >1</td>
+      <td id="T_28cbbe38_row15_col9" class="data row15 col9" >0</td>
+      <td id="T_28cbbe38_row15_col10" class="data row15 col10" >3866.3</td>
+      <td id="T_28cbbe38_row15_col11" class="data row15 col11" >3866.3</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_28cbbe38_row16_col1" class="data row16 col1" >Team 20</td>
+      <td id="T_28cbbe38_row16_col2" class="data row16 col2" >868.2</td>
+      <td id="T_28cbbe38_row16_col3" class="data row16 col3" >911.9</td>
+      <td id="T_28cbbe38_row16_col4" class="data row16 col4" >856.7</td>
+      <td id="T_28cbbe38_row16_col5" class="data row16 col5" >1179.2</td>
+      <td id="T_28cbbe38_row16_col6" class="data row16 col6" >0</td>
+      <td id="T_28cbbe38_row16_col7" class="data row16 col7" >0</td>
+      <td id="T_28cbbe38_row16_col8" class="data row16 col8" >2</td>
+      <td id="T_28cbbe38_row16_col9" class="data row16 col9" >0</td>
+      <td id="T_28cbbe38_row16_col10" class="data row16 col10" >3816</td>
+      <td id="T_28cbbe38_row16_col11" class="data row16 col11" >3816</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_28cbbe38_row17_col1" class="data row17 col1" >Spartak Podolsk</td>
+      <td id="T_28cbbe38_row17_col2" class="data row17 col2" >790.1</td>
+      <td id="T_28cbbe38_row17_col3" class="data row17 col3" >1009.9</td>
+      <td id="T_28cbbe38_row17_col4" class="data row17 col4" >1006.7</td>
+      <td id="T_28cbbe38_row17_col5" class="data row17 col5" >824.2</td>
+      <td id="T_28cbbe38_row17_col6" class="data row17 col6" >0</td>
+      <td id="T_28cbbe38_row17_col7" class="data row17 col7" >0</td>
+      <td id="T_28cbbe38_row17_col8" class="data row17 col8" >1</td>
+      <td id="T_28cbbe38_row17_col9" class="data row17 col9" >1</td>
+      <td id="T_28cbbe38_row17_col10" class="data row17 col10" >3630.9</td>
+      <td id="T_28cbbe38_row17_col11" class="data row17 col11" >3630.9</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_28cbbe38_row18_col1" class="data row18 col1" >Powerful Welder</td>
+      <td id="T_28cbbe38_row18_col2" class="data row18 col2" >700.4</td>
+      <td id="T_28cbbe38_row18_col3" class="data row18 col3" >1037.8</td>
+      <td id="T_28cbbe38_row18_col4" class="data row18 col4" >921.4</td>
+      <td id="T_28cbbe38_row18_col5" class="data row18 col5" >924.2</td>
+      <td id="T_28cbbe38_row18_col6" class="data row18 col6" >0</td>
+      <td id="T_28cbbe38_row18_col7" class="data row18 col7" >0</td>
+      <td id="T_28cbbe38_row18_col8" class="data row18 col8" >2</td>
+      <td id="T_28cbbe38_row18_col9" class="data row18 col9" >1</td>
+      <td id="T_28cbbe38_row18_col10" class="data row18 col10" >3583.8</td>
+      <td id="T_28cbbe38_row18_col11" class="data row18 col11" >3583.8</td>
+    </tr>
+    <tr>
+      <td id="T_28cbbe38_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_28cbbe38_row19_col1" class="data row19 col1" >Люберецкие Овощи</td>
+      <td id="T_28cbbe38_row19_col2" class="data row19 col2" >648.4</td>
+      <td id="T_28cbbe38_row19_col3" class="data row19 col3" >948.7</td>
+      <td id="T_28cbbe38_row19_col4" class="data row19 col4" >1018.4</td>
+      <td id="T_28cbbe38_row19_col5" class="data row19 col5" >880.7</td>
+      <td id="T_28cbbe38_row19_col6" class="data row19 col6" >0</td>
+      <td id="T_28cbbe38_row19_col7" class="data row19 col7" >0</td>
+      <td id="T_28cbbe38_row19_col8" class="data row19 col8" >2</td>
+      <td id="T_28cbbe38_row19_col9" class="data row19 col9" >1</td>
+      <td id="T_28cbbe38_row19_col10" class="data row19 col10" >3496.2</td>
+      <td id="T_28cbbe38_row19_col11" class="data row19 col11" >3496.2</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Opponent scores</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица набора соперников игрока в лиге по матчапам. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_b3391cb8_row0_col2, #T_b3391cb8_row0_col4, #T_b3391cb8_row0_col5, #T_b3391cb8_row1_col3, #T_b3391cb8_row1_col4, #T_b3391cb8_row2_col4, #T_b3391cb8_row2_col5, #T_b3391cb8_row3_col3, #T_b3391cb8_row3_col5, #T_b3391cb8_row4_col2, #T_b3391cb8_row4_col3, #T_b3391cb8_row4_col4, #T_b3391cb8_row4_col5, #T_b3391cb8_row5_col3, #T_b3391cb8_row5_col5, #T_b3391cb8_row6_col3, #T_b3391cb8_row6_col4, #T_b3391cb8_row7_col3, #T_b3391cb8_row7_col4, #T_b3391cb8_row7_col5, #T_b3391cb8_row8_col2, #T_b3391cb8_row8_col3, #T_b3391cb8_row8_col5, #T_b3391cb8_row9_col2, #T_b3391cb8_row9_col4, #T_b3391cb8_row9_col5, #T_b3391cb8_row10_col5, #T_b3391cb8_row11_col2, #T_b3391cb8_row11_col4, #T_b3391cb8_row11_col5, #T_b3391cb8_row12_col2, #T_b3391cb8_row12_col5, #T_b3391cb8_row13_col2, #T_b3391cb8_row13_col3, #T_b3391cb8_row13_col4, #T_b3391cb8_row14_col4, #T_b3391cb8_row14_col5, #T_b3391cb8_row15_col2, #T_b3391cb8_row15_col3, #T_b3391cb8_row15_col4, #T_b3391cb8_row15_col5, #T_b3391cb8_row16_col5, #T_b3391cb8_row17_col3, #T_b3391cb8_row18_col3, #T_b3391cb8_row19_col2, #T_b3391cb8_row19_col4 {
+  color: ;
+}
+#T_b3391cb8_row0_col3, #T_b3391cb8_row1_col5, #T_b3391cb8_row2_col2, #T_b3391cb8_row2_col3, #T_b3391cb8_row3_col4, #T_b3391cb8_row5_col2, #T_b3391cb8_row6_col5, #T_b3391cb8_row8_col4, #T_b3391cb8_row9_col3, #T_b3391cb8_row10_col4, #T_b3391cb8_row12_col3, #T_b3391cb8_row14_col2, #T_b3391cb8_row16_col2, #T_b3391cb8_row18_col5 {
+  color: orange;
+}
+#T_b3391cb8_row1_col2, #T_b3391cb8_row7_col2, #T_b3391cb8_row17_col4 {
+  color: red;
+}
+#T_b3391cb8_row3_col2, #T_b3391cb8_row5_col4, #T_b3391cb8_row6_col2, #T_b3391cb8_row10_col2, #T_b3391cb8_row10_col3, #T_b3391cb8_row11_col3, #T_b3391cb8_row12_col4, #T_b3391cb8_row13_col5, #T_b3391cb8_row14_col3, #T_b3391cb8_row16_col3, #T_b3391cb8_row16_col4, #T_b3391cb8_row19_col3, #T_b3391cb8_row19_col5 {
+  color: green;
+}
+#T_b3391cb8_row17_col2, #T_b3391cb8_row17_col5, #T_b3391cb8_row18_col2, #T_b3391cb8_row18_col4 {
+  color: blue;
+}
+</style>
+<table id="T_b3391cb8" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_b3391cb8_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_b3391cb8_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_b3391cb8_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_b3391cb8_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_b3391cb8_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_b3391cb8_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_b3391cb8_level0_col6" class="col_heading level0 col6" >&#128526;</th>
+      <th id="T_b3391cb8_level0_col7" class="col_heading level0 col7" >&#128527;</th>
+      <th id="T_b3391cb8_level0_col8" class="col_heading level0 col8" >&#128532;</th>
+      <th id="T_b3391cb8_level0_col9" class="col_heading level0 col9" >&#128557;</th>
+      <th id="T_b3391cb8_level0_col10" class="col_heading level0 col10" >Last4</th>
+      <th id="T_b3391cb8_level0_col11" class="col_heading level0 col11" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_b3391cb8_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_b3391cb8_row0_col1" class="data row0 col1" >Fenomeno</td>
+      <td id="T_b3391cb8_row0_col2" class="data row0 col2" >1024.2</td>
+      <td id="T_b3391cb8_row0_col3" class="data row0 col3" >1230.2</td>
+      <td id="T_b3391cb8_row0_col4" class="data row0 col4" >1166.8</td>
+      <td id="T_b3391cb8_row0_col5" class="data row0 col5" >1179.2</td>
+      <td id="T_b3391cb8_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_b3391cb8_row0_col7" class="data row0 col7" >0</td>
+      <td id="T_b3391cb8_row0_col8" class="data row0 col8" >1</td>
+      <td id="T_b3391cb8_row0_col9" class="data row0 col9" >0</td>
+      <td id="T_b3391cb8_row0_col10" class="data row0 col10" >4600.4</td>
+      <td id="T_b3391cb8_row0_col11" class="data row0 col11" >4600.4</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_b3391cb8_row1_col1" class="data row1 col1" >Team 20</td>
+      <td id="T_b3391cb8_row1_col2" class="data row1 col2" >1224.6</td>
+      <td id="T_b3391cb8_row1_col3" class="data row1 col3" >1009.9</td>
+      <td id="T_b3391cb8_row1_col4" class="data row1 col4" >1018.6</td>
+      <td id="T_b3391cb8_row1_col5" class="data row1 col5" >1290.9</td>
+      <td id="T_b3391cb8_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_b3391cb8_row1_col7" class="data row1 col7" >0</td>
+      <td id="T_b3391cb8_row1_col8" class="data row1 col8" >1</td>
+      <td id="T_b3391cb8_row1_col9" class="data row1 col9" >1</td>
+      <td id="T_b3391cb8_row1_col10" class="data row1 col10" >4544</td>
+      <td id="T_b3391cb8_row1_col11" class="data row1 col11" >4544</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_b3391cb8_row2_col1" class="data row2 col1" >RnD Bruins RWH</td>
+      <td id="T_b3391cb8_row2_col2" class="data row2 col2" >1047.6</td>
+      <td id="T_b3391cb8_row2_col3" class="data row2 col3" >1267.1</td>
+      <td id="T_b3391cb8_row2_col4" class="data row2 col4" >1028</td>
+      <td id="T_b3391cb8_row2_col5" class="data row2 col5" >1057.8</td>
+      <td id="T_b3391cb8_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_b3391cb8_row2_col7" class="data row2 col7" >0</td>
+      <td id="T_b3391cb8_row2_col8" class="data row2 col8" >2</td>
+      <td id="T_b3391cb8_row2_col9" class="data row2 col9" >0</td>
+      <td id="T_b3391cb8_row2_col10" class="data row2 col10" >4400.5</td>
+      <td id="T_b3391cb8_row2_col11" class="data row2 col11" >4400.5</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_b3391cb8_row3_col1" class="data row3 col1" >Vovan</td>
+      <td id="T_b3391cb8_row3_col2" class="data row3 col2" >790.1</td>
+      <td id="T_b3391cb8_row3_col3" class="data row3 col3" >1083.4</td>
+      <td id="T_b3391cb8_row3_col4" class="data row3 col4" >1272.9</td>
+      <td id="T_b3391cb8_row3_col5" class="data row3 col5" >1190.3</td>
+      <td id="T_b3391cb8_row3_col6" class="data row3 col6" >0</td>
+      <td id="T_b3391cb8_row3_col7" class="data row3 col7" >1</td>
+      <td id="T_b3391cb8_row3_col8" class="data row3 col8" >1</td>
+      <td id="T_b3391cb8_row3_col9" class="data row3 col9" >0</td>
+      <td id="T_b3391cb8_row3_col10" class="data row3 col10" >4336.7</td>
+      <td id="T_b3391cb8_row3_col11" class="data row3 col11" >4336.7</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_b3391cb8_row4_col1" class="data row4 col1" >Powerful Welder</td>
+      <td id="T_b3391cb8_row4_col2" class="data row4 col2" >994.1</td>
+      <td id="T_b3391cb8_row4_col3" class="data row4 col3" >1161.6</td>
+      <td id="T_b3391cb8_row4_col4" class="data row4 col4" >1018.4</td>
+      <td id="T_b3391cb8_row4_col5" class="data row4 col5" >1123.2</td>
+      <td id="T_b3391cb8_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_b3391cb8_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_b3391cb8_row4_col8" class="data row4 col8" >0</td>
+      <td id="T_b3391cb8_row4_col9" class="data row4 col9" >0</td>
+      <td id="T_b3391cb8_row4_col10" class="data row4 col10" >4297.3</td>
+      <td id="T_b3391cb8_row4_col11" class="data row4 col11" >4297.3</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_b3391cb8_row5_col1" class="data row5 col1" >Люберецкие Овощи</td>
+      <td id="T_b3391cb8_row5_col2" class="data row5 col2" >1041.2</td>
+      <td id="T_b3391cb8_row5_col3" class="data row5 col3" >1129.6</td>
+      <td id="T_b3391cb8_row5_col4" class="data row5 col4" >921.4</td>
+      <td id="T_b3391cb8_row5_col5" class="data row5 col5" >1186.1</td>
+      <td id="T_b3391cb8_row5_col6" class="data row5 col6" >0</td>
+      <td id="T_b3391cb8_row5_col7" class="data row5 col7" >1</td>
+      <td id="T_b3391cb8_row5_col8" class="data row5 col8" >1</td>
+      <td id="T_b3391cb8_row5_col9" class="data row5 col9" >0</td>
+      <td id="T_b3391cb8_row5_col10" class="data row5 col10" >4278.3</td>
+      <td id="T_b3391cb8_row5_col11" class="data row5 col11" >4278.3</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_b3391cb8_row6_col1" class="data row6 col1" >ZP Legion</td>
+      <td id="T_b3391cb8_row6_col2" class="data row6 col2" >842.2</td>
+      <td id="T_b3391cb8_row6_col3" class="data row6 col3" >1109.2</td>
+      <td id="T_b3391cb8_row6_col4" class="data row6 col4" >1102.5</td>
+      <td id="T_b3391cb8_row6_col5" class="data row6 col5" >1216.2</td>
+      <td id="T_b3391cb8_row6_col6" class="data row6 col6" >0</td>
+      <td id="T_b3391cb8_row6_col7" class="data row6 col7" >1</td>
+      <td id="T_b3391cb8_row6_col8" class="data row6 col8" >1</td>
+      <td id="T_b3391cb8_row6_col9" class="data row6 col9" >0</td>
+      <td id="T_b3391cb8_row6_col10" class="data row6 col10" >4270.1</td>
+      <td id="T_b3391cb8_row6_col11" class="data row6 col11" >4270.1</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_b3391cb8_row7_col1" class="data row7 col1" >St.Patrick's day</td>
+      <td id="T_b3391cb8_row7_col2" class="data row7 col2" >1200.7</td>
+      <td id="T_b3391cb8_row7_col3" class="data row7 col3" >975.1</td>
+      <td id="T_b3391cb8_row7_col4" class="data row7 col4" >1006.7</td>
+      <td id="T_b3391cb8_row7_col5" class="data row7 col5" >1084.7</td>
+      <td id="T_b3391cb8_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_b3391cb8_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_b3391cb8_row7_col8" class="data row7 col8" >0</td>
+      <td id="T_b3391cb8_row7_col9" class="data row7 col9" >1</td>
+      <td id="T_b3391cb8_row7_col10" class="data row7 col10" >4267.2</td>
+      <td id="T_b3391cb8_row7_col11" class="data row7 col11" >4267.2</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_b3391cb8_row8_col1" class="data row8 col1" >Penza</td>
+      <td id="T_b3391cb8_row8_col2" class="data row8 col2" >867.8</td>
+      <td id="T_b3391cb8_row8_col3" class="data row8 col3" >1037.8</td>
+      <td id="T_b3391cb8_row8_col4" class="data row8 col4" >1241.4</td>
+      <td id="T_b3391cb8_row8_col5" class="data row8 col5" >1108.3</td>
+      <td id="T_b3391cb8_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_b3391cb8_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_b3391cb8_row8_col8" class="data row8 col8" >1</td>
+      <td id="T_b3391cb8_row8_col9" class="data row8 col9" >0</td>
+      <td id="T_b3391cb8_row8_col10" class="data row8 col10" >4255.3</td>
+      <td id="T_b3391cb8_row8_col11" class="data row8 col11" >4255.3</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_b3391cb8_row9_col1" class="data row9 col1" >Uralmash Smelters</td>
+      <td id="T_b3391cb8_row9_col2" class="data row9 col2" >854.6</td>
+      <td id="T_b3391cb8_row9_col3" class="data row9 col3" >1216.2</td>
+      <td id="T_b3391cb8_row9_col4" class="data row9 col4" >1062.4</td>
+      <td id="T_b3391cb8_row9_col5" class="data row9 col5" >1099.3</td>
+      <td id="T_b3391cb8_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_b3391cb8_row9_col7" class="data row9 col7" >0</td>
+      <td id="T_b3391cb8_row9_col8" class="data row9 col8" >1</td>
+      <td id="T_b3391cb8_row9_col9" class="data row9 col9" >0</td>
+      <td id="T_b3391cb8_row9_col10" class="data row9 col10" >4232.5</td>
+      <td id="T_b3391cb8_row9_col11" class="data row9 col11" >4232.5</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_b3391cb8_row10_col1" class="data row10 col1" >Dida</td>
+      <td id="T_b3391cb8_row10_col2" class="data row10 col2" >814.6</td>
+      <td id="T_b3391cb8_row10_col3" class="data row10 col3" >948.7</td>
+      <td id="T_b3391cb8_row10_col4" class="data row10 col4" >1270.1</td>
+      <td id="T_b3391cb8_row10_col5" class="data row10 col5" >1098.4</td>
+      <td id="T_b3391cb8_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_b3391cb8_row10_col7" class="data row10 col7" >2</td>
+      <td id="T_b3391cb8_row10_col8" class="data row10 col8" >1</td>
+      <td id="T_b3391cb8_row10_col9" class="data row10 col9" >0</td>
+      <td id="T_b3391cb8_row10_col10" class="data row10 col10" >4131.8</td>
+      <td id="T_b3391cb8_row10_col11" class="data row10 col11" >4131.8</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_b3391cb8_row11_col1" class="data row11 col1" >YoshkarOla Woodmans</td>
+      <td id="T_b3391cb8_row11_col2" class="data row11 col2" >966.4</td>
+      <td id="T_b3391cb8_row11_col3" class="data row11 col3" >951.9</td>
+      <td id="T_b3391cb8_row11_col4" class="data row11 col4" >1049.3</td>
+      <td id="T_b3391cb8_row11_col5" class="data row11 col5" >1138.6</td>
+      <td id="T_b3391cb8_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_b3391cb8_row11_col7" class="data row11 col7" >1</td>
+      <td id="T_b3391cb8_row11_col8" class="data row11 col8" >0</td>
+      <td id="T_b3391cb8_row11_col9" class="data row11 col9" >0</td>
+      <td id="T_b3391cb8_row11_col10" class="data row11 col10" >4106.2</td>
+      <td id="T_b3391cb8_row11_col11" class="data row11 col11" >4106.2</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_b3391cb8_row12_col1" class="data row12 col1" >Vityaz Podolsk</td>
+      <td id="T_b3391cb8_row12_col2" class="data row12 col2" >925.6</td>
+      <td id="T_b3391cb8_row12_col3" class="data row12 col3" >1242.9</td>
+      <td id="T_b3391cb8_row12_col4" class="data row12 col4" >856.7</td>
+      <td id="T_b3391cb8_row12_col5" class="data row12 col5" >1037.3</td>
+      <td id="T_b3391cb8_row12_col6" class="data row12 col6" >0</td>
+      <td id="T_b3391cb8_row12_col7" class="data row12 col7" >1</td>
+      <td id="T_b3391cb8_row12_col8" class="data row12 col8" >1</td>
+      <td id="T_b3391cb8_row12_col9" class="data row12 col9" >0</td>
+      <td id="T_b3391cb8_row12_col10" class="data row12 col10" >4062.5</td>
+      <td id="T_b3391cb8_row12_col11" class="data row12 col11" >4062.5</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_b3391cb8_row13_col1" class="data row13 col1" >Seaport Bruins</td>
+      <td id="T_b3391cb8_row13_col2" class="data row13 col2" >988.9</td>
+      <td id="T_b3391cb8_row13_col3" class="data row13 col3" >1083.2</td>
+      <td id="T_b3391cb8_row13_col4" class="data row13 col4" >1097</td>
+      <td id="T_b3391cb8_row13_col5" class="data row13 col5" >880.7</td>
+      <td id="T_b3391cb8_row13_col6" class="data row13 col6" >0</td>
+      <td id="T_b3391cb8_row13_col7" class="data row13 col7" >1</td>
+      <td id="T_b3391cb8_row13_col8" class="data row13 col8" >0</td>
+      <td id="T_b3391cb8_row13_col9" class="data row13 col9" >0</td>
+      <td id="T_b3391cb8_row13_col10" class="data row13 col10" >4049.8</td>
+      <td id="T_b3391cb8_row13_col11" class="data row13 col11" >4049.8</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_b3391cb8_row14_col1" class="data row14 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_b3391cb8_row14_col2" class="data row14 col2" >1056.7</td>
+      <td id="T_b3391cb8_row14_col3" class="data row14 col3" >855.5</td>
+      <td id="T_b3391cb8_row14_col4" class="data row14 col4" >1120.5</td>
+      <td id="T_b3391cb8_row14_col5" class="data row14 col5" >1000.7</td>
+      <td id="T_b3391cb8_row14_col6" class="data row14 col6" >0</td>
+      <td id="T_b3391cb8_row14_col7" class="data row14 col7" >1</td>
+      <td id="T_b3391cb8_row14_col8" class="data row14 col8" >1</td>
+      <td id="T_b3391cb8_row14_col9" class="data row14 col9" >0</td>
+      <td id="T_b3391cb8_row14_col10" class="data row14 col10" >4033.4</td>
+      <td id="T_b3391cb8_row14_col11" class="data row14 col11" >4033.4</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_b3391cb8_row15_col1" class="data row15 col1" >Mr clutch</td>
+      <td id="T_b3391cb8_row15_col2" class="data row15 col2" >868.2</td>
+      <td id="T_b3391cb8_row15_col3" class="data row15 col3" >1007.7</td>
+      <td id="T_b3391cb8_row15_col4" class="data row15 col4" >1014.4</td>
+      <td id="T_b3391cb8_row15_col5" class="data row15 col5" >1136.4</td>
+      <td id="T_b3391cb8_row15_col6" class="data row15 col6" >0</td>
+      <td id="T_b3391cb8_row15_col7" class="data row15 col7" >0</td>
+      <td id="T_b3391cb8_row15_col8" class="data row15 col8" >0</td>
+      <td id="T_b3391cb8_row15_col9" class="data row15 col9" >0</td>
+      <td id="T_b3391cb8_row15_col10" class="data row15 col10" >4026.7</td>
+      <td id="T_b3391cb8_row15_col11" class="data row15 col11" >4026.7</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_b3391cb8_row16_col1" class="data row16 col1" >Spartak Podolsk</td>
+      <td id="T_b3391cb8_row16_col2" class="data row16 col2" >1077.2</td>
+      <td id="T_b3391cb8_row16_col3" class="data row16 col3" >911.9</td>
+      <td id="T_b3391cb8_row16_col4" class="data row16 col4" >949.7</td>
+      <td id="T_b3391cb8_row16_col5" class="data row16 col5" >1080.1</td>
+      <td id="T_b3391cb8_row16_col6" class="data row16 col6" >0</td>
+      <td id="T_b3391cb8_row16_col7" class="data row16 col7" >2</td>
+      <td id="T_b3391cb8_row16_col8" class="data row16 col8" >1</td>
+      <td id="T_b3391cb8_row16_col9" class="data row16 col9" >0</td>
+      <td id="T_b3391cb8_row16_col10" class="data row16 col10" >4018.9</td>
+      <td id="T_b3391cb8_row16_col11" class="data row16 col11" >4018.9</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_b3391cb8_row17_col1" class="data row17 col1" >Force of Nature</td>
+      <td id="T_b3391cb8_row17_col2" class="data row17 col2" >700.4</td>
+      <td id="T_b3391cb8_row17_col3" class="data row17 col3" >1100.3</td>
+      <td id="T_b3391cb8_row17_col4" class="data row17 col4" >1296.7</td>
+      <td id="T_b3391cb8_row17_col5" class="data row17 col5" >824.2</td>
+      <td id="T_b3391cb8_row17_col6" class="data row17 col6" >2</td>
+      <td id="T_b3391cb8_row17_col7" class="data row17 col7" >0</td>
+      <td id="T_b3391cb8_row17_col8" class="data row17 col8" >0</td>
+      <td id="T_b3391cb8_row17_col9" class="data row17 col9" >1</td>
+      <td id="T_b3391cb8_row17_col10" class="data row17 col10" >3921.6</td>
+      <td id="T_b3391cb8_row17_col11" class="data row17 col11" >3921.6</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_b3391cb8_row18_col1" class="data row18 col1" >Vodnik 2</td>
+      <td id="T_b3391cb8_row18_col2" class="data row18 col2" >648.4</td>
+      <td id="T_b3391cb8_row18_col3" class="data row18 col3" >1143.8</td>
+      <td id="T_b3391cb8_row18_col4" class="data row18 col4" >847.5</td>
+      <td id="T_b3391cb8_row18_col5" class="data row18 col5" >1270.8</td>
+      <td id="T_b3391cb8_row18_col6" class="data row18 col6" >2</td>
+      <td id="T_b3391cb8_row18_col7" class="data row18 col7" >0</td>
+      <td id="T_b3391cb8_row18_col8" class="data row18 col8" >1</td>
+      <td id="T_b3391cb8_row18_col9" class="data row18 col9" >0</td>
+      <td id="T_b3391cb8_row18_col10" class="data row18 col10" >3910.5</td>
+      <td id="T_b3391cb8_row18_col11" class="data row18 col11" >3910.5</td>
+    </tr>
+    <tr>
+      <td id="T_b3391cb8_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_b3391cb8_row19_col1" class="data row19 col1" >Moscow Penguins</td>
+      <td id="T_b3391cb8_row19_col2" class="data row19 col2" >851.3</td>
+      <td id="T_b3391cb8_row19_col3" class="data row19 col3" >917.4</td>
+      <td id="T_b3391cb8_row19_col4" class="data row19 col4" >978</td>
+      <td id="T_b3391cb8_row19_col5" class="data row19 col5" >924.2</td>
+      <td id="T_b3391cb8_row19_col6" class="data row19 col6" >0</td>
+      <td id="T_b3391cb8_row19_col7" class="data row19 col7" >2</td>
+      <td id="T_b3391cb8_row19_col8" class="data row19 col8" >0</td>
+      <td id="T_b3391cb8_row19_col9" class="data row19 col9" >0</td>
+      <td id="T_b3391cb8_row19_col10" class="data row19 col10" >3670.9</td>
+      <td id="T_b3391cb8_row19_col11" class="data row19 col11" >3670.9</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Luck scores</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица коэффициентов удачи игрока в лиге по матчапам. Чем выше место по набору при проигрыше, тем больше очков в минус. Чем меньше место по набору при победе, тем больше очков в плюс. Победитель должен быть ниже как минимум половины игроков. Проигравший - выше как минимум половины игроков. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_a74a852c_row0_col2, #T_a74a852c_row0_col3, #T_a74a852c_row0_col5, #T_a74a852c_row1_col3, #T_a74a852c_row1_col4, #T_a74a852c_row2_col2, #T_a74a852c_row2_col3, #T_a74a852c_row2_col4, #T_a74a852c_row3_col3, #T_a74a852c_row4_col2, #T_a74a852c_row4_col4, #T_a74a852c_row4_col5, #T_a74a852c_row5_col2, #T_a74a852c_row5_col3, #T_a74a852c_row5_col5, #T_a74a852c_row6_col2, #T_a74a852c_row6_col3, #T_a74a852c_row6_col4, #T_a74a852c_row7_col2, #T_a74a852c_row7_col3, #T_a74a852c_row7_col4, #T_a74a852c_row7_col5, #T_a74a852c_row8_col2, #T_a74a852c_row8_col3, #T_a74a852c_row8_col4, #T_a74a852c_row8_col5, #T_a74a852c_row9_col2, #T_a74a852c_row9_col3, #T_a74a852c_row9_col4, #T_a74a852c_row9_col5, #T_a74a852c_row10_col2, #T_a74a852c_row10_col3, #T_a74a852c_row10_col4, #T_a74a852c_row10_col5, #T_a74a852c_row11_col2, #T_a74a852c_row11_col3, #T_a74a852c_row11_col4, #T_a74a852c_row11_col5, #T_a74a852c_row12_col2, #T_a74a852c_row12_col3, #T_a74a852c_row12_col4, #T_a74a852c_row12_col5, #T_a74a852c_row13_col2, #T_a74a852c_row13_col3, #T_a74a852c_row13_col4, #T_a74a852c_row13_col5, #T_a74a852c_row14_col4, #T_a74a852c_row14_col5, #T_a74a852c_row15_col3, #T_a74a852c_row15_col4, #T_a74a852c_row15_col5, #T_a74a852c_row16_col2, #T_a74a852c_row16_col3, #T_a74a852c_row16_col5, #T_a74a852c_row17_col2, #T_a74a852c_row18_col2, #T_a74a852c_row18_col3, #T_a74a852c_row18_col4, #T_a74a852c_row19_col2, #T_a74a852c_row19_col5 {
+  color: black;
+}
+#T_a74a852c_row0_col4, #T_a74a852c_row1_col5, #T_a74a852c_row2_col5, #T_a74a852c_row3_col2, #T_a74a852c_row3_col4, #T_a74a852c_row4_col3, #T_a74a852c_row5_col4, #T_a74a852c_row6_col5, #T_a74a852c_row14_col2, #T_a74a852c_row17_col3 {
+  color: red;
+}
+#T_a74a852c_row1_col2, #T_a74a852c_row3_col5, #T_a74a852c_row14_col3, #T_a74a852c_row15_col2, #T_a74a852c_row16_col4, #T_a74a852c_row17_col4, #T_a74a852c_row17_col5, #T_a74a852c_row18_col5, #T_a74a852c_row19_col3, #T_a74a852c_row19_col4 {
+  color: green;
+}
+</style>
+<table id="T_a74a852c" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_a74a852c_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_a74a852c_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_a74a852c_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_a74a852c_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_a74a852c_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_a74a852c_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_a74a852c_level0_col6" class="col_heading level0 col6" >&#128532;</th>
+      <th id="T_a74a852c_level0_col7" class="col_heading level0 col7" >&#128526;</th>
+      <th id="T_a74a852c_level0_col8" class="col_heading level0 col8" >Last4</th>
+      <th id="T_a74a852c_level0_col9" class="col_heading level0 col9" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_a74a852c_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_a74a852c_row0_col1" class="data row0 col1" >Vovan</td>
+      <td id="T_a74a852c_row0_col2" class="data row0 col2" >0</td>
+      <td id="T_a74a852c_row0_col3" class="data row0 col3" >0</td>
+      <td id="T_a74a852c_row0_col4" class="data row0 col4" >-6</td>
+      <td id="T_a74a852c_row0_col5" class="data row0 col5" >0</td>
+      <td id="T_a74a852c_row0_col6" class="data row0 col6" >1</td>
+      <td id="T_a74a852c_row0_col7" class="data row0 col7" >0</td>
+      <td id="T_a74a852c_row0_col8" class="data row0 col8" >-6</td>
+      <td id="T_a74a852c_row0_col9" class="data row0 col9" >-6</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_a74a852c_row1_col1" class="data row1 col1" >ZP Legion</td>
+      <td id="T_a74a852c_row1_col2" class="data row1 col2" >1</td>
+      <td id="T_a74a852c_row1_col3" class="data row1 col3" >0</td>
+      <td id="T_a74a852c_row1_col4" class="data row1 col4" >0</td>
+      <td id="T_a74a852c_row1_col5" class="data row1 col5" >-7</td>
+      <td id="T_a74a852c_row1_col6" class="data row1 col6" >1</td>
+      <td id="T_a74a852c_row1_col7" class="data row1 col7" >1</td>
+      <td id="T_a74a852c_row1_col8" class="data row1 col8" >-6</td>
+      <td id="T_a74a852c_row1_col9" class="data row1 col9" >-6</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_a74a852c_row2_col1" class="data row2 col1" >Team 20</td>
+      <td id="T_a74a852c_row2_col2" class="data row2 col2" >0</td>
+      <td id="T_a74a852c_row2_col3" class="data row2 col3" >0</td>
+      <td id="T_a74a852c_row2_col4" class="data row2 col4" >0</td>
+      <td id="T_a74a852c_row2_col5" class="data row2 col5" >-5</td>
+      <td id="T_a74a852c_row2_col6" class="data row2 col6" >1</td>
+      <td id="T_a74a852c_row2_col7" class="data row2 col7" >0</td>
+      <td id="T_a74a852c_row2_col8" class="data row2 col8" >-5</td>
+      <td id="T_a74a852c_row2_col9" class="data row2 col9" >-5</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_a74a852c_row3_col1" class="data row3 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_a74a852c_row3_col2" class="data row3 col2" >-4</td>
+      <td id="T_a74a852c_row3_col3" class="data row3 col3" >0</td>
+      <td id="T_a74a852c_row3_col4" class="data row3 col4" >-4</td>
+      <td id="T_a74a852c_row3_col5" class="data row3 col5" >5</td>
+      <td id="T_a74a852c_row3_col6" class="data row3 col6" >2</td>
+      <td id="T_a74a852c_row3_col7" class="data row3 col7" >1</td>
+      <td id="T_a74a852c_row3_col8" class="data row3 col8" >-3</td>
+      <td id="T_a74a852c_row3_col9" class="data row3 col9" >-3</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_a74a852c_row4_col1" class="data row4 col1" >Fenomeno</td>
+      <td id="T_a74a852c_row4_col2" class="data row4 col2" >0</td>
+      <td id="T_a74a852c_row4_col3" class="data row4 col3" >-3</td>
+      <td id="T_a74a852c_row4_col4" class="data row4 col4" >0</td>
+      <td id="T_a74a852c_row4_col5" class="data row4 col5" >0</td>
+      <td id="T_a74a852c_row4_col6" class="data row4 col6" >1</td>
+      <td id="T_a74a852c_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_a74a852c_row4_col8" class="data row4 col8" >-3</td>
+      <td id="T_a74a852c_row4_col9" class="data row4 col9" >-3</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_a74a852c_row5_col1" class="data row5 col1" >Penza</td>
+      <td id="T_a74a852c_row5_col2" class="data row5 col2" >0</td>
+      <td id="T_a74a852c_row5_col3" class="data row5 col3" >0</td>
+      <td id="T_a74a852c_row5_col4" class="data row5 col4" >-3</td>
+      <td id="T_a74a852c_row5_col5" class="data row5 col5" >0</td>
+      <td id="T_a74a852c_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_a74a852c_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_a74a852c_row5_col8" class="data row5 col8" >-3</td>
+      <td id="T_a74a852c_row5_col9" class="data row5 col9" >-3</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_a74a852c_row6_col1" class="data row6 col1" >Mr clutch</td>
+      <td id="T_a74a852c_row6_col2" class="data row6 col2" >0</td>
+      <td id="T_a74a852c_row6_col3" class="data row6 col3" >0</td>
+      <td id="T_a74a852c_row6_col4" class="data row6 col4" >0</td>
+      <td id="T_a74a852c_row6_col5" class="data row6 col5" >-1</td>
+      <td id="T_a74a852c_row6_col6" class="data row6 col6" >1</td>
+      <td id="T_a74a852c_row6_col7" class="data row6 col7" >0</td>
+      <td id="T_a74a852c_row6_col8" class="data row6 col8" >-1</td>
+      <td id="T_a74a852c_row6_col9" class="data row6 col9" >-1</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_a74a852c_row7_col1" class="data row7 col1" >Moscow Penguins</td>
+      <td id="T_a74a852c_row7_col2" class="data row7 col2" >0</td>
+      <td id="T_a74a852c_row7_col3" class="data row7 col3" >0</td>
+      <td id="T_a74a852c_row7_col4" class="data row7 col4" >0</td>
+      <td id="T_a74a852c_row7_col5" class="data row7 col5" >0</td>
+      <td id="T_a74a852c_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_a74a852c_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_a74a852c_row7_col8" class="data row7 col8" >0</td>
+      <td id="T_a74a852c_row7_col9" class="data row7 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_a74a852c_row8_col1" class="data row8 col1" >Powerful Welder</td>
+      <td id="T_a74a852c_row8_col2" class="data row8 col2" >0</td>
+      <td id="T_a74a852c_row8_col3" class="data row8 col3" >0</td>
+      <td id="T_a74a852c_row8_col4" class="data row8 col4" >0</td>
+      <td id="T_a74a852c_row8_col5" class="data row8 col5" >0</td>
+      <td id="T_a74a852c_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_a74a852c_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_a74a852c_row8_col8" class="data row8 col8" >0</td>
+      <td id="T_a74a852c_row8_col9" class="data row8 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_a74a852c_row9_col1" class="data row9 col1" >RnD Bruins RWH</td>
+      <td id="T_a74a852c_row9_col2" class="data row9 col2" >0</td>
+      <td id="T_a74a852c_row9_col3" class="data row9 col3" >0</td>
+      <td id="T_a74a852c_row9_col4" class="data row9 col4" >0</td>
+      <td id="T_a74a852c_row9_col5" class="data row9 col5" >0</td>
+      <td id="T_a74a852c_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_a74a852c_row9_col7" class="data row9 col7" >0</td>
+      <td id="T_a74a852c_row9_col8" class="data row9 col8" >0</td>
+      <td id="T_a74a852c_row9_col9" class="data row9 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_a74a852c_row10_col1" class="data row10 col1" >Seaport Bruins</td>
+      <td id="T_a74a852c_row10_col2" class="data row10 col2" >0</td>
+      <td id="T_a74a852c_row10_col3" class="data row10 col3" >0</td>
+      <td id="T_a74a852c_row10_col4" class="data row10 col4" >0</td>
+      <td id="T_a74a852c_row10_col5" class="data row10 col5" >0</td>
+      <td id="T_a74a852c_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_a74a852c_row10_col7" class="data row10 col7" >0</td>
+      <td id="T_a74a852c_row10_col8" class="data row10 col8" >0</td>
+      <td id="T_a74a852c_row10_col9" class="data row10 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_a74a852c_row11_col1" class="data row11 col1" >Uralmash Smelters</td>
+      <td id="T_a74a852c_row11_col2" class="data row11 col2" >0</td>
+      <td id="T_a74a852c_row11_col3" class="data row11 col3" >0</td>
+      <td id="T_a74a852c_row11_col4" class="data row11 col4" >0</td>
+      <td id="T_a74a852c_row11_col5" class="data row11 col5" >0</td>
+      <td id="T_a74a852c_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_a74a852c_row11_col7" class="data row11 col7" >0</td>
+      <td id="T_a74a852c_row11_col8" class="data row11 col8" >0</td>
+      <td id="T_a74a852c_row11_col9" class="data row11 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_a74a852c_row12_col1" class="data row12 col1" >Vodnik 2</td>
+      <td id="T_a74a852c_row12_col2" class="data row12 col2" >0</td>
+      <td id="T_a74a852c_row12_col3" class="data row12 col3" >0</td>
+      <td id="T_a74a852c_row12_col4" class="data row12 col4" >0</td>
+      <td id="T_a74a852c_row12_col5" class="data row12 col5" >0</td>
+      <td id="T_a74a852c_row12_col6" class="data row12 col6" >0</td>
+      <td id="T_a74a852c_row12_col7" class="data row12 col7" >0</td>
+      <td id="T_a74a852c_row12_col8" class="data row12 col8" >0</td>
+      <td id="T_a74a852c_row12_col9" class="data row12 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_a74a852c_row13_col1" class="data row13 col1" >YoshkarOla Woodmans</td>
+      <td id="T_a74a852c_row13_col2" class="data row13 col2" >0</td>
+      <td id="T_a74a852c_row13_col3" class="data row13 col3" >0</td>
+      <td id="T_a74a852c_row13_col4" class="data row13 col4" >0</td>
+      <td id="T_a74a852c_row13_col5" class="data row13 col5" >0</td>
+      <td id="T_a74a852c_row13_col6" class="data row13 col6" >0</td>
+      <td id="T_a74a852c_row13_col7" class="data row13 col7" >0</td>
+      <td id="T_a74a852c_row13_col8" class="data row13 col8" >0</td>
+      <td id="T_a74a852c_row13_col9" class="data row13 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_a74a852c_row14_col1" class="data row14 col1" >St.Patrick's day</td>
+      <td id="T_a74a852c_row14_col2" class="data row14 col2" >-2</td>
+      <td id="T_a74a852c_row14_col3" class="data row14 col3" >4</td>
+      <td id="T_a74a852c_row14_col4" class="data row14 col4" >0</td>
+      <td id="T_a74a852c_row14_col5" class="data row14 col5" >0</td>
+      <td id="T_a74a852c_row14_col6" class="data row14 col6" >1</td>
+      <td id="T_a74a852c_row14_col7" class="data row14 col7" >1</td>
+      <td id="T_a74a852c_row14_col8" class="data row14 col8" >2</td>
+      <td id="T_a74a852c_row14_col9" class="data row14 col9" >2</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_a74a852c_row15_col1" class="data row15 col1" >Dida</td>
+      <td id="T_a74a852c_row15_col2" class="data row15 col2" >3</td>
+      <td id="T_a74a852c_row15_col3" class="data row15 col3" >0</td>
+      <td id="T_a74a852c_row15_col4" class="data row15 col4" >0</td>
+      <td id="T_a74a852c_row15_col5" class="data row15 col5" >0</td>
+      <td id="T_a74a852c_row15_col6" class="data row15 col6" >0</td>
+      <td id="T_a74a852c_row15_col7" class="data row15 col7" >1</td>
+      <td id="T_a74a852c_row15_col8" class="data row15 col8" >3</td>
+      <td id="T_a74a852c_row15_col9" class="data row15 col9" >3</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_a74a852c_row16_col1" class="data row16 col1" >Люберецкие Овощи</td>
+      <td id="T_a74a852c_row16_col2" class="data row16 col2" >0</td>
+      <td id="T_a74a852c_row16_col3" class="data row16 col3" >0</td>
+      <td id="T_a74a852c_row16_col4" class="data row16 col4" >3</td>
+      <td id="T_a74a852c_row16_col5" class="data row16 col5" >0</td>
+      <td id="T_a74a852c_row16_col6" class="data row16 col6" >0</td>
+      <td id="T_a74a852c_row16_col7" class="data row16 col7" >1</td>
+      <td id="T_a74a852c_row16_col8" class="data row16 col8" >3</td>
+      <td id="T_a74a852c_row16_col9" class="data row16 col9" >3</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_a74a852c_row17_col1" class="data row17 col1" >Vityaz Podolsk</td>
+      <td id="T_a74a852c_row17_col2" class="data row17 col2" >0</td>
+      <td id="T_a74a852c_row17_col3" class="data row17 col3" >-1</td>
+      <td id="T_a74a852c_row17_col4" class="data row17 col4" >2</td>
+      <td id="T_a74a852c_row17_col5" class="data row17 col5" >3</td>
+      <td id="T_a74a852c_row17_col6" class="data row17 col6" >1</td>
+      <td id="T_a74a852c_row17_col7" class="data row17 col7" >2</td>
+      <td id="T_a74a852c_row17_col8" class="data row17 col8" >4</td>
+      <td id="T_a74a852c_row17_col9" class="data row17 col9" >4</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_a74a852c_row18_col1" class="data row18 col1" >Force of Nature</td>
+      <td id="T_a74a852c_row18_col2" class="data row18 col2" >0</td>
+      <td id="T_a74a852c_row18_col3" class="data row18 col3" >0</td>
+      <td id="T_a74a852c_row18_col4" class="data row18 col4" >0</td>
+      <td id="T_a74a852c_row18_col5" class="data row18 col5" >4</td>
+      <td id="T_a74a852c_row18_col6" class="data row18 col6" >0</td>
+      <td id="T_a74a852c_row18_col7" class="data row18 col7" >1</td>
+      <td id="T_a74a852c_row18_col8" class="data row18 col8" >4</td>
+      <td id="T_a74a852c_row18_col9" class="data row18 col9" >4</td>
+    </tr>
+    <tr>
+      <td id="T_a74a852c_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_a74a852c_row19_col1" class="data row19 col1" >Spartak Podolsk</td>
+      <td id="T_a74a852c_row19_col2" class="data row19 col2" >0</td>
+      <td id="T_a74a852c_row19_col3" class="data row19 col3" >3</td>
+      <td id="T_a74a852c_row19_col4" class="data row19 col4" >5</td>
+      <td id="T_a74a852c_row19_col5" class="data row19 col5" >0</td>
+      <td id="T_a74a852c_row19_col6" class="data row19 col6" >0</td>
+      <td id="T_a74a852c_row19_col7" class="data row19 col7" >2</td>
+      <td id="T_a74a852c_row19_col8" class="data row19 col8" >8</td>
+      <td id="T_a74a852c_row19_col9" class="data row19 col9" >8</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Opponent luck scores</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица коэффициентов удачи соперников игрока в лиге по матчапам. Таблицу можно считать показателем того, приносит ли игрок удачу сопернику. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_974a6d7c_row0_col2, #T_974a6d7c_row0_col4, #T_974a6d7c_row0_col5, #T_974a6d7c_row1_col3, #T_974a6d7c_row1_col5, #T_974a6d7c_row2_col3, #T_974a6d7c_row2_col4, #T_974a6d7c_row3_col2, #T_974a6d7c_row3_col4, #T_974a6d7c_row13_col5 {
+  color: green;
+}
+#T_974a6d7c_row0_col3, #T_974a6d7c_row1_col2, #T_974a6d7c_row1_col4, #T_974a6d7c_row2_col2, #T_974a6d7c_row2_col5, #T_974a6d7c_row3_col3, #T_974a6d7c_row3_col5, #T_974a6d7c_row4_col2, #T_974a6d7c_row4_col3, #T_974a6d7c_row4_col4, #T_974a6d7c_row4_col5, #T_974a6d7c_row5_col2, #T_974a6d7c_row5_col3, #T_974a6d7c_row5_col4, #T_974a6d7c_row5_col5, #T_974a6d7c_row6_col2, #T_974a6d7c_row6_col3, #T_974a6d7c_row6_col4, #T_974a6d7c_row6_col5, #T_974a6d7c_row7_col2, #T_974a6d7c_row7_col3, #T_974a6d7c_row7_col4, #T_974a6d7c_row7_col5, #T_974a6d7c_row8_col2, #T_974a6d7c_row8_col3, #T_974a6d7c_row8_col4, #T_974a6d7c_row8_col5, #T_974a6d7c_row9_col2, #T_974a6d7c_row9_col3, #T_974a6d7c_row9_col4, #T_974a6d7c_row9_col5, #T_974a6d7c_row10_col2, #T_974a6d7c_row10_col3, #T_974a6d7c_row10_col4, #T_974a6d7c_row10_col5, #T_974a6d7c_row11_col2, #T_974a6d7c_row11_col3, #T_974a6d7c_row11_col4, #T_974a6d7c_row11_col5, #T_974a6d7c_row12_col3, #T_974a6d7c_row12_col4, #T_974a6d7c_row12_col5, #T_974a6d7c_row13_col3, #T_974a6d7c_row13_col4, #T_974a6d7c_row14_col2, #T_974a6d7c_row14_col3, #T_974a6d7c_row14_col5, #T_974a6d7c_row15_col2, #T_974a6d7c_row15_col4, #T_974a6d7c_row15_col5, #T_974a6d7c_row16_col2, #T_974a6d7c_row16_col3, #T_974a6d7c_row16_col4, #T_974a6d7c_row17_col2, #T_974a6d7c_row17_col3, #T_974a6d7c_row17_col4, #T_974a6d7c_row18_col2, #T_974a6d7c_row18_col5, #T_974a6d7c_row19_col2, #T_974a6d7c_row19_col3 {
+  color: black;
+}
+#T_974a6d7c_row12_col2, #T_974a6d7c_row13_col2, #T_974a6d7c_row14_col4, #T_974a6d7c_row15_col3, #T_974a6d7c_row16_col5, #T_974a6d7c_row17_col5, #T_974a6d7c_row18_col3, #T_974a6d7c_row18_col4, #T_974a6d7c_row19_col4, #T_974a6d7c_row19_col5 {
+  color: red;
+}
+</style>
+<table id="T_974a6d7c" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_974a6d7c_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_974a6d7c_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_974a6d7c_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_974a6d7c_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_974a6d7c_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_974a6d7c_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_974a6d7c_level0_col6" class="col_heading level0 col6" >&#128532;</th>
+      <th id="T_974a6d7c_level0_col7" class="col_heading level0 col7" >&#128526;</th>
+      <th id="T_974a6d7c_level0_col8" class="col_heading level0 col8" >Last4</th>
+      <th id="T_974a6d7c_level0_col9" class="col_heading level0 col9" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_974a6d7c_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_974a6d7c_row0_col1" class="data row0 col1" >Fenomeno</td>
+      <td id="T_974a6d7c_row0_col2" class="data row0 col2" >-4</td>
+      <td id="T_974a6d7c_row0_col3" class="data row0 col3" >0</td>
+      <td id="T_974a6d7c_row0_col4" class="data row0 col4" >-6</td>
+      <td id="T_974a6d7c_row0_col5" class="data row0 col5" >-5</td>
+      <td id="T_974a6d7c_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_974a6d7c_row0_col7" class="data row0 col7" >3</td>
+      <td id="T_974a6d7c_row0_col8" class="data row0 col8" >-15</td>
+      <td id="T_974a6d7c_row0_col9" class="data row0 col9" >-15</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_974a6d7c_row1_col1" class="data row1 col1" >Vovan</td>
+      <td id="T_974a6d7c_row1_col2" class="data row1 col2" >0</td>
+      <td id="T_974a6d7c_row1_col3" class="data row1 col3" >-1</td>
+      <td id="T_974a6d7c_row1_col4" class="data row1 col4" >0</td>
+      <td id="T_974a6d7c_row1_col5" class="data row1 col5" >-7</td>
+      <td id="T_974a6d7c_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_974a6d7c_row1_col7" class="data row1 col7" >2</td>
+      <td id="T_974a6d7c_row1_col8" class="data row1 col8" >-8</td>
+      <td id="T_974a6d7c_row1_col9" class="data row1 col9" >-8</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_974a6d7c_row2_col1" class="data row2 col1" >ZP Legion</td>
+      <td id="T_974a6d7c_row2_col2" class="data row2 col2" >0</td>
+      <td id="T_974a6d7c_row2_col3" class="data row2 col3" >-3</td>
+      <td id="T_974a6d7c_row2_col4" class="data row2 col4" >-4</td>
+      <td id="T_974a6d7c_row2_col5" class="data row2 col5" >0</td>
+      <td id="T_974a6d7c_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_974a6d7c_row2_col7" class="data row2 col7" >2</td>
+      <td id="T_974a6d7c_row2_col8" class="data row2 col8" >-7</td>
+      <td id="T_974a6d7c_row2_col9" class="data row2 col9" >-7</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_974a6d7c_row3_col1" class="data row3 col1" >Seaport Bruins</td>
+      <td id="T_974a6d7c_row3_col2" class="data row3 col2" >-2</td>
+      <td id="T_974a6d7c_row3_col3" class="data row3 col3" >0</td>
+      <td id="T_974a6d7c_row3_col4" class="data row3 col4" >-3</td>
+      <td id="T_974a6d7c_row3_col5" class="data row3 col5" >0</td>
+      <td id="T_974a6d7c_row3_col6" class="data row3 col6" >0</td>
+      <td id="T_974a6d7c_row3_col7" class="data row3 col7" >2</td>
+      <td id="T_974a6d7c_row3_col8" class="data row3 col8" >-5</td>
+      <td id="T_974a6d7c_row3_col9" class="data row3 col9" >-5</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_974a6d7c_row4_col1" class="data row4 col1" >Dida</td>
+      <td id="T_974a6d7c_row4_col2" class="data row4 col2" >0</td>
+      <td id="T_974a6d7c_row4_col3" class="data row4 col3" >0</td>
+      <td id="T_974a6d7c_row4_col4" class="data row4 col4" >0</td>
+      <td id="T_974a6d7c_row4_col5" class="data row4 col5" >0</td>
+      <td id="T_974a6d7c_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_974a6d7c_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_974a6d7c_row4_col8" class="data row4 col8" >0</td>
+      <td id="T_974a6d7c_row4_col9" class="data row4 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_974a6d7c_row5_col1" class="data row5 col1" >Force of Nature</td>
+      <td id="T_974a6d7c_row5_col2" class="data row5 col2" >0</td>
+      <td id="T_974a6d7c_row5_col3" class="data row5 col3" >0</td>
+      <td id="T_974a6d7c_row5_col4" class="data row5 col4" >0</td>
+      <td id="T_974a6d7c_row5_col5" class="data row5 col5" >0</td>
+      <td id="T_974a6d7c_row5_col6" class="data row5 col6" >0</td>
+      <td id="T_974a6d7c_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_974a6d7c_row5_col8" class="data row5 col8" >0</td>
+      <td id="T_974a6d7c_row5_col9" class="data row5 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_974a6d7c_row6_col1" class="data row6 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_974a6d7c_row6_col2" class="data row6 col2" >0</td>
+      <td id="T_974a6d7c_row6_col3" class="data row6 col3" >0</td>
+      <td id="T_974a6d7c_row6_col4" class="data row6 col4" >0</td>
+      <td id="T_974a6d7c_row6_col5" class="data row6 col5" >0</td>
+      <td id="T_974a6d7c_row6_col6" class="data row6 col6" >0</td>
+      <td id="T_974a6d7c_row6_col7" class="data row6 col7" >0</td>
+      <td id="T_974a6d7c_row6_col8" class="data row6 col8" >0</td>
+      <td id="T_974a6d7c_row6_col9" class="data row6 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_974a6d7c_row7_col1" class="data row7 col1" >Moscow Penguins</td>
+      <td id="T_974a6d7c_row7_col2" class="data row7 col2" >0</td>
+      <td id="T_974a6d7c_row7_col3" class="data row7 col3" >0</td>
+      <td id="T_974a6d7c_row7_col4" class="data row7 col4" >0</td>
+      <td id="T_974a6d7c_row7_col5" class="data row7 col5" >0</td>
+      <td id="T_974a6d7c_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_974a6d7c_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_974a6d7c_row7_col8" class="data row7 col8" >0</td>
+      <td id="T_974a6d7c_row7_col9" class="data row7 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_974a6d7c_row8_col1" class="data row8 col1" >Uralmash Smelters</td>
+      <td id="T_974a6d7c_row8_col2" class="data row8 col2" >0</td>
+      <td id="T_974a6d7c_row8_col3" class="data row8 col3" >0</td>
+      <td id="T_974a6d7c_row8_col4" class="data row8 col4" >0</td>
+      <td id="T_974a6d7c_row8_col5" class="data row8 col5" >0</td>
+      <td id="T_974a6d7c_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_974a6d7c_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_974a6d7c_row8_col8" class="data row8 col8" >0</td>
+      <td id="T_974a6d7c_row8_col9" class="data row8 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_974a6d7c_row9_col1" class="data row9 col1" >Vodnik 2</td>
+      <td id="T_974a6d7c_row9_col2" class="data row9 col2" >0</td>
+      <td id="T_974a6d7c_row9_col3" class="data row9 col3" >0</td>
+      <td id="T_974a6d7c_row9_col4" class="data row9 col4" >0</td>
+      <td id="T_974a6d7c_row9_col5" class="data row9 col5" >0</td>
+      <td id="T_974a6d7c_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_974a6d7c_row9_col7" class="data row9 col7" >0</td>
+      <td id="T_974a6d7c_row9_col8" class="data row9 col8" >0</td>
+      <td id="T_974a6d7c_row9_col9" class="data row9 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_974a6d7c_row10_col1" class="data row10 col1" >YoshkarOla Woodmans</td>
+      <td id="T_974a6d7c_row10_col2" class="data row10 col2" >0</td>
+      <td id="T_974a6d7c_row10_col3" class="data row10 col3" >0</td>
+      <td id="T_974a6d7c_row10_col4" class="data row10 col4" >0</td>
+      <td id="T_974a6d7c_row10_col5" class="data row10 col5" >0</td>
+      <td id="T_974a6d7c_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_974a6d7c_row10_col7" class="data row10 col7" >0</td>
+      <td id="T_974a6d7c_row10_col8" class="data row10 col8" >0</td>
+      <td id="T_974a6d7c_row10_col9" class="data row10 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_974a6d7c_row11_col1" class="data row11 col1" >Люберецкие Овощи</td>
+      <td id="T_974a6d7c_row11_col2" class="data row11 col2" >0</td>
+      <td id="T_974a6d7c_row11_col3" class="data row11 col3" >0</td>
+      <td id="T_974a6d7c_row11_col4" class="data row11 col4" >0</td>
+      <td id="T_974a6d7c_row11_col5" class="data row11 col5" >0</td>
+      <td id="T_974a6d7c_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_974a6d7c_row11_col7" class="data row11 col7" >0</td>
+      <td id="T_974a6d7c_row11_col8" class="data row11 col8" >0</td>
+      <td id="T_974a6d7c_row11_col9" class="data row11 col9" >0</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_974a6d7c_row12_col1" class="data row12 col1" >Vityaz Podolsk</td>
+      <td id="T_974a6d7c_row12_col2" class="data row12 col2" >1</td>
+      <td id="T_974a6d7c_row12_col3" class="data row12 col3" >0</td>
+      <td id="T_974a6d7c_row12_col4" class="data row12 col4" >0</td>
+      <td id="T_974a6d7c_row12_col5" class="data row12 col5" >0</td>
+      <td id="T_974a6d7c_row12_col6" class="data row12 col6" >1</td>
+      <td id="T_974a6d7c_row12_col7" class="data row12 col7" >0</td>
+      <td id="T_974a6d7c_row12_col8" class="data row12 col8" >1</td>
+      <td id="T_974a6d7c_row12_col9" class="data row12 col9" >1</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_974a6d7c_row13_col1" class="data row13 col1" >Penza</td>
+      <td id="T_974a6d7c_row13_col2" class="data row13 col2" >3</td>
+      <td id="T_974a6d7c_row13_col3" class="data row13 col3" >0</td>
+      <td id="T_974a6d7c_row13_col4" class="data row13 col4" >0</td>
+      <td id="T_974a6d7c_row13_col5" class="data row13 col5" >-1</td>
+      <td id="T_974a6d7c_row13_col6" class="data row13 col6" >1</td>
+      <td id="T_974a6d7c_row13_col7" class="data row13 col7" >1</td>
+      <td id="T_974a6d7c_row13_col8" class="data row13 col8" >2</td>
+      <td id="T_974a6d7c_row13_col9" class="data row13 col9" >2</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_974a6d7c_row14_col1" class="data row14 col1" >Powerful Welder</td>
+      <td id="T_974a6d7c_row14_col2" class="data row14 col2" >0</td>
+      <td id="T_974a6d7c_row14_col3" class="data row14 col3" >0</td>
+      <td id="T_974a6d7c_row14_col4" class="data row14 col4" >3</td>
+      <td id="T_974a6d7c_row14_col5" class="data row14 col5" >0</td>
+      <td id="T_974a6d7c_row14_col6" class="data row14 col6" >1</td>
+      <td id="T_974a6d7c_row14_col7" class="data row14 col7" >0</td>
+      <td id="T_974a6d7c_row14_col8" class="data row14 col8" >3</td>
+      <td id="T_974a6d7c_row14_col9" class="data row14 col9" >3</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_974a6d7c_row15_col1" class="data row15 col1" >Mr clutch</td>
+      <td id="T_974a6d7c_row15_col2" class="data row15 col2" >0</td>
+      <td id="T_974a6d7c_row15_col3" class="data row15 col3" >4</td>
+      <td id="T_974a6d7c_row15_col4" class="data row15 col4" >0</td>
+      <td id="T_974a6d7c_row15_col5" class="data row15 col5" >0</td>
+      <td id="T_974a6d7c_row15_col6" class="data row15 col6" >1</td>
+      <td id="T_974a6d7c_row15_col7" class="data row15 col7" >0</td>
+      <td id="T_974a6d7c_row15_col8" class="data row15 col8" >4</td>
+      <td id="T_974a6d7c_row15_col9" class="data row15 col9" >4</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_974a6d7c_row16_col1" class="data row16 col1" >Spartak Podolsk</td>
+      <td id="T_974a6d7c_row16_col2" class="data row16 col2" >0</td>
+      <td id="T_974a6d7c_row16_col3" class="data row16 col3" >0</td>
+      <td id="T_974a6d7c_row16_col4" class="data row16 col4" >0</td>
+      <td id="T_974a6d7c_row16_col5" class="data row16 col5" >4</td>
+      <td id="T_974a6d7c_row16_col6" class="data row16 col6" >1</td>
+      <td id="T_974a6d7c_row16_col7" class="data row16 col7" >0</td>
+      <td id="T_974a6d7c_row16_col8" class="data row16 col8" >4</td>
+      <td id="T_974a6d7c_row16_col9" class="data row16 col9" >4</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_974a6d7c_row17_col1" class="data row17 col1" >RnD Bruins RWH</td>
+      <td id="T_974a6d7c_row17_col2" class="data row17 col2" >0</td>
+      <td id="T_974a6d7c_row17_col3" class="data row17 col3" >0</td>
+      <td id="T_974a6d7c_row17_col4" class="data row17 col4" >0</td>
+      <td id="T_974a6d7c_row17_col5" class="data row17 col5" >5</td>
+      <td id="T_974a6d7c_row17_col6" class="data row17 col6" >1</td>
+      <td id="T_974a6d7c_row17_col7" class="data row17 col7" >0</td>
+      <td id="T_974a6d7c_row17_col8" class="data row17 col8" >5</td>
+      <td id="T_974a6d7c_row17_col9" class="data row17 col9" >5</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_974a6d7c_row18_col1" class="data row18 col1" >Team 20</td>
+      <td id="T_974a6d7c_row18_col2" class="data row18 col2" >0</td>
+      <td id="T_974a6d7c_row18_col3" class="data row18 col3" >3</td>
+      <td id="T_974a6d7c_row18_col4" class="data row18 col4" >2</td>
+      <td id="T_974a6d7c_row18_col5" class="data row18 col5" >0</td>
+      <td id="T_974a6d7c_row18_col6" class="data row18 col6" >2</td>
+      <td id="T_974a6d7c_row18_col7" class="data row18 col7" >0</td>
+      <td id="T_974a6d7c_row18_col8" class="data row18 col8" >5</td>
+      <td id="T_974a6d7c_row18_col9" class="data row18 col9" >5</td>
+    </tr>
+    <tr>
+      <td id="T_974a6d7c_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_974a6d7c_row19_col1" class="data row19 col1" >St.Patrick's day</td>
+      <td id="T_974a6d7c_row19_col2" class="data row19 col2" >0</td>
+      <td id="T_974a6d7c_row19_col3" class="data row19 col3" >0</td>
+      <td id="T_974a6d7c_row19_col4" class="data row19 col4" >5</td>
+      <td id="T_974a6d7c_row19_col5" class="data row19 col5" >3</td>
+      <td id="T_974a6d7c_row19_col6" class="data row19 col6" >2</td>
+      <td id="T_974a6d7c_row19_col7" class="data row19 col7" >0</td>
+      <td id="T_974a6d7c_row19_col8" class="data row19 col8" >8</td>
+      <td id="T_974a6d7c_row19_col9" class="data row19 col9" >8</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Places</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица позиций игрока по набору в лиге по матчапам. Для лиг по категориям набором является сумма мест по категориям. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_c68665af_row0_col2, #T_c68665af_row0_col3, #T_c68665af_row0_col4, #T_c68665af_row0_col5, #T_c68665af_row1_col2, #T_c68665af_row1_col4, #T_c68665af_row1_col5, #T_c68665af_row2_col2, #T_c68665af_row2_col4, #T_c68665af_row2_col5, #T_c68665af_row3_col2, #T_c68665af_row3_col3, #T_c68665af_row3_col4, #T_c68665af_row4_col3, #T_c68665af_row4_col4, #T_c68665af_row4_col5, #T_c68665af_row5_col2, #T_c68665af_row5_col4, #T_c68665af_row6_col2, #T_c68665af_row6_col3, #T_c68665af_row6_col4, #T_c68665af_row7_col3, #T_c68665af_row8_col3, #T_c68665af_row8_col5, #T_c68665af_row9_col5, #T_c68665af_row10_col2, #T_c68665af_row11_col3, #T_c68665af_row14_col5 {
+  color: blue;
+}
+#T_c68665af_row5_col3, #T_c68665af_row6_col5, #T_c68665af_row7_col2, #T_c68665af_row8_col4, #T_c68665af_row9_col3, #T_c68665af_row10_col3, #T_c68665af_row11_col2, #T_c68665af_row11_col4, #T_c68665af_row12_col4, #T_c68665af_row12_col5, #T_c68665af_row13_col2, #T_c68665af_row14_col3, #T_c68665af_row14_col4, #T_c68665af_row15_col3, #T_c68665af_row15_col4, #T_c68665af_row15_col5, #T_c68665af_row16_col2, #T_c68665af_row16_col3, #T_c68665af_row16_col5, #T_c68665af_row17_col2, #T_c68665af_row17_col4, #T_c68665af_row17_col5, #T_c68665af_row18_col2, #T_c68665af_row18_col4, #T_c68665af_row18_col5, #T_c68665af_row19_col2, #T_c68665af_row19_col3, #T_c68665af_row19_col5 {
+  color: red;
+}
+</style>
+<table id="T_c68665af" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_c68665af_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_c68665af_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_c68665af_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_c68665af_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_c68665af_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_c68665af_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_c68665af_level0_col6" class="col_heading level0 col6" >&#128532;</th>
+      <th id="T_c68665af_level0_col7" class="col_heading level0 col7" >&#128526;</th>
+      <th id="T_c68665af_level0_col8" class="col_heading level0 col8" >Last4</th>
+      <th id="T_c68665af_level0_col9" class="col_heading level0 col9" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_c68665af_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_c68665af_row0_col1" class="data row0 col1" >Vovan</td>
+      <td id="T_c68665af_row0_col2" class="data row0 col2" >3</td>
+      <td id="T_c68665af_row0_col3" class="data row0 col3" >2</td>
+      <td id="T_c68665af_row0_col4" class="data row0 col4" >5</td>
+      <td id="T_c68665af_row0_col5" class="data row0 col5" >3</td>
+      <td id="T_c68665af_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_c68665af_row0_col7" class="data row0 col7" >4</td>
+      <td id="T_c68665af_row0_col8" class="data row0 col8" >13</td>
+      <td id="T_c68665af_row0_col9" class="data row0 col9" >13</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_c68665af_row1_col1" class="data row1 col1" >Fenomeno</td>
+      <td id="T_c68665af_row1_col2" class="data row1 col2" >4</td>
+      <td id="T_c68665af_row1_col3" class="data row1 col3" >8</td>
+      <td id="T_c68665af_row1_col4" class="data row1 col4" >2</td>
+      <td id="T_c68665af_row1_col5" class="data row1 col5" >1</td>
+      <td id="T_c68665af_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_c68665af_row1_col7" class="data row1 col7" >3</td>
+      <td id="T_c68665af_row1_col8" class="data row1 col8" >15</td>
+      <td id="T_c68665af_row1_col9" class="data row1 col9" >15</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_c68665af_row2_col1" class="data row2 col1" >Seaport Bruins</td>
+      <td id="T_c68665af_row2_col2" class="data row2 col2" >2</td>
+      <td id="T_c68665af_row2_col3" class="data row2 col3" >9</td>
+      <td id="T_c68665af_row2_col4" class="data row2 col4" >4</td>
+      <td id="T_c68665af_row2_col5" class="data row2 col5" >5</td>
+      <td id="T_c68665af_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_c68665af_row2_col7" class="data row2 col7" >3</td>
+      <td id="T_c68665af_row2_col8" class="data row2 col8" >20</td>
+      <td id="T_c68665af_row2_col9" class="data row2 col9" >20</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_c68665af_row3_col1" class="data row3 col1" >Moscow Penguins</td>
+      <td id="T_c68665af_row3_col2" class="data row3 col2" >5</td>
+      <td id="T_c68665af_row3_col3" class="data row3 col3" >6</td>
+      <td id="T_c68665af_row3_col4" class="data row3 col4" >3</td>
+      <td id="T_c68665af_row3_col5" class="data row3 col5" >9</td>
+      <td id="T_c68665af_row3_col6" class="data row3 col6" >0</td>
+      <td id="T_c68665af_row3_col7" class="data row3 col7" >3</td>
+      <td id="T_c68665af_row3_col8" class="data row3 col8" >23</td>
+      <td id="T_c68665af_row3_col9" class="data row3 col9" >23</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_c68665af_row4_col1" class="data row4 col1" >ZP Legion</td>
+      <td id="T_c68665af_row4_col2" class="data row4 col2" >11</td>
+      <td id="T_c68665af_row4_col3" class="data row4 col3" >3</td>
+      <td id="T_c68665af_row4_col4" class="data row4 col4" >6</td>
+      <td id="T_c68665af_row4_col5" class="data row4 col5" >4</td>
+      <td id="T_c68665af_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_c68665af_row4_col7" class="data row4 col7" >3</td>
+      <td id="T_c68665af_row4_col8" class="data row4 col8" >24</td>
+      <td id="T_c68665af_row4_col9" class="data row4 col9" >24</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_c68665af_row5_col1" class="data row5 col1" >Mr clutch</td>
+      <td id="T_c68665af_row5_col2" class="data row5 col2" >1</td>
+      <td id="T_c68665af_row5_col3" class="data row5 col3" >15</td>
+      <td id="T_c68665af_row5_col4" class="data row5 col4" >1</td>
+      <td id="T_c68665af_row5_col5" class="data row5 col5" >10</td>
+      <td id="T_c68665af_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_c68665af_row5_col7" class="data row5 col7" >2</td>
+      <td id="T_c68665af_row5_col8" class="data row5 col8" >27</td>
+      <td id="T_c68665af_row5_col9" class="data row5 col9" >27</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_c68665af_row6_col1" class="data row6 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_c68665af_row6_col2" class="data row6 col2" >7</td>
+      <td id="T_c68665af_row6_col3" class="data row6 col3" >4</td>
+      <td id="T_c68665af_row6_col4" class="data row6 col4" >7</td>
+      <td id="T_c68665af_row6_col5" class="data row6 col5" >15</td>
+      <td id="T_c68665af_row6_col6" class="data row6 col6" >1</td>
+      <td id="T_c68665af_row6_col7" class="data row6 col7" >3</td>
+      <td id="T_c68665af_row6_col8" class="data row6 col8" >33</td>
+      <td id="T_c68665af_row6_col9" class="data row6 col9" >33</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_c68665af_row7_col1" class="data row7 col1" >Penza</td>
+      <td id="T_c68665af_row7_col2" class="data row7 col2" >17</td>
+      <td id="T_c68665af_row7_col3" class="data row7 col3" >5</td>
+      <td id="T_c68665af_row7_col4" class="data row7 col4" >8</td>
+      <td id="T_c68665af_row7_col5" class="data row7 col5" >8</td>
+      <td id="T_c68665af_row7_col6" class="data row7 col6" >1</td>
+      <td id="T_c68665af_row7_col7" class="data row7 col7" >1</td>
+      <td id="T_c68665af_row7_col8" class="data row7 col8" >38</td>
+      <td id="T_c68665af_row7_col9" class="data row7 col9" >38</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_c68665af_row8_col1" class="data row8 col1" >Dida</td>
+      <td id="T_c68665af_row8_col2" class="data row8 col2" >13</td>
+      <td id="T_c68665af_row8_col3" class="data row8 col3" >7</td>
+      <td id="T_c68665af_row8_col4" class="data row8 col4" >16</td>
+      <td id="T_c68665af_row8_col5" class="data row8 col5" >7</td>
+      <td id="T_c68665af_row8_col6" class="data row8 col6" >1</td>
+      <td id="T_c68665af_row8_col7" class="data row8 col7" >2</td>
+      <td id="T_c68665af_row8_col8" class="data row8 col8" >43</td>
+      <td id="T_c68665af_row8_col9" class="data row8 col9" >43</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_c68665af_row9_col1" class="data row9 col1" >Uralmash Smelters</td>
+      <td id="T_c68665af_row9_col2" class="data row9 col2" >10</td>
+      <td id="T_c68665af_row9_col3" class="data row9 col3" >20</td>
+      <td id="T_c68665af_row9_col4" class="data row9 col4" >11</td>
+      <td id="T_c68665af_row9_col5" class="data row9 col5" >2</td>
+      <td id="T_c68665af_row9_col6" class="data row9 col6" >1</td>
+      <td id="T_c68665af_row9_col7" class="data row9 col7" >1</td>
+      <td id="T_c68665af_row9_col8" class="data row9 col8" >43</td>
+      <td id="T_c68665af_row9_col9" class="data row9 col9" >43</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_c68665af_row10_col1" class="data row10 col1" >Vodnik 2</td>
+      <td id="T_c68665af_row10_col2" class="data row10 col2" >6</td>
+      <td id="T_c68665af_row10_col3" class="data row10 col3" >18</td>
+      <td id="T_c68665af_row10_col4" class="data row10 col4" >10</td>
+      <td id="T_c68665af_row10_col5" class="data row10 col5" >11</td>
+      <td id="T_c68665af_row10_col6" class="data row10 col6" >1</td>
+      <td id="T_c68665af_row10_col7" class="data row10 col7" >1</td>
+      <td id="T_c68665af_row10_col8" class="data row10 col8" >45</td>
+      <td id="T_c68665af_row10_col9" class="data row10 col9" >45</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_c68665af_row11_col1" class="data row11 col1" >YoshkarOla Woodmans</td>
+      <td id="T_c68665af_row11_col2" class="data row11 col2" >14</td>
+      <td id="T_c68665af_row11_col3" class="data row11 col3" >1</td>
+      <td id="T_c68665af_row11_col4" class="data row11 col4" >20</td>
+      <td id="T_c68665af_row11_col5" class="data row11 col5" >12</td>
+      <td id="T_c68665af_row11_col6" class="data row11 col6" >2</td>
+      <td id="T_c68665af_row11_col7" class="data row11 col7" >1</td>
+      <td id="T_c68665af_row11_col8" class="data row11 col8" >47</td>
+      <td id="T_c68665af_row11_col9" class="data row11 col9" >47</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_c68665af_row12_col1" class="data row12 col1" >Force of Nature</td>
+      <td id="T_c68665af_row12_col2" class="data row12 col2" >8</td>
+      <td id="T_c68665af_row12_col3" class="data row12 col3" >11</td>
+      <td id="T_c68665af_row12_col4" class="data row12 col4" >14</td>
+      <td id="T_c68665af_row12_col5" class="data row12 col5" >14</td>
+      <td id="T_c68665af_row12_col6" class="data row12 col6" >2</td>
+      <td id="T_c68665af_row12_col7" class="data row12 col7" >0</td>
+      <td id="T_c68665af_row12_col8" class="data row12 col8" >47</td>
+      <td id="T_c68665af_row12_col9" class="data row12 col9" >47</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_c68665af_row13_col1" class="data row13 col1" >Vityaz Podolsk</td>
+      <td id="T_c68665af_row13_col2" class="data row13 col2" >16</td>
+      <td id="T_c68665af_row13_col3" class="data row13 col3" >10</td>
+      <td id="T_c68665af_row13_col4" class="data row13 col4" >12</td>
+      <td id="T_c68665af_row13_col5" class="data row13 col5" >13</td>
+      <td id="T_c68665af_row13_col6" class="data row13 col6" >1</td>
+      <td id="T_c68665af_row13_col7" class="data row13 col7" >0</td>
+      <td id="T_c68665af_row13_col8" class="data row13 col8" >51</td>
+      <td id="T_c68665af_row13_col9" class="data row13 col9" >51</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_c68665af_row14_col1" class="data row14 col1" >Team 20</td>
+      <td id="T_c68665af_row14_col2" class="data row14 col2" >12</td>
+      <td id="T_c68665af_row14_col3" class="data row14 col3" >19</td>
+      <td id="T_c68665af_row14_col4" class="data row14 col4" >19</td>
+      <td id="T_c68665af_row14_col5" class="data row14 col5" >6</td>
+      <td id="T_c68665af_row14_col6" class="data row14 col6" >2</td>
+      <td id="T_c68665af_row14_col7" class="data row14 col7" >1</td>
+      <td id="T_c68665af_row14_col8" class="data row14 col8" >56</td>
+      <td id="T_c68665af_row14_col9" class="data row14 col9" >56</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_c68665af_row15_col1" class="data row15 col1" >St.Patrick's day</td>
+      <td id="T_c68665af_row15_col2" class="data row15 col2" >9</td>
+      <td id="T_c68665af_row15_col3" class="data row15 col3" >14</td>
+      <td id="T_c68665af_row15_col4" class="data row15 col4" >17</td>
+      <td id="T_c68665af_row15_col5" class="data row15 col5" >16</td>
+      <td id="T_c68665af_row15_col6" class="data row15 col6" >3</td>
+      <td id="T_c68665af_row15_col7" class="data row15 col7" >0</td>
+      <td id="T_c68665af_row15_col8" class="data row15 col8" >56</td>
+      <td id="T_c68665af_row15_col9" class="data row15 col9" >56</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_c68665af_row16_col1" class="data row16 col1" >RnD Bruins RWH</td>
+      <td id="T_c68665af_row16_col2" class="data row16 col2" >15</td>
+      <td id="T_c68665af_row16_col3" class="data row16 col3" >16</td>
+      <td id="T_c68665af_row16_col4" class="data row16 col4" >9</td>
+      <td id="T_c68665af_row16_col5" class="data row16 col5" >17</td>
+      <td id="T_c68665af_row16_col6" class="data row16 col6" >3</td>
+      <td id="T_c68665af_row16_col7" class="data row16 col7" >0</td>
+      <td id="T_c68665af_row16_col8" class="data row16 col8" >57</td>
+      <td id="T_c68665af_row16_col9" class="data row16 col9" >57</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_c68665af_row17_col1" class="data row17 col1" >Spartak Podolsk</td>
+      <td id="T_c68665af_row17_col2" class="data row17 col2" >18</td>
+      <td id="T_c68665af_row17_col3" class="data row17 col3" >13</td>
+      <td id="T_c68665af_row17_col4" class="data row17 col4" >15</td>
+      <td id="T_c68665af_row17_col5" class="data row17 col5" >20</td>
+      <td id="T_c68665af_row17_col6" class="data row17 col6" >3</td>
+      <td id="T_c68665af_row17_col7" class="data row17 col7" >0</td>
+      <td id="T_c68665af_row17_col8" class="data row17 col8" >66</td>
+      <td id="T_c68665af_row17_col9" class="data row17 col9" >66</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_c68665af_row18_col1" class="data row18 col1" >Powerful Welder</td>
+      <td id="T_c68665af_row18_col2" class="data row18 col2" >19</td>
+      <td id="T_c68665af_row18_col3" class="data row18 col3" >12</td>
+      <td id="T_c68665af_row18_col4" class="data row18 col4" >18</td>
+      <td id="T_c68665af_row18_col5" class="data row18 col5" >18</td>
+      <td id="T_c68665af_row18_col6" class="data row18 col6" >3</td>
+      <td id="T_c68665af_row18_col7" class="data row18 col7" >0</td>
+      <td id="T_c68665af_row18_col8" class="data row18 col8" >67</td>
+      <td id="T_c68665af_row18_col9" class="data row18 col9" >67</td>
+    </tr>
+    <tr>
+      <td id="T_c68665af_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_c68665af_row19_col1" class="data row19 col1" >Люберецкие Овощи</td>
+      <td id="T_c68665af_row19_col2" class="data row19 col2" >20</td>
+      <td id="T_c68665af_row19_col3" class="data row19 col3" >17</td>
+      <td id="T_c68665af_row19_col4" class="data row19 col4" >13</td>
+      <td id="T_c68665af_row19_col5" class="data row19 col5" >19</td>
+      <td id="T_c68665af_row19_col6" class="data row19 col6" >3</td>
+      <td id="T_c68665af_row19_col7" class="data row19 col7" >0</td>
+      <td id="T_c68665af_row19_col8" class="data row19 col8" >69</td>
+      <td id="T_c68665af_row19_col9" class="data row19 col9" >69</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Opponent places</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица позиций соперников игрока по набору в лиге по матчапам. Для лиг по категориям набором является сумма мест по категориям. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_56100796_row0_col2, #T_56100796_row0_col3, #T_56100796_row0_col4, #T_56100796_row0_col5, #T_56100796_row1_col2, #T_56100796_row1_col5, #T_56100796_row2_col2, #T_56100796_row2_col3, #T_56100796_row3_col4, #T_56100796_row3_col5, #T_56100796_row4_col4, #T_56100796_row4_col5, #T_56100796_row5_col3, #T_56100796_row6_col2, #T_56100796_row6_col3, #T_56100796_row6_col5, #T_56100796_row7_col3, #T_56100796_row8_col4, #T_56100796_row9_col5, #T_56100796_row10_col2, #T_56100796_row11_col2, #T_56100796_row11_col4, #T_56100796_row13_col3, #T_56100796_row13_col5, #T_56100796_row14_col3, #T_56100796_row16_col4, #T_56100796_row17_col4, #T_56100796_row18_col2 {
+  color: red;
+}
+#T_56100796_row2_col5, #T_56100796_row3_col2, #T_56100796_row4_col2, #T_56100796_row6_col4, #T_56100796_row7_col2, #T_56100796_row9_col3, #T_56100796_row10_col3, #T_56100796_row10_col4, #T_56100796_row11_col3, #T_56100796_row11_col5, #T_56100796_row12_col5, #T_56100796_row13_col2, #T_56100796_row13_col4, #T_56100796_row14_col4, #T_56100796_row14_col5, #T_56100796_row15_col3, #T_56100796_row15_col4, #T_56100796_row16_col2, #T_56100796_row16_col3, #T_56100796_row17_col2, #T_56100796_row17_col5, #T_56100796_row18_col3, #T_56100796_row18_col4, #T_56100796_row18_col5, #T_56100796_row19_col2, #T_56100796_row19_col3, #T_56100796_row19_col4, #T_56100796_row19_col5 {
+  color: blue;
+}
+</style>
+<table id="T_56100796" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_56100796_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_56100796_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_56100796_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_56100796_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_56100796_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_56100796_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_56100796_level0_col6" class="col_heading level0 col6" >&#128532;</th>
+      <th id="T_56100796_level0_col7" class="col_heading level0 col7" >&#128526;</th>
+      <th id="T_56100796_level0_col8" class="col_heading level0 col8" >Last4</th>
+      <th id="T_56100796_level0_col9" class="col_heading level0 col9" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_56100796_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_56100796_row0_col1" class="data row0 col1" >Fenomeno</td>
+      <td id="T_56100796_row0_col2" class="data row0 col2" >7</td>
+      <td id="T_56100796_row0_col3" class="data row0 col3" >3</td>
+      <td id="T_56100796_row0_col4" class="data row0 col4" >5</td>
+      <td id="T_56100796_row0_col5" class="data row0 col5" >6</td>
+      <td id="T_56100796_row0_col6" class="data row0 col6" >4</td>
+      <td id="T_56100796_row0_col7" class="data row0 col7" >0</td>
+      <td id="T_56100796_row0_col8" class="data row0 col8" >21</td>
+      <td id="T_56100796_row0_col9" class="data row0 col9" >21</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_56100796_row1_col1" class="data row1 col1" >Team 20</td>
+      <td id="T_56100796_row1_col2" class="data row1 col2" >1</td>
+      <td id="T_56100796_row1_col3" class="data row1 col3" >13</td>
+      <td id="T_56100796_row1_col4" class="data row1 col4" >12</td>
+      <td id="T_56100796_row1_col5" class="data row1 col5" >1</td>
+      <td id="T_56100796_row1_col6" class="data row1 col6" >2</td>
+      <td id="T_56100796_row1_col7" class="data row1 col7" >0</td>
+      <td id="T_56100796_row1_col8" class="data row1 col8" >27</td>
+      <td id="T_56100796_row1_col9" class="data row1 col9" >27</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_56100796_row2_col1" class="data row2 col1" >RnD Bruins RWH</td>
+      <td id="T_56100796_row2_col2" class="data row2 col2" >5</td>
+      <td id="T_56100796_row2_col3" class="data row2 col3" >1</td>
+      <td id="T_56100796_row2_col4" class="data row2 col4" >11</td>
+      <td id="T_56100796_row2_col5" class="data row2 col5" >15</td>
+      <td id="T_56100796_row2_col6" class="data row2 col6" >2</td>
+      <td id="T_56100796_row2_col7" class="data row2 col7" >1</td>
+      <td id="T_56100796_row2_col8" class="data row2 col8" >32</td>
+      <td id="T_56100796_row2_col9" class="data row2 col9" >32</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_56100796_row3_col1" class="data row3 col1" >Vovan</td>
+      <td id="T_56100796_row3_col2" class="data row3 col2" >18</td>
+      <td id="T_56100796_row3_col3" class="data row3 col3" >10</td>
+      <td id="T_56100796_row3_col4" class="data row3 col4" >2</td>
+      <td id="T_56100796_row3_col5" class="data row3 col5" >4</td>
+      <td id="T_56100796_row3_col6" class="data row3 col6" >2</td>
+      <td id="T_56100796_row3_col7" class="data row3 col7" >1</td>
+      <td id="T_56100796_row3_col8" class="data row3 col8" >34</td>
+      <td id="T_56100796_row3_col9" class="data row3 col9" >34</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_56100796_row4_col1" class="data row4 col1" >ZP Legion</td>
+      <td id="T_56100796_row4_col2" class="data row4 col2" >16</td>
+      <td id="T_56100796_row4_col3" class="data row4 col3" >8</td>
+      <td id="T_56100796_row4_col4" class="data row4 col4" >7</td>
+      <td id="T_56100796_row4_col5" class="data row4 col5" >3</td>
+      <td id="T_56100796_row4_col6" class="data row4 col6" >2</td>
+      <td id="T_56100796_row4_col7" class="data row4 col7" >1</td>
+      <td id="T_56100796_row4_col8" class="data row4 col8" >34</td>
+      <td id="T_56100796_row4_col9" class="data row4 col9" >34</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_56100796_row5_col1" class="data row5 col1" >Powerful Welder</td>
+      <td id="T_56100796_row5_col2" class="data row5 col2" >8</td>
+      <td id="T_56100796_row5_col3" class="data row5 col3" >5</td>
+      <td id="T_56100796_row5_col4" class="data row5 col4" >13</td>
+      <td id="T_56100796_row5_col5" class="data row5 col5" >9</td>
+      <td id="T_56100796_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_56100796_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_56100796_row5_col8" class="data row5 col8" >35</td>
+      <td id="T_56100796_row5_col9" class="data row5 col9" >35</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_56100796_row6_col1" class="data row6 col1" >Люберецкие Овощи</td>
+      <td id="T_56100796_row6_col2" class="data row6 col2" >6</td>
+      <td id="T_56100796_row6_col3" class="data row6 col3" >7</td>
+      <td id="T_56100796_row6_col4" class="data row6 col4" >18</td>
+      <td id="T_56100796_row6_col5" class="data row6 col5" >5</td>
+      <td id="T_56100796_row6_col6" class="data row6 col6" >3</td>
+      <td id="T_56100796_row6_col7" class="data row6 col7" >1</td>
+      <td id="T_56100796_row6_col8" class="data row6 col8" >36</td>
+      <td id="T_56100796_row6_col9" class="data row6 col9" >36</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_56100796_row7_col1" class="data row7 col1" >Uralmash Smelters</td>
+      <td id="T_56100796_row7_col2" class="data row7 col2" >14</td>
+      <td id="T_56100796_row7_col3" class="data row7 col3" >4</td>
+      <td id="T_56100796_row7_col4" class="data row7 col4" >9</td>
+      <td id="T_56100796_row7_col5" class="data row7 col5" >11</td>
+      <td id="T_56100796_row7_col6" class="data row7 col6" >1</td>
+      <td id="T_56100796_row7_col7" class="data row7 col7" >1</td>
+      <td id="T_56100796_row7_col8" class="data row7 col8" >38</td>
+      <td id="T_56100796_row7_col9" class="data row7 col9" >38</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_56100796_row8_col1" class="data row8 col1" >Penza</td>
+      <td id="T_56100796_row8_col2" class="data row8 col2" >13</td>
+      <td id="T_56100796_row8_col3" class="data row8 col3" >12</td>
+      <td id="T_56100796_row8_col4" class="data row8 col4" >4</td>
+      <td id="T_56100796_row8_col5" class="data row8 col5" >10</td>
+      <td id="T_56100796_row8_col6" class="data row8 col6" >1</td>
+      <td id="T_56100796_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_56100796_row8_col8" class="data row8 col8" >39</td>
+      <td id="T_56100796_row8_col9" class="data row8 col9" >39</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_56100796_row9_col1" class="data row9 col1" >YoshkarOla Woodmans</td>
+      <td id="T_56100796_row9_col2" class="data row9 col2" >10</td>
+      <td id="T_56100796_row9_col3" class="data row9 col3" >16</td>
+      <td id="T_56100796_row9_col4" class="data row9 col4" >10</td>
+      <td id="T_56100796_row9_col5" class="data row9 col5" >7</td>
+      <td id="T_56100796_row9_col6" class="data row9 col6" >1</td>
+      <td id="T_56100796_row9_col7" class="data row9 col7" >1</td>
+      <td id="T_56100796_row9_col8" class="data row9 col8" >43</td>
+      <td id="T_56100796_row9_col9" class="data row9 col9" >43</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_56100796_row10_col1" class="data row10 col1" >St.Patrick's day</td>
+      <td id="T_56100796_row10_col2" class="data row10 col2" >2</td>
+      <td id="T_56100796_row10_col3" class="data row10 col3" >15</td>
+      <td id="T_56100796_row10_col4" class="data row10 col4" >15</td>
+      <td id="T_56100796_row10_col5" class="data row10 col5" >13</td>
+      <td id="T_56100796_row10_col6" class="data row10 col6" >1</td>
+      <td id="T_56100796_row10_col7" class="data row10 col7" >2</td>
+      <td id="T_56100796_row10_col8" class="data row10 col8" >45</td>
+      <td id="T_56100796_row10_col9" class="data row10 col9" >45</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_56100796_row11_col1" class="data row11 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_56100796_row11_col2" class="data row11 col2" >4</td>
+      <td id="T_56100796_row11_col3" class="data row11 col3" >20</td>
+      <td id="T_56100796_row11_col4" class="data row11 col4" >6</td>
+      <td id="T_56100796_row11_col5" class="data row11 col5" >17</td>
+      <td id="T_56100796_row11_col6" class="data row11 col6" >2</td>
+      <td id="T_56100796_row11_col7" class="data row11 col7" >2</td>
+      <td id="T_56100796_row11_col8" class="data row11 col8" >47</td>
+      <td id="T_56100796_row11_col9" class="data row11 col9" >47</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_56100796_row12_col1" class="data row12 col1" >Seaport Bruins</td>
+      <td id="T_56100796_row12_col2" class="data row12 col2" >9</td>
+      <td id="T_56100796_row12_col3" class="data row12 col3" >11</td>
+      <td id="T_56100796_row12_col4" class="data row12 col4" >8</td>
+      <td id="T_56100796_row12_col5" class="data row12 col5" >19</td>
+      <td id="T_56100796_row12_col6" class="data row12 col6" >0</td>
+      <td id="T_56100796_row12_col7" class="data row12 col7" >1</td>
+      <td id="T_56100796_row12_col8" class="data row12 col8" >47</td>
+      <td id="T_56100796_row12_col9" class="data row12 col9" >47</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_56100796_row13_col1" class="data row13 col1" >Vodnik 2</td>
+      <td id="T_56100796_row13_col2" class="data row13 col2" >20</td>
+      <td id="T_56100796_row13_col3" class="data row13 col3" >6</td>
+      <td id="T_56100796_row13_col4" class="data row13 col4" >20</td>
+      <td id="T_56100796_row13_col5" class="data row13 col5" >2</td>
+      <td id="T_56100796_row13_col6" class="data row13 col6" >2</td>
+      <td id="T_56100796_row13_col7" class="data row13 col7" >2</td>
+      <td id="T_56100796_row13_col8" class="data row13 col8" >48</td>
+      <td id="T_56100796_row13_col9" class="data row13 col9" >48</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_56100796_row14_col1" class="data row14 col1" >Vityaz Podolsk</td>
+      <td id="T_56100796_row14_col2" class="data row14 col2" >11</td>
+      <td id="T_56100796_row14_col3" class="data row14 col3" >2</td>
+      <td id="T_56100796_row14_col4" class="data row14 col4" >19</td>
+      <td id="T_56100796_row14_col5" class="data row14 col5" >16</td>
+      <td id="T_56100796_row14_col6" class="data row14 col6" >1</td>
+      <td id="T_56100796_row14_col7" class="data row14 col7" >2</td>
+      <td id="T_56100796_row14_col8" class="data row14 col8" >48</td>
+      <td id="T_56100796_row14_col9" class="data row14 col9" >48</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_56100796_row15_col1" class="data row15 col1" >Mr clutch</td>
+      <td id="T_56100796_row15_col2" class="data row15 col2" >12</td>
+      <td id="T_56100796_row15_col3" class="data row15 col3" >14</td>
+      <td id="T_56100796_row15_col4" class="data row15 col4" >14</td>
+      <td id="T_56100796_row15_col5" class="data row15 col5" >8</td>
+      <td id="T_56100796_row15_col6" class="data row15 col6" >0</td>
+      <td id="T_56100796_row15_col7" class="data row15 col7" >2</td>
+      <td id="T_56100796_row15_col8" class="data row15 col8" >48</td>
+      <td id="T_56100796_row15_col9" class="data row15 col9" >48</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_56100796_row16_col1" class="data row16 col1" >Dida</td>
+      <td id="T_56100796_row16_col2" class="data row16 col2" >17</td>
+      <td id="T_56100796_row16_col3" class="data row16 col3" >17</td>
+      <td id="T_56100796_row16_col4" class="data row16 col4" >3</td>
+      <td id="T_56100796_row16_col5" class="data row16 col5" >12</td>
+      <td id="T_56100796_row16_col6" class="data row16 col6" >1</td>
+      <td id="T_56100796_row16_col7" class="data row16 col7" >2</td>
+      <td id="T_56100796_row16_col8" class="data row16 col8" >49</td>
+      <td id="T_56100796_row16_col9" class="data row16 col9" >49</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_56100796_row17_col1" class="data row17 col1" >Force of Nature</td>
+      <td id="T_56100796_row17_col2" class="data row17 col2" >19</td>
+      <td id="T_56100796_row17_col3" class="data row17 col3" >9</td>
+      <td id="T_56100796_row17_col4" class="data row17 col4" >1</td>
+      <td id="T_56100796_row17_col5" class="data row17 col5" >20</td>
+      <td id="T_56100796_row17_col6" class="data row17 col6" >1</td>
+      <td id="T_56100796_row17_col7" class="data row17 col7" >2</td>
+      <td id="T_56100796_row17_col8" class="data row17 col8" >49</td>
+      <td id="T_56100796_row17_col9" class="data row17 col9" >49</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_56100796_row18_col1" class="data row18 col1" >Spartak Podolsk</td>
+      <td id="T_56100796_row18_col2" class="data row18 col2" >3</td>
+      <td id="T_56100796_row18_col3" class="data row18 col3" >19</td>
+      <td id="T_56100796_row18_col4" class="data row18 col4" >17</td>
+      <td id="T_56100796_row18_col5" class="data row18 col5" >14</td>
+      <td id="T_56100796_row18_col6" class="data row18 col6" >1</td>
+      <td id="T_56100796_row18_col7" class="data row18 col7" >3</td>
+      <td id="T_56100796_row18_col8" class="data row18 col8" >53</td>
+      <td id="T_56100796_row18_col9" class="data row18 col9" >53</td>
+    </tr>
+    <tr>
+      <td id="T_56100796_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_56100796_row19_col1" class="data row19 col1" >Moscow Penguins</td>
+      <td id="T_56100796_row19_col2" class="data row19 col2" >15</td>
+      <td id="T_56100796_row19_col3" class="data row19 col3" >18</td>
+      <td id="T_56100796_row19_col4" class="data row19 col4" >16</td>
+      <td id="T_56100796_row19_col5" class="data row19 col5" >18</td>
+      <td id="T_56100796_row19_col6" class="data row19 col6" >0</td>
+      <td id="T_56100796_row19_col7" class="data row19 col7" >4</td>
+      <td id="T_56100796_row19_col8" class="data row19 col8" >67</td>
+      <td id="T_56100796_row19_col9" class="data row19 col9" >67</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Pairwise comparisons h2h</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица статистики личных встреч в лиге. У каждого игрока на самом деле один соперник в матчапе, но ничего не мешает сравнить результаты каждого игрока с каждый в конкретный матчап. У каждого игрока с каждым формируется гипотетическая статистика личных встреч. В столбце номер соответствуют команде, которая в данной таблице занимает место под этим номером.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_efd6363d_row0_col25, #T_efd6363d_row1_col25, #T_efd6363d_row2_col25, #T_efd6363d_row3_col25, #T_efd6363d_row4_col25, #T_efd6363d_row5_col25 {
+  color: green;
+}
+#T_efd6363d_row6_col25, #T_efd6363d_row7_col25, #T_efd6363d_row8_col25, #T_efd6363d_row9_col25, #T_efd6363d_row10_col25, #T_efd6363d_row11_col25, #T_efd6363d_row12_col25, #T_efd6363d_row13_col25 {
+  color: black;
+}
+#T_efd6363d_row14_col25, #T_efd6363d_row15_col25, #T_efd6363d_row16_col25, #T_efd6363d_row17_col25, #T_efd6363d_row18_col25, #T_efd6363d_row19_col25 {
+  color: red;
+}
+</style>
+<table id="T_efd6363d" ; align="center"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_efd6363d_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_efd6363d_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_efd6363d_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_efd6363d_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_efd6363d_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_efd6363d_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_efd6363d_level0_col6" class="col_heading level0 col6" >5</th>
+      <th id="T_efd6363d_level0_col7" class="col_heading level0 col7" >6</th>
+      <th id="T_efd6363d_level0_col8" class="col_heading level0 col8" >7</th>
+      <th id="T_efd6363d_level0_col9" class="col_heading level0 col9" >8</th>
+      <th id="T_efd6363d_level0_col10" class="col_heading level0 col10" >9</th>
+      <th id="T_efd6363d_level0_col11" class="col_heading level0 col11" >10</th>
+      <th id="T_efd6363d_level0_col12" class="col_heading level0 col12" >11</th>
+      <th id="T_efd6363d_level0_col13" class="col_heading level0 col13" >12</th>
+      <th id="T_efd6363d_level0_col14" class="col_heading level0 col14" >13</th>
+      <th id="T_efd6363d_level0_col15" class="col_heading level0 col15" >14</th>
+      <th id="T_efd6363d_level0_col16" class="col_heading level0 col16" >15</th>
+      <th id="T_efd6363d_level0_col17" class="col_heading level0 col17" >16</th>
+      <th id="T_efd6363d_level0_col18" class="col_heading level0 col18" >17</th>
+      <th id="T_efd6363d_level0_col19" class="col_heading level0 col19" >18</th>
+      <th id="T_efd6363d_level0_col20" class="col_heading level0 col20" >19</th>
+      <th id="T_efd6363d_level0_col21" class="col_heading level0 col21" >20</th>
+      <th id="T_efd6363d_level0_col22" class="col_heading level0 col22" >W  </th>
+      <th id="T_efd6363d_level0_col23" class="col_heading level0 col23" >L</th>
+      <th id="T_efd6363d_level0_col24" class="col_heading level0 col24" >D</th>
+      <th id="T_efd6363d_level0_col25" class="col_heading level0 col25" >%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_efd6363d_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_efd6363d_row0_col1" class="data row0 col1" >Vovan</td>
+      <td id="T_efd6363d_row0_col2" class="data row0 col2" ></td>
+      <td id="T_efd6363d_row0_col3" class="data row0 col3" >2-2-0</td>
+      <td id="T_efd6363d_row0_col4" class="data row0 col4" >2-2-0</td>
+      <td id="T_efd6363d_row0_col5" class="data row0 col5" >3-1-0</td>
+      <td id="T_efd6363d_row0_col6" class="data row0 col6" >4-0-0</td>
+      <td id="T_efd6363d_row0_col7" class="data row0 col7" >2-2-0</td>
+      <td id="T_efd6363d_row0_col8" class="data row0 col8" >4-0-0</td>
+      <td id="T_efd6363d_row0_col9" class="data row0 col9" >4-0-0</td>
+      <td id="T_efd6363d_row0_col10" class="data row0 col10" >3-1-0</td>
+      <td id="T_efd6363d_row0_col11" class="data row0 col11" >4-0-0</td>
+      <td id="T_efd6363d_row0_col12" class="data row0 col12" >4-0-0</td>
+      <td id="T_efd6363d_row0_col13" class="data row0 col13" >3-1-0</td>
+      <td id="T_efd6363d_row0_col14" class="data row0 col14" >4-0-0</td>
+      <td id="T_efd6363d_row0_col15" class="data row0 col15" >4-0-0</td>
+      <td id="T_efd6363d_row0_col16" class="data row0 col16" >4-0-0</td>
+      <td id="T_efd6363d_row0_col17" class="data row0 col17" >4-0-0</td>
+      <td id="T_efd6363d_row0_col18" class="data row0 col18" >4-0-0</td>
+      <td id="T_efd6363d_row0_col19" class="data row0 col19" >4-0-0</td>
+      <td id="T_efd6363d_row0_col20" class="data row0 col20" >4-0-0</td>
+      <td id="T_efd6363d_row0_col21" class="data row0 col21" >4-0-0</td>
+      <td id="T_efd6363d_row0_col22" class="data row0 col22" >67</td>
+      <td id="T_efd6363d_row0_col23" class="data row0 col23" >9</td>
+      <td id="T_efd6363d_row0_col24" class="data row0 col24" >0</td>
+      <td id="T_efd6363d_row0_col25" class="data row0 col25" >0.88</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_efd6363d_row1_col1" class="data row1 col1" >Fenomeno</td>
+      <td id="T_efd6363d_row1_col2" class="data row1 col2" >2-2-0</td>
+      <td id="T_efd6363d_row1_col3" class="data row1 col3" ></td>
+      <td id="T_efd6363d_row1_col4" class="data row1 col4" >3-1-0</td>
+      <td id="T_efd6363d_row1_col5" class="data row1 col5" >3-1-0</td>
+      <td id="T_efd6363d_row1_col6" class="data row1 col6" >3-1-0</td>
+      <td id="T_efd6363d_row1_col7" class="data row1 col7" >2-2-0</td>
+      <td id="T_efd6363d_row1_col8" class="data row1 col8" >3-1-0</td>
+      <td id="T_efd6363d_row1_col9" class="data row1 col9" >3-1-0</td>
+      <td id="T_efd6363d_row1_col10" class="data row1 col10" >4-0-0</td>
+      <td id="T_efd6363d_row1_col11" class="data row1 col11" >3-1-0</td>
+      <td id="T_efd6363d_row1_col12" class="data row1 col12" >4-0-0</td>
+      <td id="T_efd6363d_row1_col13" class="data row1 col13" >3-1-0</td>
+      <td id="T_efd6363d_row1_col14" class="data row1 col14" >4-0-0</td>
+      <td id="T_efd6363d_row1_col15" class="data row1 col15" >4-0-0</td>
+      <td id="T_efd6363d_row1_col16" class="data row1 col16" >4-0-0</td>
+      <td id="T_efd6363d_row1_col17" class="data row1 col17" >4-0-0</td>
+      <td id="T_efd6363d_row1_col18" class="data row1 col18" >4-0-0</td>
+      <td id="T_efd6363d_row1_col19" class="data row1 col19" >4-0-0</td>
+      <td id="T_efd6363d_row1_col20" class="data row1 col20" >4-0-0</td>
+      <td id="T_efd6363d_row1_col21" class="data row1 col21" >4-0-0</td>
+      <td id="T_efd6363d_row1_col22" class="data row1 col22" >65</td>
+      <td id="T_efd6363d_row1_col23" class="data row1 col23" >11</td>
+      <td id="T_efd6363d_row1_col24" class="data row1 col24" >0</td>
+      <td id="T_efd6363d_row1_col25" class="data row1 col25" >0.86</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_efd6363d_row2_col1" class="data row2 col1" >Seaport Bruins</td>
+      <td id="T_efd6363d_row2_col2" class="data row2 col2" >2-2-0</td>
+      <td id="T_efd6363d_row2_col3" class="data row2 col3" >1-3-0</td>
+      <td id="T_efd6363d_row2_col4" class="data row2 col4" ></td>
+      <td id="T_efd6363d_row2_col5" class="data row2 col5" >2-2-0</td>
+      <td id="T_efd6363d_row2_col6" class="data row2 col6" >2-2-0</td>
+      <td id="T_efd6363d_row2_col7" class="data row2 col7" >2-2-0</td>
+      <td id="T_efd6363d_row2_col8" class="data row2 col8" >3-1-0</td>
+      <td id="T_efd6363d_row2_col9" class="data row2 col9" >3-1-0</td>
+      <td id="T_efd6363d_row2_col10" class="data row2 col10" >3-1-0</td>
+      <td id="T_efd6363d_row2_col11" class="data row2 col11" >3-1-0</td>
+      <td id="T_efd6363d_row2_col12" class="data row2 col12" >4-0-0</td>
+      <td id="T_efd6363d_row2_col13" class="data row2 col13" >3-1-0</td>
+      <td id="T_efd6363d_row2_col14" class="data row2 col14" >4-0-0</td>
+      <td id="T_efd6363d_row2_col15" class="data row2 col15" >4-0-0</td>
+      <td id="T_efd6363d_row2_col16" class="data row2 col16" >4-0-0</td>
+      <td id="T_efd6363d_row2_col17" class="data row2 col17" >4-0-0</td>
+      <td id="T_efd6363d_row2_col18" class="data row2 col18" >4-0-0</td>
+      <td id="T_efd6363d_row2_col19" class="data row2 col19" >4-0-0</td>
+      <td id="T_efd6363d_row2_col20" class="data row2 col20" >4-0-0</td>
+      <td id="T_efd6363d_row2_col21" class="data row2 col21" >4-0-0</td>
+      <td id="T_efd6363d_row2_col22" class="data row2 col22" >60</td>
+      <td id="T_efd6363d_row2_col23" class="data row2 col23" >16</td>
+      <td id="T_efd6363d_row2_col24" class="data row2 col24" >0</td>
+      <td id="T_efd6363d_row2_col25" class="data row2 col25" >0.79</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_efd6363d_row3_col1" class="data row3 col1" >Moscow Penguins</td>
+      <td id="T_efd6363d_row3_col2" class="data row3 col2" >1-3-0</td>
+      <td id="T_efd6363d_row3_col3" class="data row3 col3" >1-3-0</td>
+      <td id="T_efd6363d_row3_col4" class="data row3 col4" >2-2-0</td>
+      <td id="T_efd6363d_row3_col5" class="data row3 col5" ></td>
+      <td id="T_efd6363d_row3_col6" class="data row3 col6" >2-2-0</td>
+      <td id="T_efd6363d_row3_col7" class="data row3 col7" >2-2-0</td>
+      <td id="T_efd6363d_row3_col8" class="data row3 col8" >3-1-0</td>
+      <td id="T_efd6363d_row3_col9" class="data row3 col9" >2-2-0</td>
+      <td id="T_efd6363d_row3_col10" class="data row3 col10" >3-1-0</td>
+      <td id="T_efd6363d_row3_col11" class="data row3 col11" >3-1-0</td>
+      <td id="T_efd6363d_row3_col12" class="data row3 col12" >4-0-0</td>
+      <td id="T_efd6363d_row3_col13" class="data row3 col13" >3-1-0</td>
+      <td id="T_efd6363d_row3_col14" class="data row3 col14" >4-0-0</td>
+      <td id="T_efd6363d_row3_col15" class="data row3 col15" >4-0-0</td>
+      <td id="T_efd6363d_row3_col16" class="data row3 col16" >3-1-0</td>
+      <td id="T_efd6363d_row3_col17" class="data row3 col17" >4-0-0</td>
+      <td id="T_efd6363d_row3_col18" class="data row3 col18" >4-0-0</td>
+      <td id="T_efd6363d_row3_col19" class="data row3 col19" >4-0-0</td>
+      <td id="T_efd6363d_row3_col20" class="data row3 col20" >4-0-0</td>
+      <td id="T_efd6363d_row3_col21" class="data row3 col21" >4-0-0</td>
+      <td id="T_efd6363d_row3_col22" class="data row3 col22" >57</td>
+      <td id="T_efd6363d_row3_col23" class="data row3 col23" >19</td>
+      <td id="T_efd6363d_row3_col24" class="data row3 col24" >0</td>
+      <td id="T_efd6363d_row3_col25" class="data row3 col25" >0.75</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_efd6363d_row4_col1" class="data row4 col1" >ZP Legion</td>
+      <td id="T_efd6363d_row4_col2" class="data row4 col2" >0-4-0</td>
+      <td id="T_efd6363d_row4_col3" class="data row4 col3" >1-3-0</td>
+      <td id="T_efd6363d_row4_col4" class="data row4 col4" >2-2-0</td>
+      <td id="T_efd6363d_row4_col5" class="data row4 col5" >2-2-0</td>
+      <td id="T_efd6363d_row4_col6" class="data row4 col6" ></td>
+      <td id="T_efd6363d_row4_col7" class="data row4 col7" >2-2-0</td>
+      <td id="T_efd6363d_row4_col8" class="data row4 col8" >3-1-0</td>
+      <td id="T_efd6363d_row4_col9" class="data row4 col9" >4-0-0</td>
+      <td id="T_efd6363d_row4_col10" class="data row4 col10" >2-2-0</td>
+      <td id="T_efd6363d_row4_col11" class="data row4 col11" >4-0-0</td>
+      <td id="T_efd6363d_row4_col12" class="data row4 col12" >3-1-0</td>
+      <td id="T_efd6363d_row4_col13" class="data row4 col13" >3-1-0</td>
+      <td id="T_efd6363d_row4_col14" class="data row4 col14" >3-1-0</td>
+      <td id="T_efd6363d_row4_col15" class="data row4 col15" >4-0-0</td>
+      <td id="T_efd6363d_row4_col16" class="data row4 col16" >4-0-0</td>
+      <td id="T_efd6363d_row4_col17" class="data row4 col17" >3-1-0</td>
+      <td id="T_efd6363d_row4_col18" class="data row4 col18" >4-0-0</td>
+      <td id="T_efd6363d_row4_col19" class="data row4 col19" >4-0-0</td>
+      <td id="T_efd6363d_row4_col20" class="data row4 col20" >4-0-0</td>
+      <td id="T_efd6363d_row4_col21" class="data row4 col21" >4-0-0</td>
+      <td id="T_efd6363d_row4_col22" class="data row4 col22" >56</td>
+      <td id="T_efd6363d_row4_col23" class="data row4 col23" >20</td>
+      <td id="T_efd6363d_row4_col24" class="data row4 col24" >0</td>
+      <td id="T_efd6363d_row4_col25" class="data row4 col25" >0.74</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_efd6363d_row5_col1" class="data row5 col1" >Mr clutch</td>
+      <td id="T_efd6363d_row5_col2" class="data row5 col2" >2-2-0</td>
+      <td id="T_efd6363d_row5_col3" class="data row5 col3" >2-2-0</td>
+      <td id="T_efd6363d_row5_col4" class="data row5 col4" >2-2-0</td>
+      <td id="T_efd6363d_row5_col5" class="data row5 col5" >2-2-0</td>
+      <td id="T_efd6363d_row5_col6" class="data row5 col6" >2-2-0</td>
+      <td id="T_efd6363d_row5_col7" class="data row5 col7" ></td>
+      <td id="T_efd6363d_row5_col8" class="data row5 col8" >3-1-0</td>
+      <td id="T_efd6363d_row5_col9" class="data row5 col9" >2-2-0</td>
+      <td id="T_efd6363d_row5_col10" class="data row5 col10" >3-1-0</td>
+      <td id="T_efd6363d_row5_col11" class="data row5 col11" >2-2-0</td>
+      <td id="T_efd6363d_row5_col12" class="data row5 col12" >4-0-0</td>
+      <td id="T_efd6363d_row5_col13" class="data row5 col13" >3-1-0</td>
+      <td id="T_efd6363d_row5_col14" class="data row5 col14" >3-1-0</td>
+      <td id="T_efd6363d_row5_col15" class="data row5 col15" >3-1-0</td>
+      <td id="T_efd6363d_row5_col16" class="data row5 col16" >3-1-0</td>
+      <td id="T_efd6363d_row5_col17" class="data row5 col17" >3-1-0</td>
+      <td id="T_efd6363d_row5_col18" class="data row5 col18" >4-0-0</td>
+      <td id="T_efd6363d_row5_col19" class="data row5 col19" >3-1-0</td>
+      <td id="T_efd6363d_row5_col20" class="data row5 col20" >3-1-0</td>
+      <td id="T_efd6363d_row5_col21" class="data row5 col21" >4-0-0</td>
+      <td id="T_efd6363d_row5_col22" class="data row5 col22" >53</td>
+      <td id="T_efd6363d_row5_col23" class="data row5 col23" >23</td>
+      <td id="T_efd6363d_row5_col24" class="data row5 col24" >0</td>
+      <td id="T_efd6363d_row5_col25" class="data row5 col25" >0.7</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_efd6363d_row6_col1" class="data row6 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_efd6363d_row6_col2" class="data row6 col2" >0-4-0</td>
+      <td id="T_efd6363d_row6_col3" class="data row6 col3" >1-3-0</td>
+      <td id="T_efd6363d_row6_col4" class="data row6 col4" >1-3-0</td>
+      <td id="T_efd6363d_row6_col5" class="data row6 col5" >1-3-0</td>
+      <td id="T_efd6363d_row6_col6" class="data row6 col6" >1-3-0</td>
+      <td id="T_efd6363d_row6_col7" class="data row6 col7" >1-3-0</td>
+      <td id="T_efd6363d_row6_col8" class="data row6 col8" ></td>
+      <td id="T_efd6363d_row6_col9" class="data row6 col9" >3-1-0</td>
+      <td id="T_efd6363d_row6_col10" class="data row6 col10" >3-1-0</td>
+      <td id="T_efd6363d_row6_col11" class="data row6 col11" >3-1-0</td>
+      <td id="T_efd6363d_row6_col12" class="data row6 col12" >2-2-0</td>
+      <td id="T_efd6363d_row6_col13" class="data row6 col13" >2-2-0</td>
+      <td id="T_efd6363d_row6_col14" class="data row6 col14" >3-1-0</td>
+      <td id="T_efd6363d_row6_col15" class="data row6 col15" >3-1-0</td>
+      <td id="T_efd6363d_row6_col16" class="data row6 col16" >3-1-0</td>
+      <td id="T_efd6363d_row6_col17" class="data row6 col17" >4-0-0</td>
+      <td id="T_efd6363d_row6_col18" class="data row6 col18" >4-0-0</td>
+      <td id="T_efd6363d_row6_col19" class="data row6 col19" >4-0-0</td>
+      <td id="T_efd6363d_row6_col20" class="data row6 col20" >4-0-0</td>
+      <td id="T_efd6363d_row6_col21" class="data row6 col21" >4-0-0</td>
+      <td id="T_efd6363d_row6_col22" class="data row6 col22" >47</td>
+      <td id="T_efd6363d_row6_col23" class="data row6 col23" >29</td>
+      <td id="T_efd6363d_row6_col24" class="data row6 col24" >0</td>
+      <td id="T_efd6363d_row6_col25" class="data row6 col25" >0.62</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_efd6363d_row7_col1" class="data row7 col1" >Penza</td>
+      <td id="T_efd6363d_row7_col2" class="data row7 col2" >0-4-0</td>
+      <td id="T_efd6363d_row7_col3" class="data row7 col3" >1-3-0</td>
+      <td id="T_efd6363d_row7_col4" class="data row7 col4" >1-3-0</td>
+      <td id="T_efd6363d_row7_col5" class="data row7 col5" >2-2-0</td>
+      <td id="T_efd6363d_row7_col6" class="data row7 col6" >0-4-0</td>
+      <td id="T_efd6363d_row7_col7" class="data row7 col7" >2-2-0</td>
+      <td id="T_efd6363d_row7_col8" class="data row7 col8" >1-3-0</td>
+      <td id="T_efd6363d_row7_col9" class="data row7 col9" ></td>
+      <td id="T_efd6363d_row7_col10" class="data row7 col10" >2-2-0</td>
+      <td id="T_efd6363d_row7_col11" class="data row7 col11" >2-2-0</td>
+      <td id="T_efd6363d_row7_col12" class="data row7 col12" >3-1-0</td>
+      <td id="T_efd6363d_row7_col13" class="data row7 col13" >2-2-0</td>
+      <td id="T_efd6363d_row7_col14" class="data row7 col14" >3-1-0</td>
+      <td id="T_efd6363d_row7_col15" class="data row7 col15" >3-1-0</td>
+      <td id="T_efd6363d_row7_col16" class="data row7 col16" >2-2-0</td>
+      <td id="T_efd6363d_row7_col17" class="data row7 col17" >3-1-0</td>
+      <td id="T_efd6363d_row7_col18" class="data row7 col18" >3-1-0</td>
+      <td id="T_efd6363d_row7_col19" class="data row7 col19" >4-0-0</td>
+      <td id="T_efd6363d_row7_col20" class="data row7 col20" >4-0-0</td>
+      <td id="T_efd6363d_row7_col21" class="data row7 col21" >4-0-0</td>
+      <td id="T_efd6363d_row7_col22" class="data row7 col22" >42</td>
+      <td id="T_efd6363d_row7_col23" class="data row7 col23" >34</td>
+      <td id="T_efd6363d_row7_col24" class="data row7 col24" >0</td>
+      <td id="T_efd6363d_row7_col25" class="data row7 col25" >0.55</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_efd6363d_row8_col1" class="data row8 col1" >Uralmash Smelters</td>
+      <td id="T_efd6363d_row8_col2" class="data row8 col2" >1-3-0</td>
+      <td id="T_efd6363d_row8_col3" class="data row8 col3" >0-4-0</td>
+      <td id="T_efd6363d_row8_col4" class="data row8 col4" >1-3-0</td>
+      <td id="T_efd6363d_row8_col5" class="data row8 col5" >1-3-0</td>
+      <td id="T_efd6363d_row8_col6" class="data row8 col6" >2-2-0</td>
+      <td id="T_efd6363d_row8_col7" class="data row8 col7" >1-3-0</td>
+      <td id="T_efd6363d_row8_col8" class="data row8 col8" >1-3-0</td>
+      <td id="T_efd6363d_row8_col9" class="data row8 col9" >2-2-0</td>
+      <td id="T_efd6363d_row8_col10" class="data row8 col10" ></td>
+      <td id="T_efd6363d_row8_col11" class="data row8 col11" >3-1-0</td>
+      <td id="T_efd6363d_row8_col12" class="data row8 col12" >1-3-0</td>
+      <td id="T_efd6363d_row8_col13" class="data row8 col13" >3-1-0</td>
+      <td id="T_efd6363d_row8_col14" class="data row8 col14" >2-2-0</td>
+      <td id="T_efd6363d_row8_col15" class="data row8 col15" >3-1-0</td>
+      <td id="T_efd6363d_row8_col16" class="data row8 col16" >3-1-0</td>
+      <td id="T_efd6363d_row8_col17" class="data row8 col17" >2-2-0</td>
+      <td id="T_efd6363d_row8_col18" class="data row8 col18" >2-2-0</td>
+      <td id="T_efd6363d_row8_col19" class="data row8 col19" >3-1-0</td>
+      <td id="T_efd6363d_row8_col20" class="data row8 col20" >3-1-0</td>
+      <td id="T_efd6363d_row8_col21" class="data row8 col21" >3-1-0</td>
+      <td id="T_efd6363d_row8_col22" class="data row8 col22" >37</td>
+      <td id="T_efd6363d_row8_col23" class="data row8 col23" >39</td>
+      <td id="T_efd6363d_row8_col24" class="data row8 col24" >0</td>
+      <td id="T_efd6363d_row8_col25" class="data row8 col25" >0.49</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_efd6363d_row9_col1" class="data row9 col1" >Dida</td>
+      <td id="T_efd6363d_row9_col2" class="data row9 col2" >0-4-0</td>
+      <td id="T_efd6363d_row9_col3" class="data row9 col3" >1-3-0</td>
+      <td id="T_efd6363d_row9_col4" class="data row9 col4" >1-3-0</td>
+      <td id="T_efd6363d_row9_col5" class="data row9 col5" >1-3-0</td>
+      <td id="T_efd6363d_row9_col6" class="data row9 col6" >0-4-0</td>
+      <td id="T_efd6363d_row9_col7" class="data row9 col7" >2-2-0</td>
+      <td id="T_efd6363d_row9_col8" class="data row9 col8" >1-3-0</td>
+      <td id="T_efd6363d_row9_col9" class="data row9 col9" >2-2-0</td>
+      <td id="T_efd6363d_row9_col10" class="data row9 col10" >1-3-0</td>
+      <td id="T_efd6363d_row9_col11" class="data row9 col11" ></td>
+      <td id="T_efd6363d_row9_col12" class="data row9 col12" >2-2-0</td>
+      <td id="T_efd6363d_row9_col13" class="data row9 col13" >3-1-0</td>
+      <td id="T_efd6363d_row9_col14" class="data row9 col14" >2-2-0</td>
+      <td id="T_efd6363d_row9_col15" class="data row9 col15" >3-1-0</td>
+      <td id="T_efd6363d_row9_col16" class="data row9 col16" >2-2-0</td>
+      <td id="T_efd6363d_row9_col17" class="data row9 col17" >3-1-0</td>
+      <td id="T_efd6363d_row9_col18" class="data row9 col18" >3-1-0</td>
+      <td id="T_efd6363d_row9_col19" class="data row9 col19" >3-1-0</td>
+      <td id="T_efd6363d_row9_col20" class="data row9 col20" >4-0-0</td>
+      <td id="T_efd6363d_row9_col21" class="data row9 col21" >3-1-0</td>
+      <td id="T_efd6363d_row9_col22" class="data row9 col22" >37</td>
+      <td id="T_efd6363d_row9_col23" class="data row9 col23" >39</td>
+      <td id="T_efd6363d_row9_col24" class="data row9 col24" >0</td>
+      <td id="T_efd6363d_row9_col25" class="data row9 col25" >0.49</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_efd6363d_row10_col1" class="data row10 col1" >Vodnik 2</td>
+      <td id="T_efd6363d_row10_col2" class="data row10 col2" >0-4-0</td>
+      <td id="T_efd6363d_row10_col3" class="data row10 col3" >0-4-0</td>
+      <td id="T_efd6363d_row10_col4" class="data row10 col4" >0-4-0</td>
+      <td id="T_efd6363d_row10_col5" class="data row10 col5" >0-4-0</td>
+      <td id="T_efd6363d_row10_col6" class="data row10 col6" >1-3-0</td>
+      <td id="T_efd6363d_row10_col7" class="data row10 col7" >0-4-0</td>
+      <td id="T_efd6363d_row10_col8" class="data row10 col8" >2-2-0</td>
+      <td id="T_efd6363d_row10_col9" class="data row10 col9" >1-3-0</td>
+      <td id="T_efd6363d_row10_col10" class="data row10 col10" >3-1-0</td>
+      <td id="T_efd6363d_row10_col11" class="data row10 col11" >2-2-0</td>
+      <td id="T_efd6363d_row10_col12" class="data row10 col12" ></td>
+      <td id="T_efd6363d_row10_col13" class="data row10 col13" >3-1-0</td>
+      <td id="T_efd6363d_row10_col14" class="data row10 col14" >3-1-0</td>
+      <td id="T_efd6363d_row10_col15" class="data row10 col15" >3-1-0</td>
+      <td id="T_efd6363d_row10_col16" class="data row10 col16" >3-1-0</td>
+      <td id="T_efd6363d_row10_col17" class="data row10 col17" >3-1-0</td>
+      <td id="T_efd6363d_row10_col18" class="data row10 col18" >2-2-0</td>
+      <td id="T_efd6363d_row10_col19" class="data row10 col19" >3-1-0</td>
+      <td id="T_efd6363d_row10_col20" class="data row10 col20" >3-1-0</td>
+      <td id="T_efd6363d_row10_col21" class="data row10 col21" >3-1-0</td>
+      <td id="T_efd6363d_row10_col22" class="data row10 col22" >35</td>
+      <td id="T_efd6363d_row10_col23" class="data row10 col23" >41</td>
+      <td id="T_efd6363d_row10_col24" class="data row10 col24" >0</td>
+      <td id="T_efd6363d_row10_col25" class="data row10 col25" >0.46</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_efd6363d_row11_col1" class="data row11 col1" >YoshkarOla Woodmans</td>
+      <td id="T_efd6363d_row11_col2" class="data row11 col2" >1-3-0</td>
+      <td id="T_efd6363d_row11_col3" class="data row11 col3" >1-3-0</td>
+      <td id="T_efd6363d_row11_col4" class="data row11 col4" >1-3-0</td>
+      <td id="T_efd6363d_row11_col5" class="data row11 col5" >1-3-0</td>
+      <td id="T_efd6363d_row11_col6" class="data row11 col6" >1-3-0</td>
+      <td id="T_efd6363d_row11_col7" class="data row11 col7" >1-3-0</td>
+      <td id="T_efd6363d_row11_col8" class="data row11 col8" >2-2-0</td>
+      <td id="T_efd6363d_row11_col9" class="data row11 col9" >2-2-0</td>
+      <td id="T_efd6363d_row11_col10" class="data row11 col10" >1-3-0</td>
+      <td id="T_efd6363d_row11_col11" class="data row11 col11" >1-3-0</td>
+      <td id="T_efd6363d_row11_col12" class="data row11 col12" >1-3-0</td>
+      <td id="T_efd6363d_row11_col13" class="data row11 col13" ></td>
+      <td id="T_efd6363d_row11_col14" class="data row11 col14" >2-2-0</td>
+      <td id="T_efd6363d_row11_col15" class="data row11 col15" >3-1-0</td>
+      <td id="T_efd6363d_row11_col16" class="data row11 col16" >1-3-0</td>
+      <td id="T_efd6363d_row11_col17" class="data row11 col17" >2-2-0</td>
+      <td id="T_efd6363d_row11_col18" class="data row11 col18" >3-1-0</td>
+      <td id="T_efd6363d_row11_col19" class="data row11 col19" >3-1-0</td>
+      <td id="T_efd6363d_row11_col20" class="data row11 col20" >3-1-0</td>
+      <td id="T_efd6363d_row11_col21" class="data row11 col21" >3-1-0</td>
+      <td id="T_efd6363d_row11_col22" class="data row11 col22" >33</td>
+      <td id="T_efd6363d_row11_col23" class="data row11 col23" >43</td>
+      <td id="T_efd6363d_row11_col24" class="data row11 col24" >0</td>
+      <td id="T_efd6363d_row11_col25" class="data row11 col25" >0.43</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_efd6363d_row12_col1" class="data row12 col1" >Force of Nature</td>
+      <td id="T_efd6363d_row12_col2" class="data row12 col2" >0-4-0</td>
+      <td id="T_efd6363d_row12_col3" class="data row12 col3" >0-4-0</td>
+      <td id="T_efd6363d_row12_col4" class="data row12 col4" >0-4-0</td>
+      <td id="T_efd6363d_row12_col5" class="data row12 col5" >0-4-0</td>
+      <td id="T_efd6363d_row12_col6" class="data row12 col6" >1-3-0</td>
+      <td id="T_efd6363d_row12_col7" class="data row12 col7" >1-3-0</td>
+      <td id="T_efd6363d_row12_col8" class="data row12 col8" >1-3-0</td>
+      <td id="T_efd6363d_row12_col9" class="data row12 col9" >1-3-0</td>
+      <td id="T_efd6363d_row12_col10" class="data row12 col10" >2-2-0</td>
+      <td id="T_efd6363d_row12_col11" class="data row12 col11" >2-2-0</td>
+      <td id="T_efd6363d_row12_col12" class="data row12 col12" >1-3-0</td>
+      <td id="T_efd6363d_row12_col13" class="data row12 col13" >2-2-0</td>
+      <td id="T_efd6363d_row12_col14" class="data row12 col14" ></td>
+      <td id="T_efd6363d_row12_col15" class="data row12 col15" >1-3-0</td>
+      <td id="T_efd6363d_row12_col16" class="data row12 col16" >3-1-0</td>
+      <td id="T_efd6363d_row12_col17" class="data row12 col17" >4-0-0</td>
+      <td id="T_efd6363d_row12_col18" class="data row12 col18" >3-1-0</td>
+      <td id="T_efd6363d_row12_col19" class="data row12 col19" >4-0-0</td>
+      <td id="T_efd6363d_row12_col20" class="data row12 col20" >4-0-0</td>
+      <td id="T_efd6363d_row12_col21" class="data row12 col21" >3-1-0</td>
+      <td id="T_efd6363d_row12_col22" class="data row12 col22" >33</td>
+      <td id="T_efd6363d_row12_col23" class="data row12 col23" >43</td>
+      <td id="T_efd6363d_row12_col24" class="data row12 col24" >0</td>
+      <td id="T_efd6363d_row12_col25" class="data row12 col25" >0.43</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_efd6363d_row13_col1" class="data row13 col1" >Vityaz Podolsk</td>
+      <td id="T_efd6363d_row13_col2" class="data row13 col2" >0-4-0</td>
+      <td id="T_efd6363d_row13_col3" class="data row13 col3" >0-4-0</td>
+      <td id="T_efd6363d_row13_col4" class="data row13 col4" >0-4-0</td>
+      <td id="T_efd6363d_row13_col5" class="data row13 col5" >0-4-0</td>
+      <td id="T_efd6363d_row13_col6" class="data row13 col6" >0-4-0</td>
+      <td id="T_efd6363d_row13_col7" class="data row13 col7" >1-3-0</td>
+      <td id="T_efd6363d_row13_col8" class="data row13 col8" >1-3-0</td>
+      <td id="T_efd6363d_row13_col9" class="data row13 col9" >1-3-0</td>
+      <td id="T_efd6363d_row13_col10" class="data row13 col10" >1-3-0</td>
+      <td id="T_efd6363d_row13_col11" class="data row13 col11" >1-3-0</td>
+      <td id="T_efd6363d_row13_col12" class="data row13 col12" >1-3-0</td>
+      <td id="T_efd6363d_row13_col13" class="data row13 col13" >1-3-0</td>
+      <td id="T_efd6363d_row13_col14" class="data row13 col14" >3-1-0</td>
+      <td id="T_efd6363d_row13_col15" class="data row13 col15" ></td>
+      <td id="T_efd6363d_row13_col16" class="data row13 col16" >2-2-0</td>
+      <td id="T_efd6363d_row13_col17" class="data row13 col17" >3-1-0</td>
+      <td id="T_efd6363d_row13_col18" class="data row13 col18" >2-2-0</td>
+      <td id="T_efd6363d_row13_col19" class="data row13 col19" >4-0-0</td>
+      <td id="T_efd6363d_row13_col20" class="data row13 col20" >4-0-0</td>
+      <td id="T_efd6363d_row13_col21" class="data row13 col21" >4-0-0</td>
+      <td id="T_efd6363d_row13_col22" class="data row13 col22" >29</td>
+      <td id="T_efd6363d_row13_col23" class="data row13 col23" >47</td>
+      <td id="T_efd6363d_row13_col24" class="data row13 col24" >0</td>
+      <td id="T_efd6363d_row13_col25" class="data row13 col25" >0.38</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_efd6363d_row14_col1" class="data row14 col1" >Team 20</td>
+      <td id="T_efd6363d_row14_col2" class="data row14 col2" >0-4-0</td>
+      <td id="T_efd6363d_row14_col3" class="data row14 col3" >0-4-0</td>
+      <td id="T_efd6363d_row14_col4" class="data row14 col4" >0-4-0</td>
+      <td id="T_efd6363d_row14_col5" class="data row14 col5" >1-3-0</td>
+      <td id="T_efd6363d_row14_col6" class="data row14 col6" >0-4-0</td>
+      <td id="T_efd6363d_row14_col7" class="data row14 col7" >1-3-0</td>
+      <td id="T_efd6363d_row14_col8" class="data row14 col8" >1-3-0</td>
+      <td id="T_efd6363d_row14_col9" class="data row14 col9" >2-2-0</td>
+      <td id="T_efd6363d_row14_col10" class="data row14 col10" >1-3-0</td>
+      <td id="T_efd6363d_row14_col11" class="data row14 col11" >2-2-0</td>
+      <td id="T_efd6363d_row14_col12" class="data row14 col12" >1-3-0</td>
+      <td id="T_efd6363d_row14_col13" class="data row14 col13" >3-1-0</td>
+      <td id="T_efd6363d_row14_col14" class="data row14 col14" >1-3-0</td>
+      <td id="T_efd6363d_row14_col15" class="data row14 col15" >2-2-0</td>
+      <td id="T_efd6363d_row14_col16" class="data row14 col16" ></td>
+      <td id="T_efd6363d_row14_col17" class="data row14 col17" >1-3-0</td>
+      <td id="T_efd6363d_row14_col18" class="data row14 col18" >2-2-0</td>
+      <td id="T_efd6363d_row14_col19" class="data row14 col19" >2-2-0</td>
+      <td id="T_efd6363d_row14_col20" class="data row14 col20" >2-2-0</td>
+      <td id="T_efd6363d_row14_col21" class="data row14 col21" >2-2-0</td>
+      <td id="T_efd6363d_row14_col22" class="data row14 col22" >24</td>
+      <td id="T_efd6363d_row14_col23" class="data row14 col23" >52</td>
+      <td id="T_efd6363d_row14_col24" class="data row14 col24" >0</td>
+      <td id="T_efd6363d_row14_col25" class="data row14 col25" >0.32</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_efd6363d_row15_col1" class="data row15 col1" >St.Patrick's day</td>
+      <td id="T_efd6363d_row15_col2" class="data row15 col2" >0-4-0</td>
+      <td id="T_efd6363d_row15_col3" class="data row15 col3" >0-4-0</td>
+      <td id="T_efd6363d_row15_col4" class="data row15 col4" >0-4-0</td>
+      <td id="T_efd6363d_row15_col5" class="data row15 col5" >0-4-0</td>
+      <td id="T_efd6363d_row15_col6" class="data row15 col6" >1-3-0</td>
+      <td id="T_efd6363d_row15_col7" class="data row15 col7" >1-3-0</td>
+      <td id="T_efd6363d_row15_col8" class="data row15 col8" >0-4-0</td>
+      <td id="T_efd6363d_row15_col9" class="data row15 col9" >1-3-0</td>
+      <td id="T_efd6363d_row15_col10" class="data row15 col10" >2-2-0</td>
+      <td id="T_efd6363d_row15_col11" class="data row15 col11" >1-3-0</td>
+      <td id="T_efd6363d_row15_col12" class="data row15 col12" >1-3-0</td>
+      <td id="T_efd6363d_row15_col13" class="data row15 col13" >2-2-0</td>
+      <td id="T_efd6363d_row15_col14" class="data row15 col14" >0-4-0</td>
+      <td id="T_efd6363d_row15_col15" class="data row15 col15" >1-3-0</td>
+      <td id="T_efd6363d_row15_col16" class="data row15 col16" >3-1-0</td>
+      <td id="T_efd6363d_row15_col17" class="data row15 col17" ></td>
+      <td id="T_efd6363d_row15_col18" class="data row15 col18" >3-1-0</td>
+      <td id="T_efd6363d_row15_col19" class="data row15 col19" >2-2-0</td>
+      <td id="T_efd6363d_row15_col20" class="data row15 col20" >3-1-0</td>
+      <td id="T_efd6363d_row15_col21" class="data row15 col21" >3-1-0</td>
+      <td id="T_efd6363d_row15_col22" class="data row15 col22" >24</td>
+      <td id="T_efd6363d_row15_col23" class="data row15 col23" >52</td>
+      <td id="T_efd6363d_row15_col24" class="data row15 col24" >0</td>
+      <td id="T_efd6363d_row15_col25" class="data row15 col25" >0.32</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_efd6363d_row16_col1" class="data row16 col1" >RnD Bruins RWH</td>
+      <td id="T_efd6363d_row16_col2" class="data row16 col2" >0-4-0</td>
+      <td id="T_efd6363d_row16_col3" class="data row16 col3" >0-4-0</td>
+      <td id="T_efd6363d_row16_col4" class="data row16 col4" >0-4-0</td>
+      <td id="T_efd6363d_row16_col5" class="data row16 col5" >0-4-0</td>
+      <td id="T_efd6363d_row16_col6" class="data row16 col6" >0-4-0</td>
+      <td id="T_efd6363d_row16_col7" class="data row16 col7" >0-4-0</td>
+      <td id="T_efd6363d_row16_col8" class="data row16 col8" >0-4-0</td>
+      <td id="T_efd6363d_row16_col9" class="data row16 col9" >1-3-0</td>
+      <td id="T_efd6363d_row16_col10" class="data row16 col10" >2-2-0</td>
+      <td id="T_efd6363d_row16_col11" class="data row16 col11" >1-3-0</td>
+      <td id="T_efd6363d_row16_col12" class="data row16 col12" >2-2-0</td>
+      <td id="T_efd6363d_row16_col13" class="data row16 col13" >1-3-0</td>
+      <td id="T_efd6363d_row16_col14" class="data row16 col14" >1-3-0</td>
+      <td id="T_efd6363d_row16_col15" class="data row16 col15" >2-2-0</td>
+      <td id="T_efd6363d_row16_col16" class="data row16 col16" >2-2-0</td>
+      <td id="T_efd6363d_row16_col17" class="data row16 col17" >1-3-0</td>
+      <td id="T_efd6363d_row16_col18" class="data row16 col18" ></td>
+      <td id="T_efd6363d_row16_col19" class="data row16 col19" >3-1-0</td>
+      <td id="T_efd6363d_row16_col20" class="data row16 col20" >3-1-0</td>
+      <td id="T_efd6363d_row16_col21" class="data row16 col21" >4-0-0</td>
+      <td id="T_efd6363d_row16_col22" class="data row16 col22" >23</td>
+      <td id="T_efd6363d_row16_col23" class="data row16 col23" >53</td>
+      <td id="T_efd6363d_row16_col24" class="data row16 col24" >0</td>
+      <td id="T_efd6363d_row16_col25" class="data row16 col25" >0.3</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_efd6363d_row17_col1" class="data row17 col1" >Spartak Podolsk</td>
+      <td id="T_efd6363d_row17_col2" class="data row17 col2" >0-4-0</td>
+      <td id="T_efd6363d_row17_col3" class="data row17 col3" >0-4-0</td>
+      <td id="T_efd6363d_row17_col4" class="data row17 col4" >0-4-0</td>
+      <td id="T_efd6363d_row17_col5" class="data row17 col5" >0-4-0</td>
+      <td id="T_efd6363d_row17_col6" class="data row17 col6" >0-4-0</td>
+      <td id="T_efd6363d_row17_col7" class="data row17 col7" >1-3-0</td>
+      <td id="T_efd6363d_row17_col8" class="data row17 col8" >0-4-0</td>
+      <td id="T_efd6363d_row17_col9" class="data row17 col9" >0-4-0</td>
+      <td id="T_efd6363d_row17_col10" class="data row17 col10" >1-3-0</td>
+      <td id="T_efd6363d_row17_col11" class="data row17 col11" >1-3-0</td>
+      <td id="T_efd6363d_row17_col12" class="data row17 col12" >1-3-0</td>
+      <td id="T_efd6363d_row17_col13" class="data row17 col13" >1-3-0</td>
+      <td id="T_efd6363d_row17_col14" class="data row17 col14" >0-4-0</td>
+      <td id="T_efd6363d_row17_col15" class="data row17 col15" >0-4-0</td>
+      <td id="T_efd6363d_row17_col16" class="data row17 col16" >2-2-0</td>
+      <td id="T_efd6363d_row17_col17" class="data row17 col17" >2-2-0</td>
+      <td id="T_efd6363d_row17_col18" class="data row17 col18" >1-3-0</td>
+      <td id="T_efd6363d_row17_col19" class="data row17 col19" ></td>
+      <td id="T_efd6363d_row17_col20" class="data row17 col20" >2-2-0</td>
+      <td id="T_efd6363d_row17_col21" class="data row17 col21" >2-2-0</td>
+      <td id="T_efd6363d_row17_col22" class="data row17 col22" >14</td>
+      <td id="T_efd6363d_row17_col23" class="data row17 col23" >62</td>
+      <td id="T_efd6363d_row17_col24" class="data row17 col24" >0</td>
+      <td id="T_efd6363d_row17_col25" class="data row17 col25" >0.18</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_efd6363d_row18_col1" class="data row18 col1" >Powerful Welder</td>
+      <td id="T_efd6363d_row18_col2" class="data row18 col2" >0-4-0</td>
+      <td id="T_efd6363d_row18_col3" class="data row18 col3" >0-4-0</td>
+      <td id="T_efd6363d_row18_col4" class="data row18 col4" >0-4-0</td>
+      <td id="T_efd6363d_row18_col5" class="data row18 col5" >0-4-0</td>
+      <td id="T_efd6363d_row18_col6" class="data row18 col6" >0-4-0</td>
+      <td id="T_efd6363d_row18_col7" class="data row18 col7" >1-3-0</td>
+      <td id="T_efd6363d_row18_col8" class="data row18 col8" >0-4-0</td>
+      <td id="T_efd6363d_row18_col9" class="data row18 col9" >0-4-0</td>
+      <td id="T_efd6363d_row18_col10" class="data row18 col10" >1-3-0</td>
+      <td id="T_efd6363d_row18_col11" class="data row18 col11" >0-4-0</td>
+      <td id="T_efd6363d_row18_col12" class="data row18 col12" >1-3-0</td>
+      <td id="T_efd6363d_row18_col13" class="data row18 col13" >1-3-0</td>
+      <td id="T_efd6363d_row18_col14" class="data row18 col14" >0-4-0</td>
+      <td id="T_efd6363d_row18_col15" class="data row18 col15" >0-4-0</td>
+      <td id="T_efd6363d_row18_col16" class="data row18 col16" >2-2-0</td>
+      <td id="T_efd6363d_row18_col17" class="data row18 col17" >1-3-0</td>
+      <td id="T_efd6363d_row18_col18" class="data row18 col18" >1-3-0</td>
+      <td id="T_efd6363d_row18_col19" class="data row18 col19" >2-2-0</td>
+      <td id="T_efd6363d_row18_col20" class="data row18 col20" ></td>
+      <td id="T_efd6363d_row18_col21" class="data row18 col21" >3-1-0</td>
+      <td id="T_efd6363d_row18_col22" class="data row18 col22" >13</td>
+      <td id="T_efd6363d_row18_col23" class="data row18 col23" >63</td>
+      <td id="T_efd6363d_row18_col24" class="data row18 col24" >0</td>
+      <td id="T_efd6363d_row18_col25" class="data row18 col25" >0.17</td>
+    </tr>
+    <tr>
+      <td id="T_efd6363d_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_efd6363d_row19_col1" class="data row19 col1" >Люберецкие Овощи</td>
+      <td id="T_efd6363d_row19_col2" class="data row19 col2" >0-4-0</td>
+      <td id="T_efd6363d_row19_col3" class="data row19 col3" >0-4-0</td>
+      <td id="T_efd6363d_row19_col4" class="data row19 col4" >0-4-0</td>
+      <td id="T_efd6363d_row19_col5" class="data row19 col5" >0-4-0</td>
+      <td id="T_efd6363d_row19_col6" class="data row19 col6" >0-4-0</td>
+      <td id="T_efd6363d_row19_col7" class="data row19 col7" >0-4-0</td>
+      <td id="T_efd6363d_row19_col8" class="data row19 col8" >0-4-0</td>
+      <td id="T_efd6363d_row19_col9" class="data row19 col9" >0-4-0</td>
+      <td id="T_efd6363d_row19_col10" class="data row19 col10" >1-3-0</td>
+      <td id="T_efd6363d_row19_col11" class="data row19 col11" >1-3-0</td>
+      <td id="T_efd6363d_row19_col12" class="data row19 col12" >1-3-0</td>
+      <td id="T_efd6363d_row19_col13" class="data row19 col13" >1-3-0</td>
+      <td id="T_efd6363d_row19_col14" class="data row19 col14" >1-3-0</td>
+      <td id="T_efd6363d_row19_col15" class="data row19 col15" >0-4-0</td>
+      <td id="T_efd6363d_row19_col16" class="data row19 col16" >2-2-0</td>
+      <td id="T_efd6363d_row19_col17" class="data row19 col17" >1-3-0</td>
+      <td id="T_efd6363d_row19_col18" class="data row19 col18" >0-4-0</td>
+      <td id="T_efd6363d_row19_col19" class="data row19 col19" >2-2-0</td>
+      <td id="T_efd6363d_row19_col20" class="data row19 col20" >1-3-0</td>
+      <td id="T_efd6363d_row19_col21" class="data row19 col21" ></td>
+      <td id="T_efd6363d_row19_col22" class="data row19 col22" >11</td>
+      <td id="T_efd6363d_row19_col23" class="data row19 col23" >65</td>
+      <td id="T_efd6363d_row19_col24" class="data row19 col24" >0</td>
+      <td id="T_efd6363d_row19_col25" class="data row19 col25" >0.14</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+            <h2>Summary</h2>
+            &nbsp;
+            <button class="collapsible"><h3>Best scores this matchup</h3></button>
+            <div class="content">
+                <div class="text-box">
+                    Сводная таблица лучших результатов по набору в текущем матчапе.
+                </div>
+                <div class="table-scroll">
+                    <style type="text/css">
+</style>
+<table id="T_ff6de502" ; align="center"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_ff6de502_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_ff6de502_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_ff6de502_level0_col2" class="col_heading level0 col2" >Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_ff6de502_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_ff6de502_row0_col1" class="data row0 col1" >Fenomeno</td>
+      <td id="T_ff6de502_row0_col2" class="data row0 col2" >1290.9</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_ff6de502_row1_col1" class="data row1 col1" >Uralmash Smelters</td>
+      <td id="T_ff6de502_row1_col2" class="data row1 col2" >1270.8</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_ff6de502_row2_col1" class="data row2 col1" >Vovan</td>
+      <td id="T_ff6de502_row2_col2" class="data row2 col2" >1216.2</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_ff6de502_row3_col1" class="data row3 col1" >ZP Legion</td>
+      <td id="T_ff6de502_row3_col2" class="data row3 col2" >1190.3</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_ff6de502_row4_col1" class="data row4 col1" >Seaport Bruins</td>
+      <td id="T_ff6de502_row4_col2" class="data row4 col2" >1186.1</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_ff6de502_row5_col1" class="data row5 col1" >Team 20</td>
+      <td id="T_ff6de502_row5_col2" class="data row5 col2" >1179.2</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_ff6de502_row6_col1" class="data row6 col1" >Dida</td>
+      <td id="T_ff6de502_row6_col2" class="data row6 col2" >1138.6</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_ff6de502_row7_col1" class="data row7 col1" >Penza</td>
+      <td id="T_ff6de502_row7_col2" class="data row7 col2" >1136.4</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_ff6de502_row8_col1" class="data row8 col1" >Moscow Penguins</td>
+      <td id="T_ff6de502_row8_col2" class="data row8 col2" >1123.2</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_ff6de502_row9_col1" class="data row9 col1" >Mr clutch</td>
+      <td id="T_ff6de502_row9_col2" class="data row9 col2" >1108.3</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_ff6de502_row10_col1" class="data row10 col1" >Vodnik 2</td>
+      <td id="T_ff6de502_row10_col2" class="data row10 col2" >1099.3</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_ff6de502_row11_col1" class="data row11 col1" >YoshkarOla Woodmans</td>
+      <td id="T_ff6de502_row11_col2" class="data row11 col2" >1098.4</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_ff6de502_row12_col1" class="data row12 col1" >Vityaz Podolsk</td>
+      <td id="T_ff6de502_row12_col2" class="data row12 col2" >1084.7</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_ff6de502_row13_col1" class="data row13 col1" >Force of Nature</td>
+      <td id="T_ff6de502_row13_col2" class="data row13 col2" >1080.1</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_ff6de502_row14_col1" class="data row14 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_ff6de502_row14_col2" class="data row14 col2" >1057.8</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_ff6de502_row15_col1" class="data row15 col1" >St.Patrick's day</td>
+      <td id="T_ff6de502_row15_col2" class="data row15 col2" >1037.3</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_ff6de502_row16_col1" class="data row16 col1" >RnD Bruins RWH</td>
+      <td id="T_ff6de502_row16_col2" class="data row16 col2" >1000.7</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_ff6de502_row17_col1" class="data row17 col1" >Powerful Welder</td>
+      <td id="T_ff6de502_row17_col2" class="data row17 col2" >924.2</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_ff6de502_row18_col1" class="data row18 col1" >Люберецкие Овощи</td>
+      <td id="T_ff6de502_row18_col2" class="data row18 col2" >880.7</td>
+    </tr>
+    <tr>
+      <td id="T_ff6de502_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_ff6de502_row19_col1" class="data row19 col1" >Spartak Podolsk</td>
+      <td id="T_ff6de502_row19_col2" class="data row19 col2" >824.2</td>
+    </tr>
+  </tbody>
+</table>
+
+                </div>
+            </div>
+            &nbsp;
+            <button class="collapsible"><h3>Best scores this season</h3></button>
+            <div class="content">
+                <div class="text-box">
+                    Сводная таблица лучших результатов по набору в любом матчапе из прошедших.
+                </div>
+                <div class="table-scroll">
+                    <style type="text/css">
+</style>
+<table id="T_bd9773cc" ; align="center"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_bd9773cc_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_bd9773cc_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_bd9773cc_level0_col2" class="col_heading level0 col2" >Score</th>
+      <th id="T_bd9773cc_level0_col3" class="col_heading level0 col3" >Matchup</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_bd9773cc_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_bd9773cc_row0_col1" class="data row0 col1" >Mr clutch</td>
+      <td id="T_bd9773cc_row0_col2" class="data row0 col2" >1296.7</td>
+      <td id="T_bd9773cc_row0_col3" class="data row0 col3" >3</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_bd9773cc_row1_col1" class="data row1 col1" >Fenomeno</td>
+      <td id="T_bd9773cc_row1_col2" class="data row1 col2" >1290.9</td>
+      <td id="T_bd9773cc_row1_col3" class="data row1 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_bd9773cc_row2_col1" class="data row2 col1" >Fenomeno</td>
+      <td id="T_bd9773cc_row2_col2" class="data row2 col2" >1272.9</td>
+      <td id="T_bd9773cc_row2_col3" class="data row2 col3" >3</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_bd9773cc_row3_col1" class="data row3 col1" >Uralmash Smelters</td>
+      <td id="T_bd9773cc_row3_col2" class="data row3 col2" >1270.8</td>
+      <td id="T_bd9773cc_row3_col3" class="data row3 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_bd9773cc_row4_col1" class="data row4 col1" >Moscow Penguins</td>
+      <td id="T_bd9773cc_row4_col2" class="data row4 col2" >1270.1</td>
+      <td id="T_bd9773cc_row4_col3" class="data row4 col3" >3</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_bd9773cc_row5_col1" class="data row5 col1" >YoshkarOla Woodmans</td>
+      <td id="T_bd9773cc_row5_col2" class="data row5 col2" >1267.1</td>
+      <td id="T_bd9773cc_row5_col3" class="data row5 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_bd9773cc_row6_col1" class="data row6 col1" >Vovan</td>
+      <td id="T_bd9773cc_row6_col2" class="data row6 col2" >1242.9</td>
+      <td id="T_bd9773cc_row6_col3" class="data row6 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_bd9773cc_row7_col1" class="data row7 col1" >Seaport Bruins</td>
+      <td id="T_bd9773cc_row7_col2" class="data row7 col2" >1241.4</td>
+      <td id="T_bd9773cc_row7_col3" class="data row7 col3" >3</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_bd9773cc_row8_col1" class="data row8 col1" >ZP Legion</td>
+      <td id="T_bd9773cc_row8_col2" class="data row8 col2" >1230.2</td>
+      <td id="T_bd9773cc_row8_col3" class="data row8 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_bd9773cc_row9_col1" class="data row9 col1" >Mr clutch</td>
+      <td id="T_bd9773cc_row9_col2" class="data row9 col2" >1224.6</td>
+      <td id="T_bd9773cc_row9_col3" class="data row9 col3" >1</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_bd9773cc_row10_col1" class="data row10 col1" >Lionel's KarmaGeddon</td>
+      <td id="T_bd9773cc_row10_col2" class="data row10 col2" >1216.2</td>
+      <td id="T_bd9773cc_row10_col3" class="data row10 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_bd9773cc_row11_col1" class="data row11 col1" >Vovan</td>
+      <td id="T_bd9773cc_row11_col2" class="data row11 col2" >1216.2</td>
+      <td id="T_bd9773cc_row11_col3" class="data row11 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row12_col0" class="data row12 col0" >13</td>
+      <td id="T_bd9773cc_row12_col1" class="data row12 col1" >Seaport Bruins</td>
+      <td id="T_bd9773cc_row12_col2" class="data row12 col2" >1200.7</td>
+      <td id="T_bd9773cc_row12_col3" class="data row12 col3" >1</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row13_col0" class="data row13 col0" >14</td>
+      <td id="T_bd9773cc_row13_col1" class="data row13 col1" >ZP Legion</td>
+      <td id="T_bd9773cc_row13_col2" class="data row13 col2" >1190.3</td>
+      <td id="T_bd9773cc_row13_col3" class="data row13 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row14_col0" class="data row14 col0" >15</td>
+      <td id="T_bd9773cc_row14_col1" class="data row14 col1" >Seaport Bruins</td>
+      <td id="T_bd9773cc_row14_col2" class="data row14 col2" >1186.1</td>
+      <td id="T_bd9773cc_row14_col3" class="data row14 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row15_col0" class="data row15 col0" >16</td>
+      <td id="T_bd9773cc_row15_col1" class="data row15 col1" >Team 20</td>
+      <td id="T_bd9773cc_row15_col2" class="data row15 col2" >1179.2</td>
+      <td id="T_bd9773cc_row15_col3" class="data row15 col3" >4</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row16_col0" class="data row16 col0" >17</td>
+      <td id="T_bd9773cc_row16_col1" class="data row16 col1" >Vovan</td>
+      <td id="T_bd9773cc_row16_col2" class="data row16 col2" >1166.8</td>
+      <td id="T_bd9773cc_row16_col3" class="data row16 col3" >3</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row17_col0" class="data row17 col0" >18</td>
+      <td id="T_bd9773cc_row17_col1" class="data row17 col1" >Penza</td>
+      <td id="T_bd9773cc_row17_col2" class="data row17 col2" >1161.6</td>
+      <td id="T_bd9773cc_row17_col3" class="data row17 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row18_col0" class="data row18 col0" >19</td>
+      <td id="T_bd9773cc_row18_col1" class="data row18 col1" >Moscow Penguins</td>
+      <td id="T_bd9773cc_row18_col2" class="data row18 col2" >1143.8</td>
+      <td id="T_bd9773cc_row18_col3" class="data row18 col3" >2</td>
+    </tr>
+    <tr>
+      <td id="T_bd9773cc_row19_col0" class="data row19 col0" >20</td>
+      <td id="T_bd9773cc_row19_col1" class="data row19 col1" >Dida</td>
+      <td id="T_bd9773cc_row19_col2" class="data row19 col2" >1138.6</td>
+      <td id="T_bd9773cc_row19_col3" class="data row19 col3" >4</td>
+    </tr>
+  </tbody>
+</table>
+
+                </div>
+            </div>
+            <h2 class="list-heading">Previous reports</h2>
+            <ul class="centered-list">
+                    <li><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff\reports\hockey\73362809\2026-27/matchup_3.html">Matchup 3 (12/10/2026 - 18/10/2026).</a></li>
+                    <li><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff\reports\hockey\73362809\2026-27/matchup_2.html">Matchup 2 (05/10/2026 - 11/10/2026).</a></li>
+                    <li><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff\reports\hockey\73362809\2026-27/matchup_1.html">Matchup 1 (29/09/2026 - 04/10/2026).</a></li>
+            </ul>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    content.classList.toggle("expanded");
+                });
+            }
+        </script>
+        <script src="https://klicogogo.github.io/res/sorttable.js"></script>
+        <script>
+            function makeStickyTables() {
+                const tables = document.querySelectorAll('table[data-sticky]');
+
+                tables.forEach(table => {
+                    const numSticky = parseInt(table.getAttribute('data-sticky'), 0);
+                    const rows = table.rows;
+                    const offsets = [];
+
+                    // Calculate cumulative widths
+                    for (let col = 0; col < numSticky; col++) {
+                        let width = rows[0].cells[col].offsetWidth;
+                        offsets[col] = (offsets[col - 1] || -1) + width - 2;
+                    }
+
+                    // Apply sticky + left offsets
+                    for (let row of rows) {
+                        for (let col = 0; col < numSticky; col++) {
+                            let cell = row.cells[col];
+                            cell.style.position = "sticky";
+                            cell.style.left = (offsets[col - 1] || -1) + "px";
+                            cell.style.zIndex = 2;
+                        }
+                    }
+                });
+            }
+
+            window.addEventListener("DOMContentLoaded", makeStickyTables);
+            window.addEventListener("resize", makeStickyTables);
+            window.addEventListener("orientationchange", makeStickyTables);
+        </script>
+    </body>
+</html>
