@@ -1,0 +1,2645 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .text-box {
+            width: 40%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px auto;
+            word-wrap: break-word;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            text-align: right;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        td:first-child {
+            border-left: none;
+        }
+        td:last-child {
+            border-right: none;
+        }
+        tbody tr:nth-child(odd) {
+            background: #F0F0F0;
+        }
+        th {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            background: #FFFFFF;
+            padding-left: 6px;
+        }
+
+        table[data-sticky] tr:nth-child(odd) td {
+            background: #F0F0F0;
+        }
+
+        table[data-sticky] tr:nth-child(even) td {
+            background: #FFFFFF;
+        }
+
+        table[data-sticky] th {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            background: #FFFFFF;
+            padding-left: 6px;
+        }
+
+        .collapsible {
+            background-color: #f1f1f1;
+            color: black;
+            cursor: pointer;
+            padding: 10px;
+            width: 30%;
+            border: none;
+            text-align: center;
+            outline: none;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #dcdcdc;
+        }
+
+        .content {
+            -webkit-overflow-scrolling: touch;
+            padding: 0 18px;
+            max-height: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-out;
+            background-color: white;
+            max-width: none;
+        }
+        .content.expanded {
+            -webkit-overflow-scrolling: touch;
+            padding: 0 18px;
+            max-height: none;
+            overflow-y: visible;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-in;
+            background-color: white;
+            max-width: none;
+        }
+
+        body {
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+        }
+
+        .centered-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .centered-list li {
+            margin: 3px 0;
+        }
+        .centered-list a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .collapsible {
+                width: 72%;
+            }
+            .text-box {
+                width: 96%;
+            }
+        }
+    </style>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="https://klicogogo.github.io/res/favicon.ico"/>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6N4SMS2DV4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6N4SMS2DV4');
+    </script>
+
+    <body align="center">
+        <title>Caspian League (basketball) 2026-27. Matchup 3 results</title>
+        <h1><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff/homepage.html" style="text-decoration:none;">Fantasy Fun Stuff (results)</a></h1>
+        
+            <h2><a href="https://fantasy.espn.com/basketball/league?leagueId=471862341" style="text-decoration:none;">Caspian League</a></h2>
+                &nbsp;
+                <button class="collapsible"><h3>Past matchup stats</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица результатов прошедшего матчапа в лиге по категориям. В ней отображены набор команд по категориям, места для категорий по результатам набора, а также некоторые другие метрики в зависимости от типа лиги. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_c6454167_row0_col3, #T_c6454167_row0_col9, #T_c6454167_row1_col5, #T_c6454167_row1_col8, #T_c6454167_row1_col11, #T_c6454167_row1_col12, #T_c6454167_row2_col2, #T_c6454167_row2_col7, #T_c6454167_row4_col6, #T_c6454167_row5_col4, #T_c6454167_row6_col10 {
+  background-color: lightgreen;
+}
+#T_c6454167_row0_col13, #T_c6454167_row1_col13, #T_c6454167_row2_col13, #T_c6454167_row3_col13, #T_c6454167_row4_col13, #T_c6454167_row8_col13 {
+  color: darkgreen;
+}
+#T_c6454167_row0_col14, #T_c6454167_row1_col14, #T_c6454167_row2_col14, #T_c6454167_row4_col14 {
+  color: green;
+}
+#T_c6454167_row0_col15, #T_c6454167_row0_col16, #T_c6454167_row0_col19, #T_c6454167_row0_col20, #T_c6454167_row0_col21, #T_c6454167_row0_col22, #T_c6454167_row0_col23, #T_c6454167_row0_col24, #T_c6454167_row1_col15, #T_c6454167_row1_col17, #T_c6454167_row1_col18, #T_c6454167_row1_col19, #T_c6454167_row1_col21, #T_c6454167_row1_col24, #T_c6454167_row2_col15, #T_c6454167_row2_col16, #T_c6454167_row2_col19, #T_c6454167_row2_col20, #T_c6454167_row2_col21, #T_c6454167_row2_col22, #T_c6454167_row2_col24, #T_c6454167_row3_col18, #T_c6454167_row3_col24, #T_c6454167_row4_col15, #T_c6454167_row4_col16, #T_c6454167_row4_col19, #T_c6454167_row4_col20, #T_c6454167_row4_col22, #T_c6454167_row4_col23, #T_c6454167_row5_col17, #T_c6454167_row5_col22, #T_c6454167_row6_col16, #T_c6454167_row6_col18, #T_c6454167_row6_col23, #T_c6454167_row7_col22, #T_c6454167_row8_col17, #T_c6454167_row9_col20, #T_c6454167_row10_col17, #T_c6454167_row10_col18, #T_c6454167_row11_col21, #T_c6454167_row11_col23 {
+  color: blue;
+}
+#T_c6454167_row1_col20, #T_c6454167_row1_col22, #T_c6454167_row1_col23, #T_c6454167_row2_col17, #T_c6454167_row2_col18, #T_c6454167_row2_col23, #T_c6454167_row4_col17, #T_c6454167_row4_col18, #T_c6454167_row4_col24, #T_c6454167_row5_col23, #T_c6454167_row6_col17, #T_c6454167_row6_col21, #T_c6454167_row7_col16, #T_c6454167_row7_col20, #T_c6454167_row7_col21, #T_c6454167_row7_col23, #T_c6454167_row8_col14, #T_c6454167_row8_col15, #T_c6454167_row8_col16, #T_c6454167_row8_col19, #T_c6454167_row8_col21, #T_c6454167_row8_col22, #T_c6454167_row8_col24, #T_c6454167_row9_col14, #T_c6454167_row9_col15, #T_c6454167_row9_col16, #T_c6454167_row9_col18, #T_c6454167_row9_col19, #T_c6454167_row9_col21, #T_c6454167_row9_col23, #T_c6454167_row9_col24, #T_c6454167_row10_col14, #T_c6454167_row10_col15, #T_c6454167_row10_col16, #T_c6454167_row10_col19, #T_c6454167_row10_col20, #T_c6454167_row10_col21, #T_c6454167_row10_col22, #T_c6454167_row11_col14, #T_c6454167_row11_col15, #T_c6454167_row11_col17, #T_c6454167_row11_col18, #T_c6454167_row11_col19, #T_c6454167_row11_col20, #T_c6454167_row11_col22, #T_c6454167_row11_col24 {
+  color: red;
+}
+#T_c6454167_row2_col10, #T_c6454167_row4_col4, #T_c6454167_row4_col5, #T_c6454167_row9_col3, #T_c6454167_row10_col6, #T_c6454167_row10_col7, #T_c6454167_row10_col8, #T_c6454167_row10_col12, #T_c6454167_row11_col2, #T_c6454167_row11_col9, #T_c6454167_row11_col11 {
+  background-color: orange;
+}
+#T_c6454167_row3_col14, #T_c6454167_row5_col14, #T_c6454167_row6_col14, #T_c6454167_row7_col14 {
+  color: black;
+}
+#T_c6454167_row5_col13, #T_c6454167_row6_col13, #T_c6454167_row7_col13, #T_c6454167_row9_col13, #T_c6454167_row10_col13, #T_c6454167_row11_col13 {
+  color: darkred;
+}
+</style>
+<table id="T_c6454167" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_c6454167_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_c6454167_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_c6454167_level0_col2" class="col_heading level0 col2" >MIN</th>
+      <th id="T_c6454167_level0_col3" class="col_heading level0 col3" >FG%</th>
+      <th id="T_c6454167_level0_col4" class="col_heading level0 col4" >FT%</th>
+      <th id="T_c6454167_level0_col5" class="col_heading level0 col5" >3PM</th>
+      <th id="T_c6454167_level0_col6" class="col_heading level0 col6" >REB</th>
+      <th id="T_c6454167_level0_col7" class="col_heading level0 col7" >AST</th>
+      <th id="T_c6454167_level0_col8" class="col_heading level0 col8" >STL</th>
+      <th id="T_c6454167_level0_col9" class="col_heading level0 col9" >BLK</th>
+      <th id="T_c6454167_level0_col10" class="col_heading level0 col10" >TO</th>
+      <th id="T_c6454167_level0_col11" class="col_heading level0 col11" >PTS</th>
+      <th id="T_c6454167_level0_col12" class="col_heading level0 col12" >Score</th>
+      <th id="T_c6454167_level0_col13" class="col_heading level0 col13" >ER</th>
+      <th id="T_c6454167_level0_col14" class="col_heading level0 col14" >TP</th>
+      <th id="T_c6454167_level0_col15" class="col_heading level0 col15" >MIN </th>
+      <th id="T_c6454167_level0_col16" class="col_heading level0 col16" >FG% </th>
+      <th id="T_c6454167_level0_col17" class="col_heading level0 col17" >FT% </th>
+      <th id="T_c6454167_level0_col18" class="col_heading level0 col18" >3PM </th>
+      <th id="T_c6454167_level0_col19" class="col_heading level0 col19" >REB </th>
+      <th id="T_c6454167_level0_col20" class="col_heading level0 col20" >AST </th>
+      <th id="T_c6454167_level0_col21" class="col_heading level0 col21" >STL </th>
+      <th id="T_c6454167_level0_col22" class="col_heading level0 col22" >BLK </th>
+      <th id="T_c6454167_level0_col23" class="col_heading level0 col23" >TO </th>
+      <th id="T_c6454167_level0_col24" class="col_heading level0 col24" >PTS </th>
+      <th id="T_c6454167_level0_col25" class="col_heading level0 col25" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_c6454167_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_c6454167_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_c6454167_row0_col2" class="data row0 col2" >1323</td>
+      <td id="T_c6454167_row0_col3" class="data row0 col3" >0.4951</td>
+      <td id="T_c6454167_row0_col4" class="data row0 col4" >0.78</td>
+      <td id="T_c6454167_row0_col5" class="data row0 col5" >83</td>
+      <td id="T_c6454167_row0_col6" class="data row0 col6" >255</td>
+      <td id="T_c6454167_row0_col7" class="data row0 col7" >171</td>
+      <td id="T_c6454167_row0_col8" class="data row0 col8" >44</td>
+      <td id="T_c6454167_row0_col9" class="data row0 col9" >50</td>
+      <td id="T_c6454167_row0_col10" class="data row0 col10" >71</td>
+      <td id="T_c6454167_row0_col11" class="data row0 col11" >708</td>
+      <td id="T_c6454167_row0_col12" class="data row0 col12" >7-2-0</td>
+      <td id="T_c6454167_row0_col13" class="data row0 col13" >W</td>
+      <td id="T_c6454167_row0_col14" class="data row0 col14" >1</td>
+      <td id="T_c6454167_row0_col15" class="data row0 col15" >2</td>
+      <td id="T_c6454167_row0_col16" class="data row0 col16" >1</td>
+      <td id="T_c6454167_row0_col17" class="data row0 col17" >8</td>
+      <td id="T_c6454167_row0_col18" class="data row0 col18" >5</td>
+      <td id="T_c6454167_row0_col19" class="data row0 col19" >3</td>
+      <td id="T_c6454167_row0_col20" class="data row0 col20" >3</td>
+      <td id="T_c6454167_row0_col21" class="data row0 col21" >4</td>
+      <td id="T_c6454167_row0_col22" class="data row0 col22" >1</td>
+      <td id="T_c6454167_row0_col23" class="data row0 col23" >3</td>
+      <td id="T_c6454167_row0_col24" class="data row0 col24" >3</td>
+      <td id="T_c6454167_row0_col25" class="data row0 col25" >31</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_c6454167_row1_col1" class="data row1 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_c6454167_row1_col2" class="data row1 col2" >1298</td>
+      <td id="T_c6454167_row1_col3" class="data row1 col3" >0.4634</td>
+      <td id="T_c6454167_row1_col4" class="data row1 col4" >0.8626</td>
+      <td id="T_c6454167_row1_col5" class="data row1 col5" >94</td>
+      <td id="T_c6454167_row1_col6" class="data row1 col6" >253</td>
+      <td id="T_c6454167_row1_col7" class="data row1 col7" >131</td>
+      <td id="T_c6454167_row1_col8" class="data row1 col8" >50</td>
+      <td id="T_c6454167_row1_col9" class="data row1 col9" >17</td>
+      <td id="T_c6454167_row1_col10" class="data row1 col10" >85</td>
+      <td id="T_c6454167_row1_col11" class="data row1 col11" >757</td>
+      <td id="T_c6454167_row1_col12" class="data row1 col12" >8-1-0</td>
+      <td id="T_c6454167_row1_col13" class="data row1 col13" >W</td>
+      <td id="T_c6454167_row1_col14" class="data row1 col14" >0.82</td>
+      <td id="T_c6454167_row1_col15" class="data row1 col15" >4</td>
+      <td id="T_c6454167_row1_col16" class="data row1 col16" >5.5</td>
+      <td id="T_c6454167_row1_col17" class="data row1 col17" >2</td>
+      <td id="T_c6454167_row1_col18" class="data row1 col18" >1</td>
+      <td id="T_c6454167_row1_col19" class="data row1 col19" >4</td>
+      <td id="T_c6454167_row1_col20" class="data row1 col20" >10.5</td>
+      <td id="T_c6454167_row1_col21" class="data row1 col21" >1</td>
+      <td id="T_c6454167_row1_col22" class="data row1 col22" >9.5</td>
+      <td id="T_c6454167_row1_col23" class="data row1 col23" >8.5</td>
+      <td id="T_c6454167_row1_col24" class="data row1 col24" >1</td>
+      <td id="T_c6454167_row1_col25" class="data row1 col25" >43</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_c6454167_row2_col1" class="data row2 col1" >de_puta_madre</td>
+      <td id="T_c6454167_row2_col2" class="data row2 col2" >1327</td>
+      <td id="T_c6454167_row2_col3" class="data row2 col3" >0.4776</td>
+      <td id="T_c6454167_row2_col4" class="data row2 col4" >0.7415</td>
+      <td id="T_c6454167_row2_col5" class="data row2 col5" >43</td>
+      <td id="T_c6454167_row2_col6" class="data row2 col6" >267</td>
+      <td id="T_c6454167_row2_col7" class="data row2 col7" >201</td>
+      <td id="T_c6454167_row2_col8" class="data row2 col8" >46</td>
+      <td id="T_c6454167_row2_col9" class="data row2 col9" >35</td>
+      <td id="T_c6454167_row2_col10" class="data row2 col10" >109</td>
+      <td id="T_c6454167_row2_col11" class="data row2 col11" >727</td>
+      <td id="T_c6454167_row2_col12" class="data row2 col12" >6-3-0</td>
+      <td id="T_c6454167_row2_col13" class="data row2 col13" >W</td>
+      <td id="T_c6454167_row2_col14" class="data row2 col14" >0.82</td>
+      <td id="T_c6454167_row2_col15" class="data row2 col15" >1</td>
+      <td id="T_c6454167_row2_col16" class="data row2 col16" >2</td>
+      <td id="T_c6454167_row2_col17" class="data row2 col17" >10</td>
+      <td id="T_c6454167_row2_col18" class="data row2 col18" >11</td>
+      <td id="T_c6454167_row2_col19" class="data row2 col19" >2</td>
+      <td id="T_c6454167_row2_col20" class="data row2 col20" >1</td>
+      <td id="T_c6454167_row2_col21" class="data row2 col21" >3</td>
+      <td id="T_c6454167_row2_col22" class="data row2 col22" >2</td>
+      <td id="T_c6454167_row2_col23" class="data row2 col23" >12</td>
+      <td id="T_c6454167_row2_col24" class="data row2 col24" >2</td>
+      <td id="T_c6454167_row2_col25" class="data row2 col25" >45</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_c6454167_row3_col1" class="data row3 col1" >Stir and Dimi</td>
+      <td id="T_c6454167_row3_col2" class="data row3 col2" >1292</td>
+      <td id="T_c6454167_row3_col3" class="data row3 col3" >0.4634</td>
+      <td id="T_c6454167_row3_col4" class="data row3 col4" >0.7902</td>
+      <td id="T_c6454167_row3_col5" class="data row3 col5" >84</td>
+      <td id="T_c6454167_row3_col6" class="data row3 col6" >231</td>
+      <td id="T_c6454167_row3_col7" class="data row3 col7" >157</td>
+      <td id="T_c6454167_row3_col8" class="data row3 col8" >40</td>
+      <td id="T_c6454167_row3_col9" class="data row3 col9" >23</td>
+      <td id="T_c6454167_row3_col10" class="data row3 col10" >77</td>
+      <td id="T_c6454167_row3_col11" class="data row3 col11" >703</td>
+      <td id="T_c6454167_row3_col12" class="data row3 col12" >6-3-0</td>
+      <td id="T_c6454167_row3_col13" class="data row3 col13" >W</td>
+      <td id="T_c6454167_row3_col14" class="data row3 col14" >0.59</td>
+      <td id="T_c6454167_row3_col15" class="data row3 col15" >5</td>
+      <td id="T_c6454167_row3_col16" class="data row3 col16" >5.5</td>
+      <td id="T_c6454167_row3_col17" class="data row3 col17" >6</td>
+      <td id="T_c6454167_row3_col18" class="data row3 col18" >3.5</td>
+      <td id="T_c6454167_row3_col19" class="data row3 col19" >7</td>
+      <td id="T_c6454167_row3_col20" class="data row3 col20" >5.5</td>
+      <td id="T_c6454167_row3_col21" class="data row3 col21" >7</td>
+      <td id="T_c6454167_row3_col22" class="data row3 col22" >7.5</td>
+      <td id="T_c6454167_row3_col23" class="data row3 col23" >5</td>
+      <td id="T_c6454167_row3_col24" class="data row3 col24" >4</td>
+      <td id="T_c6454167_row3_col25" class="data row3 col25" >51</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_c6454167_row4_col1" class="data row4 col1" >Gorgeous George</td>
+      <td id="T_c6454167_row4_col2" class="data row4 col2" >1302</td>
+      <td id="T_c6454167_row4_col3" class="data row4 col3" >0.4726</td>
+      <td id="T_c6454167_row4_col4" class="data row4 col4" >0.6429</td>
+      <td id="T_c6454167_row4_col5" class="data row4 col5" >42</td>
+      <td id="T_c6454167_row4_col6" class="data row4 col6" >298</td>
+      <td id="T_c6454167_row4_col7" class="data row4 col7" >173</td>
+      <td id="T_c6454167_row4_col8" class="data row4 col8" >43</td>
+      <td id="T_c6454167_row4_col9" class="data row4 col9" >34</td>
+      <td id="T_c6454167_row4_col10" class="data row4 col10" >69</td>
+      <td id="T_c6454167_row4_col11" class="data row4 col11" >537</td>
+      <td id="T_c6454167_row4_col12" class="data row4 col12" >6-3-0</td>
+      <td id="T_c6454167_row4_col13" class="data row4 col13" >W</td>
+      <td id="T_c6454167_row4_col14" class="data row4 col14" >0.82</td>
+      <td id="T_c6454167_row4_col15" class="data row4 col15" >3</td>
+      <td id="T_c6454167_row4_col16" class="data row4 col16" >3</td>
+      <td id="T_c6454167_row4_col17" class="data row4 col17" >12</td>
+      <td id="T_c6454167_row4_col18" class="data row4 col18" >12</td>
+      <td id="T_c6454167_row4_col19" class="data row4 col19" >1</td>
+      <td id="T_c6454167_row4_col20" class="data row4 col20" >2</td>
+      <td id="T_c6454167_row4_col21" class="data row4 col21" >5.5</td>
+      <td id="T_c6454167_row4_col22" class="data row4 col22" >3</td>
+      <td id="T_c6454167_row4_col23" class="data row4 col23" >2</td>
+      <td id="T_c6454167_row4_col24" class="data row4 col24" >11</td>
+      <td id="T_c6454167_row4_col25" class="data row4 col25" >51.5</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_c6454167_row5_col1" class="data row5 col1" >Yan's Hearty Team</td>
+      <td id="T_c6454167_row5_col2" class="data row5 col2" >1256</td>
+      <td id="T_c6454167_row5_col3" class="data row5 col3" >0.4608</td>
+      <td id="T_c6454167_row5_col4" class="data row5 col4" >0.8824</td>
+      <td id="T_c6454167_row5_col5" class="data row5 col5" >67</td>
+      <td id="T_c6454167_row5_col6" class="data row5 col6" >226</td>
+      <td id="T_c6454167_row5_col7" class="data row5 col7" >157</td>
+      <td id="T_c6454167_row5_col8" class="data row5 col8" >43</td>
+      <td id="T_c6454167_row5_col9" class="data row5 col9" >30</td>
+      <td id="T_c6454167_row5_col10" class="data row5 col10" >90</td>
+      <td id="T_c6454167_row5_col11" class="data row5 col11" >684</td>
+      <td id="T_c6454167_row5_col12" class="data row5 col12" >3-6-0</td>
+      <td id="T_c6454167_row5_col13" class="data row5 col13" >L</td>
+      <td id="T_c6454167_row5_col14" class="data row5 col14" >0.55</td>
+      <td id="T_c6454167_row5_col15" class="data row5 col15" >6</td>
+      <td id="T_c6454167_row5_col16" class="data row5 col16" >8</td>
+      <td id="T_c6454167_row5_col17" class="data row5 col17" >1</td>
+      <td id="T_c6454167_row5_col18" class="data row5 col18" >7</td>
+      <td id="T_c6454167_row5_col19" class="data row5 col19" >8</td>
+      <td id="T_c6454167_row5_col20" class="data row5 col20" >5.5</td>
+      <td id="T_c6454167_row5_col21" class="data row5 col21" >5.5</td>
+      <td id="T_c6454167_row5_col22" class="data row5 col22" >4.5</td>
+      <td id="T_c6454167_row5_col23" class="data row5 col23" >10</td>
+      <td id="T_c6454167_row5_col24" class="data row5 col24" >5</td>
+      <td id="T_c6454167_row5_col25" class="data row5 col25" >54.5</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_c6454167_row6_col1" class="data row6 col1" >2 KABANA</td>
+      <td id="T_c6454167_row6_col2" class="data row6 col2" >1204</td>
+      <td id="T_c6454167_row6_col3" class="data row6 col3" >0.4713</td>
+      <td id="T_c6454167_row6_col4" class="data row6 col4" >0.7673</td>
+      <td id="T_c6454167_row6_col5" class="data row6 col5" >87</td>
+      <td id="T_c6454167_row6_col6" class="data row6 col6" >245</td>
+      <td id="T_c6454167_row6_col7" class="data row6 col7" >152</td>
+      <td id="T_c6454167_row6_col8" class="data row6 col8" >33</td>
+      <td id="T_c6454167_row6_col9" class="data row6 col9" >23</td>
+      <td id="T_c6454167_row6_col10" class="data row6 col10" >59</td>
+      <td id="T_c6454167_row6_col11" class="data row6 col11" >653</td>
+      <td id="T_c6454167_row6_col12" class="data row6 col12" >2-7-0</td>
+      <td id="T_c6454167_row6_col13" class="data row6 col13" >L</td>
+      <td id="T_c6454167_row6_col14" class="data row6 col14" >0.5</td>
+      <td id="T_c6454167_row6_col15" class="data row6 col15" >8</td>
+      <td id="T_c6454167_row6_col16" class="data row6 col16" >4</td>
+      <td id="T_c6454167_row6_col17" class="data row6 col17" >9</td>
+      <td id="T_c6454167_row6_col18" class="data row6 col18" >2</td>
+      <td id="T_c6454167_row6_col19" class="data row6 col19" >5</td>
+      <td id="T_c6454167_row6_col20" class="data row6 col20" >8</td>
+      <td id="T_c6454167_row6_col21" class="data row6 col21" >11</td>
+      <td id="T_c6454167_row6_col22" class="data row6 col22" >7.5</td>
+      <td id="T_c6454167_row6_col23" class="data row6 col23" >1</td>
+      <td id="T_c6454167_row6_col24" class="data row6 col24" >8</td>
+      <td id="T_c6454167_row6_col25" class="data row6 col25" >55.5</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_c6454167_row7_col1" class="data row7 col1" >Volga Vibes</td>
+      <td id="T_c6454167_row7_col2" class="data row7 col2" >1233</td>
+      <td id="T_c6454167_row7_col3" class="data row7 col3" >0.4594</td>
+      <td id="T_c6454167_row7_col4" class="data row7 col4" >0.7931</td>
+      <td id="T_c6454167_row7_col5" class="data row7 col5" >77</td>
+      <td id="T_c6454167_row7_col6" class="data row7 col6" >239</td>
+      <td id="T_c6454167_row7_col7" class="data row7 col7" >150</td>
+      <td id="T_c6454167_row7_col8" class="data row7 col8" >38</td>
+      <td id="T_c6454167_row7_col9" class="data row7 col9" >30</td>
+      <td id="T_c6454167_row7_col10" class="data row7 col10" >97</td>
+      <td id="T_c6454167_row7_col11" class="data row7 col11" >678</td>
+      <td id="T_c6454167_row7_col12" class="data row7 col12" >3-6-0</td>
+      <td id="T_c6454167_row7_col13" class="data row7 col13" >L</td>
+      <td id="T_c6454167_row7_col14" class="data row7 col14" >0.36</td>
+      <td id="T_c6454167_row7_col15" class="data row7 col15" >7</td>
+      <td id="T_c6454167_row7_col16" class="data row7 col16" >9</td>
+      <td id="T_c6454167_row7_col17" class="data row7 col17" >5</td>
+      <td id="T_c6454167_row7_col18" class="data row7 col18" >6</td>
+      <td id="T_c6454167_row7_col19" class="data row7 col19" >6</td>
+      <td id="T_c6454167_row7_col20" class="data row7 col20" >9</td>
+      <td id="T_c6454167_row7_col21" class="data row7 col21" >8.5</td>
+      <td id="T_c6454167_row7_col22" class="data row7 col22" >4.5</td>
+      <td id="T_c6454167_row7_col23" class="data row7 col23" >11</td>
+      <td id="T_c6454167_row7_col24" class="data row7 col24" >6</td>
+      <td id="T_c6454167_row7_col25" class="data row7 col25" >65</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_c6454167_row8_col1" class="data row8 col1" >Kringe Teamka</td>
+      <td id="T_c6454167_row8_col2" class="data row8 col2" >1167</td>
+      <td id="T_c6454167_row8_col3" class="data row8 col3" >0.4579</td>
+      <td id="T_c6454167_row8_col4" class="data row8 col4" >0.8503</td>
+      <td id="T_c6454167_row8_col5" class="data row8 col5" >60</td>
+      <td id="T_c6454167_row8_col6" class="data row8 col6" >219</td>
+      <td id="T_c6454167_row8_col7" class="data row8 col7" >155</td>
+      <td id="T_c6454167_row8_col8" class="data row8 col8" >38</td>
+      <td id="T_c6454167_row8_col9" class="data row8 col9" >17</td>
+      <td id="T_c6454167_row8_col10" class="data row8 col10" >79</td>
+      <td id="T_c6454167_row8_col11" class="data row8 col11" >577</td>
+      <td id="T_c6454167_row8_col12" class="data row8 col12" >6-3-0</td>
+      <td id="T_c6454167_row8_col13" class="data row8 col13" >W</td>
+      <td id="T_c6454167_row8_col14" class="data row8 col14" >0.27</td>
+      <td id="T_c6454167_row8_col15" class="data row8 col15" >9</td>
+      <td id="T_c6454167_row8_col16" class="data row8 col16" >10</td>
+      <td id="T_c6454167_row8_col17" class="data row8 col17" >4</td>
+      <td id="T_c6454167_row8_col18" class="data row8 col18" >8</td>
+      <td id="T_c6454167_row8_col19" class="data row8 col19" >9</td>
+      <td id="T_c6454167_row8_col20" class="data row8 col20" >7</td>
+      <td id="T_c6454167_row8_col21" class="data row8 col21" >8.5</td>
+      <td id="T_c6454167_row8_col22" class="data row8 col22" >9.5</td>
+      <td id="T_c6454167_row8_col23" class="data row8 col23" >6</td>
+      <td id="T_c6454167_row8_col24" class="data row8 col24" >9</td>
+      <td id="T_c6454167_row8_col25" class="data row8 col25" >71</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_c6454167_row9_col1" class="data row9 col1" >alexvbondar</td>
+      <td id="T_c6454167_row9_col2" class="data row9 col2" >1122</td>
+      <td id="T_c6454167_row9_col3" class="data row9 col3" >0.4211</td>
+      <td id="T_c6454167_row9_col4" class="data row9 col4" >0.7823</td>
+      <td id="T_c6454167_row9_col5" class="data row9 col5" >56</td>
+      <td id="T_c6454167_row9_col6" class="data row9 col6" >197</td>
+      <td id="T_c6454167_row9_col7" class="data row9 col7" >164</td>
+      <td id="T_c6454167_row9_col8" class="data row9 col8" >37</td>
+      <td id="T_c6454167_row9_col9" class="data row9 col9" >27</td>
+      <td id="T_c6454167_row9_col10" class="data row9 col10" >85</td>
+      <td id="T_c6454167_row9_col11" class="data row9 col11" >571</td>
+      <td id="T_c6454167_row9_col12" class="data row9 col12" >3-6-0</td>
+      <td id="T_c6454167_row9_col13" class="data row9 col13" >L</td>
+      <td id="T_c6454167_row9_col14" class="data row9 col14" >0.09</td>
+      <td id="T_c6454167_row9_col15" class="data row9 col15" >11</td>
+      <td id="T_c6454167_row9_col16" class="data row9 col16" >12</td>
+      <td id="T_c6454167_row9_col17" class="data row9 col17" >7</td>
+      <td id="T_c6454167_row9_col18" class="data row9 col18" >9</td>
+      <td id="T_c6454167_row9_col19" class="data row9 col19" >10</td>
+      <td id="T_c6454167_row9_col20" class="data row9 col20" >4</td>
+      <td id="T_c6454167_row9_col21" class="data row9 col21" >10</td>
+      <td id="T_c6454167_row9_col22" class="data row9 col22" >6</td>
+      <td id="T_c6454167_row9_col23" class="data row9 col23" >8.5</td>
+      <td id="T_c6454167_row9_col24" class="data row9 col24" >10</td>
+      <td id="T_c6454167_row9_col25" class="data row9 col25" >76.5</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_c6454167_row10_col1" class="data row10 col1" > Mad Maxey</td>
+      <td id="T_c6454167_row10_col2" class="data row10 col2" >1141</td>
+      <td id="T_c6454167_row10_col3" class="data row10 col3" >0.4567</td>
+      <td id="T_c6454167_row10_col4" class="data row10 col4" >0.8543</td>
+      <td id="T_c6454167_row10_col5" class="data row10 col5" >84</td>
+      <td id="T_c6454167_row10_col6" class="data row10 col6" >191</td>
+      <td id="T_c6454167_row10_col7" class="data row10 col7" >128</td>
+      <td id="T_c6454167_row10_col8" class="data row10 col8" >32</td>
+      <td id="T_c6454167_row10_col9" class="data row10 col9" >16</td>
+      <td id="T_c6454167_row10_col10" class="data row10 col10" >80</td>
+      <td id="T_c6454167_row10_col11" class="data row10 col11" >677</td>
+      <td id="T_c6454167_row10_col12" class="data row10 col12" >1-8-0</td>
+      <td id="T_c6454167_row10_col13" class="data row10 col13" >L</td>
+      <td id="T_c6454167_row10_col14" class="data row10 col14" >0.09</td>
+      <td id="T_c6454167_row10_col15" class="data row10 col15" >10</td>
+      <td id="T_c6454167_row10_col16" class="data row10 col16" >11</td>
+      <td id="T_c6454167_row10_col17" class="data row10 col17" >3</td>
+      <td id="T_c6454167_row10_col18" class="data row10 col18" >3.5</td>
+      <td id="T_c6454167_row10_col19" class="data row10 col19" >12</td>
+      <td id="T_c6454167_row10_col20" class="data row10 col20" >12</td>
+      <td id="T_c6454167_row10_col21" class="data row10 col21" >12</td>
+      <td id="T_c6454167_row10_col22" class="data row10 col22" >11</td>
+      <td id="T_c6454167_row10_col23" class="data row10 col23" >7</td>
+      <td id="T_c6454167_row10_col24" class="data row10 col24" >7</td>
+      <td id="T_c6454167_row10_col25" class="data row10 col25" >78.5</td>
+    </tr>
+    <tr>
+      <td id="T_c6454167_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_c6454167_row11_col1" class="data row11 col1" >Arsen Wenger</td>
+      <td id="T_c6454167_row11_col2" class="data row11 col2" >1092</td>
+      <td id="T_c6454167_row11_col3" class="data row11 col3" >0.4623</td>
+      <td id="T_c6454167_row11_col4" class="data row11 col4" >0.7083</td>
+      <td id="T_c6454167_row11_col5" class="data row11 col5" >46</td>
+      <td id="T_c6454167_row11_col6" class="data row11 col6" >192</td>
+      <td id="T_c6454167_row11_col7" class="data row11 col7" >131</td>
+      <td id="T_c6454167_row11_col8" class="data row11 col8" >48</td>
+      <td id="T_c6454167_row11_col9" class="data row11 col9" >15</td>
+      <td id="T_c6454167_row11_col10" class="data row11 col10" >73</td>
+      <td id="T_c6454167_row11_col11" class="data row11 col11" >523</td>
+      <td id="T_c6454167_row11_col12" class="data row11 col12" >3-6-0</td>
+      <td id="T_c6454167_row11_col13" class="data row11 col13" >L</td>
+      <td id="T_c6454167_row11_col14" class="data row11 col14" >0.09</td>
+      <td id="T_c6454167_row11_col15" class="data row11 col15" >12</td>
+      <td id="T_c6454167_row11_col16" class="data row11 col16" >7</td>
+      <td id="T_c6454167_row11_col17" class="data row11 col17" >11</td>
+      <td id="T_c6454167_row11_col18" class="data row11 col18" >10</td>
+      <td id="T_c6454167_row11_col19" class="data row11 col19" >11</td>
+      <td id="T_c6454167_row11_col20" class="data row11 col20" >10.5</td>
+      <td id="T_c6454167_row11_col21" class="data row11 col21" >2</td>
+      <td id="T_c6454167_row11_col22" class="data row11 col22" >12</td>
+      <td id="T_c6454167_row11_col23" class="data row11 col23" >4</td>
+      <td id="T_c6454167_row11_col24" class="data row11 col24" >12</td>
+      <td id="T_c6454167_row11_col25" class="data row11 col25" >79.5</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Rotisserie</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица с результатами команд по системе скоринга Rotisserie. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_0eee943b_row0_col5, #T_0eee943b_row0_col8, #T_0eee943b_row2_col6, #T_0eee943b_row2_col7, #T_0eee943b_row3_col3, #T_0eee943b_row4_col2, #T_0eee943b_row6_col9, #T_0eee943b_row7_col4, #T_0eee943b_row7_col10 {
+  background-color: lightgreen;
+}
+#T_0eee943b_row0_col11, #T_0eee943b_row0_col13, #T_0eee943b_row0_col14, #T_0eee943b_row0_col17, #T_0eee943b_row0_col19, #T_0eee943b_row1_col11, #T_0eee943b_row1_col13, #T_0eee943b_row1_col15, #T_0eee943b_row1_col17, #T_0eee943b_row1_col19, #T_0eee943b_row2_col11, #T_0eee943b_row2_col14, #T_0eee943b_row2_col15, #T_0eee943b_row2_col16, #T_0eee943b_row2_col19, #T_0eee943b_row3_col12, #T_0eee943b_row3_col13, #T_0eee943b_row3_col14, #T_0eee943b_row3_col17, #T_0eee943b_row4_col11, #T_0eee943b_row4_col14, #T_0eee943b_row4_col15, #T_0eee943b_row4_col16, #T_0eee943b_row4_col17, #T_0eee943b_row4_col18, #T_0eee943b_row5_col12, #T_0eee943b_row6_col15, #T_0eee943b_row6_col18, #T_0eee943b_row7_col12, #T_0eee943b_row7_col13, #T_0eee943b_row7_col19, #T_0eee943b_row8_col12, #T_0eee943b_row8_col16, #T_0eee943b_row10_col16, #T_0eee943b_row10_col18, #T_0eee943b_row11_col18 {
+  color: blue;
+}
+#T_0eee943b_row0_col12, #T_0eee943b_row1_col18, #T_0eee943b_row2_col12, #T_0eee943b_row2_col13, #T_0eee943b_row2_col18, #T_0eee943b_row3_col18, #T_0eee943b_row4_col12, #T_0eee943b_row4_col13, #T_0eee943b_row4_col19, #T_0eee943b_row5_col14, #T_0eee943b_row5_col16, #T_0eee943b_row6_col16, #T_0eee943b_row6_col17, #T_0eee943b_row7_col11, #T_0eee943b_row7_col14, #T_0eee943b_row7_col15, #T_0eee943b_row7_col18, #T_0eee943b_row8_col11, #T_0eee943b_row8_col15, #T_0eee943b_row8_col17, #T_0eee943b_row9_col11, #T_0eee943b_row9_col16, #T_0eee943b_row9_col17, #T_0eee943b_row9_col19, #T_0eee943b_row10_col12, #T_0eee943b_row10_col13, #T_0eee943b_row10_col14, #T_0eee943b_row10_col15, #T_0eee943b_row10_col17, #T_0eee943b_row10_col19, #T_0eee943b_row11_col11, #T_0eee943b_row11_col13, #T_0eee943b_row11_col14, #T_0eee943b_row11_col15, #T_0eee943b_row11_col16, #T_0eee943b_row11_col19 {
+  color: red;
+}
+#T_0eee943b_row2_col9, #T_0eee943b_row4_col3, #T_0eee943b_row4_col4, #T_0eee943b_row6_col7, #T_0eee943b_row7_col6, #T_0eee943b_row9_col8, #T_0eee943b_row10_col10, #T_0eee943b_row11_col2, #T_0eee943b_row11_col5 {
+  background-color: orange;
+}
+</style>
+<table id="T_0eee943b" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_0eee943b_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_0eee943b_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_0eee943b_level0_col2" class="col_heading level0 col2" >FG%</th>
+      <th id="T_0eee943b_level0_col3" class="col_heading level0 col3" >FT%</th>
+      <th id="T_0eee943b_level0_col4" class="col_heading level0 col4" >3PM</th>
+      <th id="T_0eee943b_level0_col5" class="col_heading level0 col5" >REB</th>
+      <th id="T_0eee943b_level0_col6" class="col_heading level0 col6" >AST</th>
+      <th id="T_0eee943b_level0_col7" class="col_heading level0 col7" >STL</th>
+      <th id="T_0eee943b_level0_col8" class="col_heading level0 col8" >BLK</th>
+      <th id="T_0eee943b_level0_col9" class="col_heading level0 col9" >TO</th>
+      <th id="T_0eee943b_level0_col10" class="col_heading level0 col10" >PTS</th>
+      <th id="T_0eee943b_level0_col11" class="col_heading level0 col11" >FG% </th>
+      <th id="T_0eee943b_level0_col12" class="col_heading level0 col12" >FT% </th>
+      <th id="T_0eee943b_level0_col13" class="col_heading level0 col13" >3PM </th>
+      <th id="T_0eee943b_level0_col14" class="col_heading level0 col14" >REB </th>
+      <th id="T_0eee943b_level0_col15" class="col_heading level0 col15" >AST </th>
+      <th id="T_0eee943b_level0_col16" class="col_heading level0 col16" >STL </th>
+      <th id="T_0eee943b_level0_col17" class="col_heading level0 col17" >BLK </th>
+      <th id="T_0eee943b_level0_col18" class="col_heading level0 col18" >TO </th>
+      <th id="T_0eee943b_level0_col19" class="col_heading level0 col19" >PTS </th>
+      <th id="T_0eee943b_level0_col20" class="col_heading level0 col20" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_0eee943b_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_0eee943b_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_0eee943b_row0_col2" class="data row0 col2" >48.02</td>
+      <td id="T_0eee943b_row0_col3" class="data row0 col3" >76.85</td>
+      <td id="T_0eee943b_row0_col4" class="data row0 col4" >220</td>
+      <td id="T_0eee943b_row0_col5" class="data row0 col5" >767</td>
+      <td id="T_0eee943b_row0_col6" class="data row0 col6" >415</td>
+      <td id="T_0eee943b_row0_col7" class="data row0 col7" >123</td>
+      <td id="T_0eee943b_row0_col8" class="data row0 col8" >119</td>
+      <td id="T_0eee943b_row0_col9" class="data row0 col9" >237</td>
+      <td id="T_0eee943b_row0_col10" class="data row0 col10" >2028</td>
+      <td id="T_0eee943b_row0_col11" class="data row0 col11" >3</td>
+      <td id="T_0eee943b_row0_col12" class="data row0 col12" >9</td>
+      <td id="T_0eee943b_row0_col13" class="data row0 col13" >3</td>
+      <td id="T_0eee943b_row0_col14" class="data row0 col14" >1</td>
+      <td id="T_0eee943b_row0_col15" class="data row0 col15" >7</td>
+      <td id="T_0eee943b_row0_col16" class="data row0 col16" >6</td>
+      <td id="T_0eee943b_row0_col17" class="data row0 col17" >1</td>
+      <td id="T_0eee943b_row0_col18" class="data row0 col18" >5</td>
+      <td id="T_0eee943b_row0_col19" class="data row0 col19" >2</td>
+      <td id="T_0eee943b_row0_col20" class="data row0 col20" >37</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_0eee943b_row1_col1" class="data row1 col1" >Stir and Dimi</td>
+      <td id="T_0eee943b_row1_col2" class="data row1 col2" >46.99</td>
+      <td id="T_0eee943b_row1_col3" class="data row1 col3" >78.81</td>
+      <td id="T_0eee943b_row1_col4" class="data row1 col4" >232</td>
+      <td id="T_0eee943b_row1_col5" class="data row1 col5" >635</td>
+      <td id="T_0eee943b_row1_col6" class="data row1 col6" >456</td>
+      <td id="T_0eee943b_row1_col7" class="data row1 col7" >124</td>
+      <td id="T_0eee943b_row1_col8" class="data row1 col8" >94</td>
+      <td id="T_0eee943b_row1_col9" class="data row1 col9" >255</td>
+      <td id="T_0eee943b_row1_col10" class="data row1 col10" >1937</td>
+      <td id="T_0eee943b_row1_col11" class="data row1 col11" >4</td>
+      <td id="T_0eee943b_row1_col12" class="data row1 col12" >7</td>
+      <td id="T_0eee943b_row1_col13" class="data row1 col13" >2</td>
+      <td id="T_0eee943b_row1_col14" class="data row1 col14" >8</td>
+      <td id="T_0eee943b_row1_col15" class="data row1 col15" >4</td>
+      <td id="T_0eee943b_row1_col16" class="data row1 col16" >5</td>
+      <td id="T_0eee943b_row1_col17" class="data row1 col17" >2</td>
+      <td id="T_0eee943b_row1_col18" class="data row1 col18" >11</td>
+      <td id="T_0eee943b_row1_col19" class="data row1 col19" >4</td>
+      <td id="T_0eee943b_row1_col20" class="data row1 col20" >47</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_0eee943b_row2_col1" class="data row2 col1" >de_puta_madre</td>
+      <td id="T_0eee943b_row2_col2" class="data row2 col2" >48.61</td>
+      <td id="T_0eee943b_row2_col3" class="data row2 col3" >71.95</td>
+      <td id="T_0eee943b_row2_col4" class="data row2 col4" >142</td>
+      <td id="T_0eee943b_row2_col5" class="data row2 col5" >709</td>
+      <td id="T_0eee943b_row2_col6" class="data row2 col6" >493</td>
+      <td id="T_0eee943b_row2_col7" class="data row2 col7" >148</td>
+      <td id="T_0eee943b_row2_col8" class="data row2 col8" >79</td>
+      <td id="T_0eee943b_row2_col9" class="data row2 col9" >279</td>
+      <td id="T_0eee943b_row2_col10" class="data row2 col10" >2021</td>
+      <td id="T_0eee943b_row2_col11" class="data row2 col11" >2</td>
+      <td id="T_0eee943b_row2_col12" class="data row2 col12" >11</td>
+      <td id="T_0eee943b_row2_col13" class="data row2 col13" >10</td>
+      <td id="T_0eee943b_row2_col14" class="data row2 col14" >3</td>
+      <td id="T_0eee943b_row2_col15" class="data row2 col15" >1</td>
+      <td id="T_0eee943b_row2_col16" class="data row2 col16" >1</td>
+      <td id="T_0eee943b_row2_col17" class="data row2 col17" >5.5</td>
+      <td id="T_0eee943b_row2_col18" class="data row2 col18" >12</td>
+      <td id="T_0eee943b_row2_col19" class="data row2 col19" >3</td>
+      <td id="T_0eee943b_row2_col20" class="data row2 col20" >48.5</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_0eee943b_row3_col1" class="data row3 col1" >Volga Vibes</td>
+      <td id="T_0eee943b_row3_col2" class="data row3 col2" >46.36</td>
+      <td id="T_0eee943b_row3_col3" class="data row3 col3" >85.27</td>
+      <td id="T_0eee943b_row3_col4" class="data row3 col4" >219</td>
+      <td id="T_0eee943b_row3_col5" class="data row3 col5" >693</td>
+      <td id="T_0eee943b_row3_col6" class="data row3 col6" >407</td>
+      <td id="T_0eee943b_row3_col7" class="data row3 col7" >120</td>
+      <td id="T_0eee943b_row3_col8" class="data row3 col8" >93</td>
+      <td id="T_0eee943b_row3_col9" class="data row3 col9" >253</td>
+      <td id="T_0eee943b_row3_col10" class="data row3 col10" >1875</td>
+      <td id="T_0eee943b_row3_col11" class="data row3 col11" >6</td>
+      <td id="T_0eee943b_row3_col12" class="data row3 col12" >1</td>
+      <td id="T_0eee943b_row3_col13" class="data row3 col13" >4</td>
+      <td id="T_0eee943b_row3_col14" class="data row3 col14" >4</td>
+      <td id="T_0eee943b_row3_col15" class="data row3 col15" >8</td>
+      <td id="T_0eee943b_row3_col16" class="data row3 col16" >7.5</td>
+      <td id="T_0eee943b_row3_col17" class="data row3 col17" >3</td>
+      <td id="T_0eee943b_row3_col18" class="data row3 col18" >9.5</td>
+      <td id="T_0eee943b_row3_col19" class="data row3 col19" >7</td>
+      <td id="T_0eee943b_row3_col20" class="data row3 col20" >50</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_0eee943b_row4_col1" class="data row4 col1" >Gorgeous George</td>
+      <td id="T_0eee943b_row4_col2" class="data row4 col2" >50.21</td>
+      <td id="T_0eee943b_row4_col3" class="data row4 col3" >67.5</td>
+      <td id="T_0eee943b_row4_col4" class="data row4 col4" >124</td>
+      <td id="T_0eee943b_row4_col5" class="data row4 col5" >763</td>
+      <td id="T_0eee943b_row4_col6" class="data row4 col6" >487</td>
+      <td id="T_0eee943b_row4_col7" class="data row4 col7" >128</td>
+      <td id="T_0eee943b_row4_col8" class="data row4 col8" >90</td>
+      <td id="T_0eee943b_row4_col9" class="data row4 col9" >226</td>
+      <td id="T_0eee943b_row4_col10" class="data row4 col10" >1594</td>
+      <td id="T_0eee943b_row4_col11" class="data row4 col11" >1</td>
+      <td id="T_0eee943b_row4_col12" class="data row4 col12" >12</td>
+      <td id="T_0eee943b_row4_col13" class="data row4 col13" >12</td>
+      <td id="T_0eee943b_row4_col14" class="data row4 col14" >2</td>
+      <td id="T_0eee943b_row4_col15" class="data row4 col15" >2</td>
+      <td id="T_0eee943b_row4_col16" class="data row4 col16" >4</td>
+      <td id="T_0eee943b_row4_col17" class="data row4 col17" >4</td>
+      <td id="T_0eee943b_row4_col18" class="data row4 col18" >3</td>
+      <td id="T_0eee943b_row4_col19" class="data row4 col19" >11</td>
+      <td id="T_0eee943b_row4_col20" class="data row4 col20" >51</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_0eee943b_row5_col1" class="data row5 col1" >Yan's Hearty Team</td>
+      <td id="T_0eee943b_row5_col2" class="data row5 col2" >46.17</td>
+      <td id="T_0eee943b_row5_col3" class="data row5 col3" >82.59</td>
+      <td id="T_0eee943b_row5_col4" class="data row5 col4" >187</td>
+      <td id="T_0eee943b_row5_col5" class="data row5 col5" >621</td>
+      <td id="T_0eee943b_row5_col6" class="data row5 col6" >432</td>
+      <td id="T_0eee943b_row5_col7" class="data row5 col7" >110</td>
+      <td id="T_0eee943b_row5_col8" class="data row5 col8" >79</td>
+      <td id="T_0eee943b_row5_col9" class="data row5 col9" >245</td>
+      <td id="T_0eee943b_row5_col10" class="data row5 col10" >1909</td>
+      <td id="T_0eee943b_row5_col11" class="data row5 col11" >7</td>
+      <td id="T_0eee943b_row5_col12" class="data row5 col12" >4</td>
+      <td id="T_0eee943b_row5_col13" class="data row5 col13" >8</td>
+      <td id="T_0eee943b_row5_col14" class="data row5 col14" >9</td>
+      <td id="T_0eee943b_row5_col15" class="data row5 col15" >5</td>
+      <td id="T_0eee943b_row5_col16" class="data row5 col16" >10</td>
+      <td id="T_0eee943b_row5_col17" class="data row5 col17" >5.5</td>
+      <td id="T_0eee943b_row5_col18" class="data row5 col18" >7</td>
+      <td id="T_0eee943b_row5_col19" class="data row5 col19" >5</td>
+      <td id="T_0eee943b_row5_col20" class="data row5 col20" >60.5</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_0eee943b_row6_col1" class="data row6 col1" >2 KABANA</td>
+      <td id="T_0eee943b_row6_col2" class="data row6 col2" >46.08</td>
+      <td id="T_0eee943b_row6_col3" class="data row6 col3" >79.96</td>
+      <td id="T_0eee943b_row6_col4" class="data row6 col4" >203</td>
+      <td id="T_0eee943b_row6_col5" class="data row6 col5" >656</td>
+      <td id="T_0eee943b_row6_col6" class="data row6 col6" >474</td>
+      <td id="T_0eee943b_row6_col7" class="data row6 col7" >104</td>
+      <td id="T_0eee943b_row6_col8" class="data row6 col8" >55</td>
+      <td id="T_0eee943b_row6_col9" class="data row6 col9" >203</td>
+      <td id="T_0eee943b_row6_col10" class="data row6 col10" >1844</td>
+      <td id="T_0eee943b_row6_col11" class="data row6 col11" >8</td>
+      <td id="T_0eee943b_row6_col12" class="data row6 col12" >6</td>
+      <td id="T_0eee943b_row6_col13" class="data row6 col13" >6</td>
+      <td id="T_0eee943b_row6_col14" class="data row6 col14" >7</td>
+      <td id="T_0eee943b_row6_col15" class="data row6 col15" >3</td>
+      <td id="T_0eee943b_row6_col16" class="data row6 col16" >12</td>
+      <td id="T_0eee943b_row6_col17" class="data row6 col17" >10</td>
+      <td id="T_0eee943b_row6_col18" class="data row6 col18" >1</td>
+      <td id="T_0eee943b_row6_col19" class="data row6 col19" >8</td>
+      <td id="T_0eee943b_row6_col20" class="data row6 col20" >61</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_0eee943b_row7_col1" class="data row7 col1" > Mad Maxey</td>
+      <td id="T_0eee943b_row7_col2" class="data row7 col2" >44.96</td>
+      <td id="T_0eee943b_row7_col3" class="data row7 col3" >83.82</td>
+      <td id="T_0eee943b_row7_col4" class="data row7 col4" >242</td>
+      <td id="T_0eee943b_row7_col5" class="data row7 col5" >599</td>
+      <td id="T_0eee943b_row7_col6" class="data row7 col6" >361</td>
+      <td id="T_0eee943b_row7_col7" class="data row7 col7" >120</td>
+      <td id="T_0eee943b_row7_col8" class="data row7 col8" >70</td>
+      <td id="T_0eee943b_row7_col9" class="data row7 col9" >253</td>
+      <td id="T_0eee943b_row7_col10" class="data row7 col10" >2116</td>
+      <td id="T_0eee943b_row7_col11" class="data row7 col11" >10</td>
+      <td id="T_0eee943b_row7_col12" class="data row7 col12" >3</td>
+      <td id="T_0eee943b_row7_col13" class="data row7 col13" >1</td>
+      <td id="T_0eee943b_row7_col14" class="data row7 col14" >11</td>
+      <td id="T_0eee943b_row7_col15" class="data row7 col15" >12</td>
+      <td id="T_0eee943b_row7_col16" class="data row7 col16" >7.5</td>
+      <td id="T_0eee943b_row7_col17" class="data row7 col17" >7</td>
+      <td id="T_0eee943b_row7_col18" class="data row7 col18" >9.5</td>
+      <td id="T_0eee943b_row7_col19" class="data row7 col19" >1</td>
+      <td id="T_0eee943b_row7_col20" class="data row7 col20" >62</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_0eee943b_row8_col1" class="data row8 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_0eee943b_row8_col2" class="data row8 col2" >44.85</td>
+      <td id="T_0eee943b_row8_col3" class="data row8 col3" >84.35</td>
+      <td id="T_0eee943b_row8_col4" class="data row8 col4" >218</td>
+      <td id="T_0eee943b_row8_col5" class="data row8 col5" >684</td>
+      <td id="T_0eee943b_row8_col6" class="data row8 col6" >379</td>
+      <td id="T_0eee943b_row8_col7" class="data row8 col7" >139</td>
+      <td id="T_0eee943b_row8_col8" class="data row8 col8" >53</td>
+      <td id="T_0eee943b_row8_col9" class="data row8 col9" >249</td>
+      <td id="T_0eee943b_row8_col10" class="data row8 col10" >1904</td>
+      <td id="T_0eee943b_row8_col11" class="data row8 col11" >11</td>
+      <td id="T_0eee943b_row8_col12" class="data row8 col12" >2</td>
+      <td id="T_0eee943b_row8_col13" class="data row8 col13" >5</td>
+      <td id="T_0eee943b_row8_col14" class="data row8 col14" >6</td>
+      <td id="T_0eee943b_row8_col15" class="data row8 col15" >11</td>
+      <td id="T_0eee943b_row8_col16" class="data row8 col16" >3</td>
+      <td id="T_0eee943b_row8_col17" class="data row8 col17" >11</td>
+      <td id="T_0eee943b_row8_col18" class="data row8 col18" >8</td>
+      <td id="T_0eee943b_row8_col19" class="data row8 col19" >6</td>
+      <td id="T_0eee943b_row8_col20" class="data row8 col20" >63</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_0eee943b_row9_col1" class="data row9 col1" >Kringe Teamka</td>
+      <td id="T_0eee943b_row9_col2" class="data row9 col2" >45.36</td>
+      <td id="T_0eee943b_row9_col3" class="data row9 col3" >82.55</td>
+      <td id="T_0eee943b_row9_col4" class="data row9 col4" >188</td>
+      <td id="T_0eee943b_row9_col5" class="data row9 col5" >689</td>
+      <td id="T_0eee943b_row9_col6" class="data row9 col6" >423</td>
+      <td id="T_0eee943b_row9_col7" class="data row9 col7" >108</td>
+      <td id="T_0eee943b_row9_col8" class="data row9 col8" >47</td>
+      <td id="T_0eee943b_row9_col9" class="data row9 col9" >244</td>
+      <td id="T_0eee943b_row9_col10" class="data row9 col10" >1669</td>
+      <td id="T_0eee943b_row9_col11" class="data row9 col11" >9</td>
+      <td id="T_0eee943b_row9_col12" class="data row9 col12" >5</td>
+      <td id="T_0eee943b_row9_col13" class="data row9 col13" >7</td>
+      <td id="T_0eee943b_row9_col14" class="data row9 col14" >5</td>
+      <td id="T_0eee943b_row9_col15" class="data row9 col15" >6</td>
+      <td id="T_0eee943b_row9_col16" class="data row9 col16" >11</td>
+      <td id="T_0eee943b_row9_col17" class="data row9 col17" >12</td>
+      <td id="T_0eee943b_row9_col18" class="data row9 col18" >6</td>
+      <td id="T_0eee943b_row9_col19" class="data row9 col19" >9</td>
+      <td id="T_0eee943b_row9_col20" class="data row9 col20" >70</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_0eee943b_row10_col1" class="data row10 col1" >Arsen Wenger</td>
+      <td id="T_0eee943b_row10_col2" class="data row10 col2" >46.43</td>
+      <td id="T_0eee943b_row10_col3" class="data row10 col3" >73.82</td>
+      <td id="T_0eee943b_row10_col4" class="data row10 col4" >139</td>
+      <td id="T_0eee943b_row10_col5" class="data row10 col5" >603</td>
+      <td id="T_0eee943b_row10_col6" class="data row10 col6" >385</td>
+      <td id="T_0eee943b_row10_col7" class="data row10 col7" >144</td>
+      <td id="T_0eee943b_row10_col8" class="data row10 col8" >58</td>
+      <td id="T_0eee943b_row10_col9" class="data row10 col9" >217</td>
+      <td id="T_0eee943b_row10_col10" class="data row10 col10" >1508</td>
+      <td id="T_0eee943b_row10_col11" class="data row10 col11" >5</td>
+      <td id="T_0eee943b_row10_col12" class="data row10 col12" >10</td>
+      <td id="T_0eee943b_row10_col13" class="data row10 col13" >11</td>
+      <td id="T_0eee943b_row10_col14" class="data row10 col14" >10</td>
+      <td id="T_0eee943b_row10_col15" class="data row10 col15" >10</td>
+      <td id="T_0eee943b_row10_col16" class="data row10 col16" >2</td>
+      <td id="T_0eee943b_row10_col17" class="data row10 col17" >9</td>
+      <td id="T_0eee943b_row10_col18" class="data row10 col18" >2</td>
+      <td id="T_0eee943b_row10_col19" class="data row10 col19" >12</td>
+      <td id="T_0eee943b_row10_col20" class="data row10 col20" >71</td>
+    </tr>
+    <tr>
+      <td id="T_0eee943b_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_0eee943b_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_0eee943b_row11_col2" class="data row11 col2" >43.58</td>
+      <td id="T_0eee943b_row11_col3" class="data row11 col3" >78.69</td>
+      <td id="T_0eee943b_row11_col4" class="data row11 col4" >176</td>
+      <td id="T_0eee943b_row11_col5" class="data row11 col5" >538</td>
+      <td id="T_0eee943b_row11_col6" class="data row11 col6" >395</td>
+      <td id="T_0eee943b_row11_col7" class="data row11 col7" >111</td>
+      <td id="T_0eee943b_row11_col8" class="data row11 col8" >69</td>
+      <td id="T_0eee943b_row11_col9" class="data row11 col9" >236</td>
+      <td id="T_0eee943b_row11_col10" class="data row11 col10" >1649</td>
+      <td id="T_0eee943b_row11_col11" class="data row11 col11" >12</td>
+      <td id="T_0eee943b_row11_col12" class="data row11 col12" >8</td>
+      <td id="T_0eee943b_row11_col13" class="data row11 col13" >9</td>
+      <td id="T_0eee943b_row11_col14" class="data row11 col14" >12</td>
+      <td id="T_0eee943b_row11_col15" class="data row11 col15" >9</td>
+      <td id="T_0eee943b_row11_col16" class="data row11 col16" >9</td>
+      <td id="T_0eee943b_row11_col17" class="data row11 col17" >8</td>
+      <td id="T_0eee943b_row11_col18" class="data row11 col18" >4</td>
+      <td id="T_0eee943b_row11_col19" class="data row11 col19" >10</td>
+      <td id="T_0eee943b_row11_col20" class="data row11 col20" >81</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Places</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица позиций игрока по набору в лиге по матчапам. Для лиг по категориям набором является сумма мест по категориям. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_4fcb42eb_row0_col2, #T_4fcb42eb_row0_col3, #T_4fcb42eb_row0_col4, #T_4fcb42eb_row1_col3, #T_4fcb42eb_row1_col4, #T_4fcb42eb_row2_col2, #T_4fcb42eb_row2_col3, #T_4fcb42eb_row3_col2, #T_4fcb42eb_row4_col2, #T_4fcb42eb_row4_col4, #T_4fcb42eb_row5_col4, #T_4fcb42eb_row6_col3 {
+  color: blue;
+}
+#T_4fcb42eb_row1_col2, #T_4fcb42eb_row4_col3, #T_4fcb42eb_row6_col4, #T_4fcb42eb_row7_col3, #T_4fcb42eb_row8_col2, #T_4fcb42eb_row9_col3, #T_4fcb42eb_row9_col4, #T_4fcb42eb_row10_col2, #T_4fcb42eb_row10_col4, #T_4fcb42eb_row11_col2, #T_4fcb42eb_row11_col3, #T_4fcb42eb_row11_col4 {
+  color: red;
+}
+</style>
+<table id="T_4fcb42eb" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_4fcb42eb_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_4fcb42eb_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_4fcb42eb_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_4fcb42eb_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_4fcb42eb_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_4fcb42eb_level0_col5" class="col_heading level0 col5" >&#128532;</th>
+      <th id="T_4fcb42eb_level0_col6" class="col_heading level0 col6" >&#128526;</th>
+      <th id="T_4fcb42eb_level0_col7" class="col_heading level0 col7" >Last4</th>
+      <th id="T_4fcb42eb_level0_col8" class="col_heading level0 col8" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_4fcb42eb_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_4fcb42eb_row0_col1" class="data row0 col1" >Stir and Dimi</td>
+      <td id="T_4fcb42eb_row0_col2" class="data row0 col2" >3</td>
+      <td id="T_4fcb42eb_row0_col3" class="data row0 col3" >4</td>
+      <td id="T_4fcb42eb_row0_col4" class="data row0 col4" >4</td>
+      <td id="T_4fcb42eb_row0_col5" class="data row0 col5" >0</td>
+      <td id="T_4fcb42eb_row0_col6" class="data row0 col6" >3</td>
+      <td id="T_4fcb42eb_row0_col7" class="data row0 col7" >11</td>
+      <td id="T_4fcb42eb_row0_col8" class="data row0 col8" >11</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_4fcb42eb_row1_col1" class="data row1 col1" >Morning dawn</td>
+      <td id="T_4fcb42eb_row1_col2" class="data row1 col2" >9</td>
+      <td id="T_4fcb42eb_row1_col3" class="data row1 col3" >1</td>
+      <td id="T_4fcb42eb_row1_col4" class="data row1 col4" >1</td>
+      <td id="T_4fcb42eb_row1_col5" class="data row1 col5" >1</td>
+      <td id="T_4fcb42eb_row1_col6" class="data row1 col6" >2</td>
+      <td id="T_4fcb42eb_row1_col7" class="data row1 col7" >11</td>
+      <td id="T_4fcb42eb_row1_col8" class="data row1 col8" >11</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_4fcb42eb_row2_col1" class="data row2 col1" >Volga Vibes</td>
+      <td id="T_4fcb42eb_row2_col2" class="data row2 col2" >3</td>
+      <td id="T_4fcb42eb_row2_col3" class="data row2 col3" >2</td>
+      <td id="T_4fcb42eb_row2_col4" class="data row2 col4" >8</td>
+      <td id="T_4fcb42eb_row2_col5" class="data row2 col5" >0</td>
+      <td id="T_4fcb42eb_row2_col6" class="data row2 col6" >2</td>
+      <td id="T_4fcb42eb_row2_col7" class="data row2 col7" >13</td>
+      <td id="T_4fcb42eb_row2_col8" class="data row2 col8" >13</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_4fcb42eb_row3_col1" class="data row3 col1" >Gorgeous George</td>
+      <td id="T_4fcb42eb_row3_col2" class="data row3 col2" >3</td>
+      <td id="T_4fcb42eb_row3_col3" class="data row3 col3" >5</td>
+      <td id="T_4fcb42eb_row3_col4" class="data row3 col4" >5</td>
+      <td id="T_4fcb42eb_row3_col5" class="data row3 col5" >0</td>
+      <td id="T_4fcb42eb_row3_col6" class="data row3 col6" >1</td>
+      <td id="T_4fcb42eb_row3_col7" class="data row3 col7" >13</td>
+      <td id="T_4fcb42eb_row3_col8" class="data row3 col8" >13</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_4fcb42eb_row4_col1" class="data row4 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_4fcb42eb_row4_col2" class="data row4 col2" >1</td>
+      <td id="T_4fcb42eb_row4_col3" class="data row4 col3" >11</td>
+      <td id="T_4fcb42eb_row4_col4" class="data row4 col4" >2</td>
+      <td id="T_4fcb42eb_row4_col5" class="data row4 col5" >1</td>
+      <td id="T_4fcb42eb_row4_col6" class="data row4 col6" >2</td>
+      <td id="T_4fcb42eb_row4_col7" class="data row4 col7" >14</td>
+      <td id="T_4fcb42eb_row4_col8" class="data row4 col8" >14</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_4fcb42eb_row5_col1" class="data row5 col1" >de_puta_madre</td>
+      <td id="T_4fcb42eb_row5_col2" class="data row5 col2" >8</td>
+      <td id="T_4fcb42eb_row5_col3" class="data row5 col3" >7</td>
+      <td id="T_4fcb42eb_row5_col4" class="data row5 col4" >3</td>
+      <td id="T_4fcb42eb_row5_col5" class="data row5 col5" >0</td>
+      <td id="T_4fcb42eb_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_4fcb42eb_row5_col7" class="data row5 col7" >18</td>
+      <td id="T_4fcb42eb_row5_col8" class="data row5 col8" >18</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_4fcb42eb_row6_col1" class="data row6 col1" > Mad Maxey</td>
+      <td id="T_4fcb42eb_row6_col2" class="data row6 col2" >6.5</td>
+      <td id="T_4fcb42eb_row6_col3" class="data row6 col3" >3</td>
+      <td id="T_4fcb42eb_row6_col4" class="data row6 col4" >11</td>
+      <td id="T_4fcb42eb_row6_col5" class="data row6 col5" >1</td>
+      <td id="T_4fcb42eb_row6_col6" class="data row6 col6" >1</td>
+      <td id="T_4fcb42eb_row6_col7" class="data row6 col7" >20.5</td>
+      <td id="T_4fcb42eb_row6_col8" class="data row6 col8" >20.5</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_4fcb42eb_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_4fcb42eb_row7_col2" class="data row7 col2" >5</td>
+      <td id="T_4fcb42eb_row7_col3" class="data row7 col3" >9</td>
+      <td id="T_4fcb42eb_row7_col4" class="data row7 col4" >7</td>
+      <td id="T_4fcb42eb_row7_col5" class="data row7 col5" >1</td>
+      <td id="T_4fcb42eb_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_4fcb42eb_row7_col7" class="data row7 col7" >21</td>
+      <td id="T_4fcb42eb_row7_col8" class="data row7 col8" >21</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_4fcb42eb_row8_col1" class="data row8 col1" >Yan's Hearty Team</td>
+      <td id="T_4fcb42eb_row8_col2" class="data row8 col2" >11</td>
+      <td id="T_4fcb42eb_row8_col3" class="data row8 col3" >6</td>
+      <td id="T_4fcb42eb_row8_col4" class="data row8 col4" >6</td>
+      <td id="T_4fcb42eb_row8_col5" class="data row8 col5" >1</td>
+      <td id="T_4fcb42eb_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_4fcb42eb_row8_col7" class="data row8 col7" >23</td>
+      <td id="T_4fcb42eb_row8_col8" class="data row8 col8" >23</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_4fcb42eb_row9_col1" class="data row9 col1" >Kringe Teamka</td>
+      <td id="T_4fcb42eb_row9_col2" class="data row9 col2" >6.5</td>
+      <td id="T_4fcb42eb_row9_col3" class="data row9 col3" >12</td>
+      <td id="T_4fcb42eb_row9_col4" class="data row9 col4" >9</td>
+      <td id="T_4fcb42eb_row9_col5" class="data row9 col5" >2</td>
+      <td id="T_4fcb42eb_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_4fcb42eb_row9_col7" class="data row9 col7" >27.5</td>
+      <td id="T_4fcb42eb_row9_col8" class="data row9 col8" >27.5</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_4fcb42eb_row10_col1" class="data row10 col1" >Arsen Wenger</td>
+      <td id="T_4fcb42eb_row10_col2" class="data row10 col2" >10</td>
+      <td id="T_4fcb42eb_row10_col3" class="data row10 col3" >8</td>
+      <td id="T_4fcb42eb_row10_col4" class="data row10 col4" >12</td>
+      <td id="T_4fcb42eb_row10_col5" class="data row10 col5" >2</td>
+      <td id="T_4fcb42eb_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_4fcb42eb_row10_col7" class="data row10 col7" >30</td>
+      <td id="T_4fcb42eb_row10_col8" class="data row10 col8" >30</td>
+    </tr>
+    <tr>
+      <td id="T_4fcb42eb_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_4fcb42eb_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_4fcb42eb_row11_col2" class="data row11 col2" >12</td>
+      <td id="T_4fcb42eb_row11_col3" class="data row11 col3" >10</td>
+      <td id="T_4fcb42eb_row11_col4" class="data row11 col4" >10</td>
+      <td id="T_4fcb42eb_row11_col5" class="data row11 col5" >3</td>
+      <td id="T_4fcb42eb_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_4fcb42eb_row11_col7" class="data row11 col7" >32</td>
+      <td id="T_4fcb42eb_row11_col8" class="data row11 col8" >32</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Opponent places</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица позиций соперников игрока по набору в лиге по матчапам. Для лиг по категориям набором является сумма мест по категориям. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_71f0c073_row0_col3, #T_71f0c073_row0_col4, #T_71f0c073_row1_col2, #T_71f0c073_row1_col3, #T_71f0c073_row2_col3, #T_71f0c073_row3_col2, #T_71f0c073_row4_col2, #T_71f0c073_row5_col4, #T_71f0c073_row7_col4, #T_71f0c073_row8_col3, #T_71f0c073_row9_col4, #T_71f0c073_row10_col2 {
+  color: red;
+}
+#T_71f0c073_row3_col3, #T_71f0c073_row4_col4, #T_71f0c073_row5_col2, #T_71f0c073_row6_col4, #T_71f0c073_row7_col2, #T_71f0c073_row8_col2, #T_71f0c073_row9_col2, #T_71f0c073_row9_col3, #T_71f0c073_row10_col3, #T_71f0c073_row10_col4, #T_71f0c073_row11_col3, #T_71f0c073_row11_col4 {
+  color: blue;
+}
+</style>
+<table id="T_71f0c073" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_71f0c073_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_71f0c073_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_71f0c073_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_71f0c073_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_71f0c073_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_71f0c073_level0_col5" class="col_heading level0 col5" >&#128532;</th>
+      <th id="T_71f0c073_level0_col6" class="col_heading level0 col6" >&#128526;</th>
+      <th id="T_71f0c073_level0_col7" class="col_heading level0 col7" >Last4</th>
+      <th id="T_71f0c073_level0_col8" class="col_heading level0 col8" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_71f0c073_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_71f0c073_row0_col1" class="data row0 col1" >Yan's Hearty Team</td>
+      <td id="T_71f0c073_row0_col2" class="data row0 col2" >6.5</td>
+      <td id="T_71f0c073_row0_col3" class="data row0 col3" >2</td>
+      <td id="T_71f0c073_row0_col4" class="data row0 col4" >3</td>
+      <td id="T_71f0c073_row0_col5" class="data row0 col5" >2</td>
+      <td id="T_71f0c073_row0_col6" class="data row0 col6" >0</td>
+      <td id="T_71f0c073_row0_col7" class="data row0 col7" >11.5</td>
+      <td id="T_71f0c073_row0_col8" class="data row0 col8" >11.5</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_71f0c073_row1_col1" class="data row1 col1" >Morning dawn</td>
+      <td id="T_71f0c073_row1_col2" class="data row1 col2" >3</td>
+      <td id="T_71f0c073_row1_col3" class="data row1 col3" >4</td>
+      <td id="T_71f0c073_row1_col4" class="data row1 col4" >7</td>
+      <td id="T_71f0c073_row1_col5" class="data row1 col5" >2</td>
+      <td id="T_71f0c073_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_71f0c073_row1_col7" class="data row1 col7" >14</td>
+      <td id="T_71f0c073_row1_col8" class="data row1 col8" >14</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_71f0c073_row2_col1" class="data row2 col1" >de_puta_madre</td>
+      <td id="T_71f0c073_row2_col2" class="data row2 col2" >6.5</td>
+      <td id="T_71f0c073_row2_col3" class="data row2 col3" >3</td>
+      <td id="T_71f0c073_row2_col4" class="data row2 col4" >6</td>
+      <td id="T_71f0c073_row2_col5" class="data row2 col5" >1</td>
+      <td id="T_71f0c073_row2_col6" class="data row2 col6" >0</td>
+      <td id="T_71f0c073_row2_col7" class="data row2 col7" >15.5</td>
+      <td id="T_71f0c073_row2_col8" class="data row2 col8" >15.5</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_71f0c073_row3_col1" class="data row3 col1" >alexvbondar</td>
+      <td id="T_71f0c073_row3_col2" class="data row3 col2" >3</td>
+      <td id="T_71f0c073_row3_col3" class="data row3 col3" >9</td>
+      <td id="T_71f0c073_row3_col4" class="data row3 col4" >5</td>
+      <td id="T_71f0c073_row3_col5" class="data row3 col5" >1</td>
+      <td id="T_71f0c073_row3_col6" class="data row3 col6" >1</td>
+      <td id="T_71f0c073_row3_col7" class="data row3 col7" >17</td>
+      <td id="T_71f0c073_row3_col8" class="data row3 col8" >17</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_71f0c073_row4_col1" class="data row4 col1" >Gorgeous George</td>
+      <td id="T_71f0c073_row4_col2" class="data row4 col2" >1</td>
+      <td id="T_71f0c073_row4_col3" class="data row4 col3" >8</td>
+      <td id="T_71f0c073_row4_col4" class="data row4 col4" >10</td>
+      <td id="T_71f0c073_row4_col5" class="data row4 col5" >1</td>
+      <td id="T_71f0c073_row4_col6" class="data row4 col6" >1</td>
+      <td id="T_71f0c073_row4_col7" class="data row4 col7" >19</td>
+      <td id="T_71f0c073_row4_col8" class="data row4 col8" >19</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_71f0c073_row5_col1" class="data row5 col1" >Volga Vibes</td>
+      <td id="T_71f0c073_row5_col2" class="data row5 col2" >9</td>
+      <td id="T_71f0c073_row5_col3" class="data row5 col3" >6</td>
+      <td id="T_71f0c073_row5_col4" class="data row5 col4" >4</td>
+      <td id="T_71f0c073_row5_col5" class="data row5 col5" >1</td>
+      <td id="T_71f0c073_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_71f0c073_row5_col7" class="data row5 col7" >19</td>
+      <td id="T_71f0c073_row5_col8" class="data row5 col8" >19</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_71f0c073_row6_col1" class="data row6 col1" >Arsen Wenger</td>
+      <td id="T_71f0c073_row6_col2" class="data row6 col2" >5</td>
+      <td id="T_71f0c073_row6_col3" class="data row6 col3" >5</td>
+      <td id="T_71f0c073_row6_col4" class="data row6 col4" >9</td>
+      <td id="T_71f0c073_row6_col5" class="data row6 col5" >0</td>
+      <td id="T_71f0c073_row6_col6" class="data row6 col6" >1</td>
+      <td id="T_71f0c073_row6_col7" class="data row6 col7" >19</td>
+      <td id="T_71f0c073_row6_col8" class="data row6 col8" >19</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_71f0c073_row7_col1" class="data row7 col1" > Mad Maxey</td>
+      <td id="T_71f0c073_row7_col2" class="data row7 col2" >11</td>
+      <td id="T_71f0c073_row7_col3" class="data row7 col3" >7</td>
+      <td id="T_71f0c073_row7_col4" class="data row7 col4" >2</td>
+      <td id="T_71f0c073_row7_col5" class="data row7 col5" >1</td>
+      <td id="T_71f0c073_row7_col6" class="data row7 col6" >1</td>
+      <td id="T_71f0c073_row7_col7" class="data row7 col7" >20</td>
+      <td id="T_71f0c073_row7_col8" class="data row7 col8" >20</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_71f0c073_row8_col1" class="data row8 col1" >Stir and Dimi</td>
+      <td id="T_71f0c073_row8_col2" class="data row8 col2" >12</td>
+      <td id="T_71f0c073_row8_col3" class="data row8 col3" >1</td>
+      <td id="T_71f0c073_row8_col4" class="data row8 col4" >8</td>
+      <td id="T_71f0c073_row8_col5" class="data row8 col5" >1</td>
+      <td id="T_71f0c073_row8_col6" class="data row8 col6" >1</td>
+      <td id="T_71f0c073_row8_col7" class="data row8 col7" >21</td>
+      <td id="T_71f0c073_row8_col8" class="data row8 col8" >21</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_71f0c073_row9_col1" class="data row9 col1" >2 KABANA</td>
+      <td id="T_71f0c073_row9_col2" class="data row9 col2" >10</td>
+      <td id="T_71f0c073_row9_col3" class="data row9 col3" >10</td>
+      <td id="T_71f0c073_row9_col4" class="data row9 col4" >1</td>
+      <td id="T_71f0c073_row9_col5" class="data row9 col5" >1</td>
+      <td id="T_71f0c073_row9_col6" class="data row9 col6" >2</td>
+      <td id="T_71f0c073_row9_col7" class="data row9 col7" >21</td>
+      <td id="T_71f0c073_row9_col8" class="data row9 col8" >21</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_71f0c073_row10_col1" class="data row10 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_71f0c073_row10_col2" class="data row10 col2" >3</td>
+      <td id="T_71f0c073_row10_col3" class="data row10 col3" >12</td>
+      <td id="T_71f0c073_row10_col4" class="data row10 col4" >11</td>
+      <td id="T_71f0c073_row10_col5" class="data row10 col5" >1</td>
+      <td id="T_71f0c073_row10_col6" class="data row10 col6" >2</td>
+      <td id="T_71f0c073_row10_col7" class="data row10 col7" >26</td>
+      <td id="T_71f0c073_row10_col8" class="data row10 col8" >26</td>
+    </tr>
+    <tr>
+      <td id="T_71f0c073_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_71f0c073_row11_col1" class="data row11 col1" >Kringe Teamka</td>
+      <td id="T_71f0c073_row11_col2" class="data row11 col2" >8</td>
+      <td id="T_71f0c073_row11_col3" class="data row11 col3" >11</td>
+      <td id="T_71f0c073_row11_col4" class="data row11 col4" >12</td>
+      <td id="T_71f0c073_row11_col5" class="data row11 col5" >0</td>
+      <td id="T_71f0c073_row11_col6" class="data row11 col6" >2</td>
+      <td id="T_71f0c073_row11_col7" class="data row11 col7" >31</td>
+      <td id="T_71f0c073_row11_col8" class="data row11 col8" >31</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Pairwise comparisons by matchup</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица статистики личных встреч в лиге за каждый отдельный матчап. У каждого игрока на самом деле один соперник в матчапе, но ничего не мешает сравнить результаты каждого игрока с каждый в конкретный матчап. У каждого игрока после сравнения с другими игроками формируется статистика побед, поражений и ничьих в данный матчап. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_ffb48cda_row0_col3, #T_ffb48cda_row0_col4, #T_ffb48cda_row2_col2, #T_ffb48cda_row5_col2 {
+  background-color: lightgreen;
+}
+#T_ffb48cda_row0_col8, #T_ffb48cda_row0_col9, #T_ffb48cda_row1_col8, #T_ffb48cda_row1_col9, #T_ffb48cda_row2_col8, #T_ffb48cda_row2_col9 {
+  color: green;
+}
+#T_ffb48cda_row3_col8, #T_ffb48cda_row3_col9, #T_ffb48cda_row4_col8, #T_ffb48cda_row4_col9, #T_ffb48cda_row5_col8, #T_ffb48cda_row5_col9, #T_ffb48cda_row6_col8, #T_ffb48cda_row6_col9, #T_ffb48cda_row7_col8, #T_ffb48cda_row7_col9, #T_ffb48cda_row8_col8, #T_ffb48cda_row8_col9 {
+  color: black;
+}
+#T_ffb48cda_row6_col4, #T_ffb48cda_row9_col3, #T_ffb48cda_row10_col4, #T_ffb48cda_row11_col2, #T_ffb48cda_row11_col4 {
+  background-color: orange;
+}
+#T_ffb48cda_row9_col8, #T_ffb48cda_row9_col9, #T_ffb48cda_row10_col8, #T_ffb48cda_row10_col9, #T_ffb48cda_row11_col8, #T_ffb48cda_row11_col9 {
+  color: red;
+}
+</style>
+<table id="T_ffb48cda" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_ffb48cda_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_ffb48cda_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_ffb48cda_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_ffb48cda_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_ffb48cda_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_ffb48cda_level0_col5" class="col_heading level0 col5" >W  </th>
+      <th id="T_ffb48cda_level0_col6" class="col_heading level0 col6" >L</th>
+      <th id="T_ffb48cda_level0_col7" class="col_heading level0 col7" >D</th>
+      <th id="T_ffb48cda_level0_col8" class="col_heading level0 col8" >L4%</th>
+      <th id="T_ffb48cda_level0_col9" class="col_heading level0 col9" >%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_ffb48cda_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_ffb48cda_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_ffb48cda_row0_col2" class="data row0 col2" >5-6-0</td>
+      <td id="T_ffb48cda_row0_col3" class="data row0 col3" >11-0-0</td>
+      <td id="T_ffb48cda_row0_col4" class="data row0 col4" >11-0-0</td>
+      <td id="T_ffb48cda_row0_col5" class="data row0 col5" >27</td>
+      <td id="T_ffb48cda_row0_col6" class="data row0 col6" >6</td>
+      <td id="T_ffb48cda_row0_col7" class="data row0 col7" >0</td>
+      <td id="T_ffb48cda_row0_col8" class="data row0 col8" >0.82</td>
+      <td id="T_ffb48cda_row0_col9" class="data row0 col9" >0.82</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_ffb48cda_row1_col1" class="data row1 col1" >Gorgeous George</td>
+      <td id="T_ffb48cda_row1_col2" class="data row1 col2" >7-2-2</td>
+      <td id="T_ffb48cda_row1_col3" class="data row1 col3" >8-1-2</td>
+      <td id="T_ffb48cda_row1_col4" class="data row1 col4" >9-2-0</td>
+      <td id="T_ffb48cda_row1_col5" class="data row1 col5" >24</td>
+      <td id="T_ffb48cda_row1_col6" class="data row1 col6" >5</td>
+      <td id="T_ffb48cda_row1_col7" class="data row1 col7" >4</td>
+      <td id="T_ffb48cda_row1_col8" class="data row1 col8" >0.79</td>
+      <td id="T_ffb48cda_row1_col9" class="data row1 col9" >0.79</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_ffb48cda_row2_col1" class="data row2 col1" >Stir and Dimi</td>
+      <td id="T_ffb48cda_row2_col2" class="data row2 col2" >9-2-0</td>
+      <td id="T_ffb48cda_row2_col3" class="data row2 col3" >7-4-0</td>
+      <td id="T_ffb48cda_row2_col4" class="data row2 col4" >6-4-1</td>
+      <td id="T_ffb48cda_row2_col5" class="data row2 col5" >22</td>
+      <td id="T_ffb48cda_row2_col6" class="data row2 col6" >10</td>
+      <td id="T_ffb48cda_row2_col7" class="data row2 col7" >1</td>
+      <td id="T_ffb48cda_row2_col8" class="data row2 col8" >0.68</td>
+      <td id="T_ffb48cda_row2_col9" class="data row2 col9" >0.68</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_ffb48cda_row3_col1" class="data row3 col1" >de_puta_madre</td>
+      <td id="T_ffb48cda_row3_col2" class="data row3 col2" >7-4-0</td>
+      <td id="T_ffb48cda_row3_col3" class="data row3 col3" >5-6-0</td>
+      <td id="T_ffb48cda_row3_col4" class="data row3 col4" >9-2-0</td>
+      <td id="T_ffb48cda_row3_col5" class="data row3 col5" >21</td>
+      <td id="T_ffb48cda_row3_col6" class="data row3 col6" >12</td>
+      <td id="T_ffb48cda_row3_col7" class="data row3 col7" >0</td>
+      <td id="T_ffb48cda_row3_col8" class="data row3 col8" >0.64</td>
+      <td id="T_ffb48cda_row3_col9" class="data row3 col9" >0.64</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_ffb48cda_row4_col1" class="data row4 col1" >Volga Vibes</td>
+      <td id="T_ffb48cda_row4_col2" class="data row4 col2" >7-3-1</td>
+      <td id="T_ffb48cda_row4_col3" class="data row4 col3" >9-2-0</td>
+      <td id="T_ffb48cda_row4_col4" class="data row4 col4" >4-7-0</td>
+      <td id="T_ffb48cda_row4_col5" class="data row4 col5" >20</td>
+      <td id="T_ffb48cda_row4_col6" class="data row4 col6" >12</td>
+      <td id="T_ffb48cda_row4_col7" class="data row4 col7" >1</td>
+      <td id="T_ffb48cda_row4_col8" class="data row4 col8" >0.62</td>
+      <td id="T_ffb48cda_row4_col9" class="data row4 col9" >0.62</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_ffb48cda_row5_col1" class="data row5 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_ffb48cda_row5_col2" class="data row5 col2" >9-2-0</td>
+      <td id="T_ffb48cda_row5_col3" class="data row5 col3" >1-10-0</td>
+      <td id="T_ffb48cda_row5_col4" class="data row5 col4" >9-2-0</td>
+      <td id="T_ffb48cda_row5_col5" class="data row5 col5" >19</td>
+      <td id="T_ffb48cda_row5_col6" class="data row5 col6" >14</td>
+      <td id="T_ffb48cda_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_ffb48cda_row5_col8" class="data row5 col8" >0.58</td>
+      <td id="T_ffb48cda_row5_col9" class="data row5 col9" >0.58</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_ffb48cda_row6_col1" class="data row6 col1" > Mad Maxey</td>
+      <td id="T_ffb48cda_row6_col2" class="data row6 col2" >6-5-0</td>
+      <td id="T_ffb48cda_row6_col3" class="data row6 col3" >8-2-1</td>
+      <td id="T_ffb48cda_row6_col4" class="data row6 col4" >1-10-0</td>
+      <td id="T_ffb48cda_row6_col5" class="data row6 col5" >15</td>
+      <td id="T_ffb48cda_row6_col6" class="data row6 col6" >17</td>
+      <td id="T_ffb48cda_row6_col7" class="data row6 col7" >1</td>
+      <td id="T_ffb48cda_row6_col8" class="data row6 col8" >0.47</td>
+      <td id="T_ffb48cda_row6_col9" class="data row6 col9" >0.47</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_ffb48cda_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_ffb48cda_row7_col2" class="data row7 col2" >6-4-1</td>
+      <td id="T_ffb48cda_row7_col3" class="data row7 col3" >3-8-0</td>
+      <td id="T_ffb48cda_row7_col4" class="data row7 col4" >5-5-1</td>
+      <td id="T_ffb48cda_row7_col5" class="data row7 col5" >14</td>
+      <td id="T_ffb48cda_row7_col6" class="data row7 col6" >17</td>
+      <td id="T_ffb48cda_row7_col7" class="data row7 col7" >2</td>
+      <td id="T_ffb48cda_row7_col8" class="data row7 col8" >0.45</td>
+      <td id="T_ffb48cda_row7_col9" class="data row7 col9" >0.45</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_ffb48cda_row8_col1" class="data row8 col1" >Yan's Hearty Team</td>
+      <td id="T_ffb48cda_row8_col2" class="data row8 col2" >2-9-0</td>
+      <td id="T_ffb48cda_row8_col3" class="data row8 col3" >6-4-1</td>
+      <td id="T_ffb48cda_row8_col4" class="data row8 col4" >6-5-0</td>
+      <td id="T_ffb48cda_row8_col5" class="data row8 col5" >14</td>
+      <td id="T_ffb48cda_row8_col6" class="data row8 col6" >18</td>
+      <td id="T_ffb48cda_row8_col7" class="data row8 col7" >1</td>
+      <td id="T_ffb48cda_row8_col8" class="data row8 col8" >0.44</td>
+      <td id="T_ffb48cda_row8_col9" class="data row8 col9" >0.44</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_ffb48cda_row9_col1" class="data row9 col1" >Kringe Teamka</td>
+      <td id="T_ffb48cda_row9_col2" class="data row9 col2" >4-7-0</td>
+      <td id="T_ffb48cda_row9_col3" class="data row9 col3" >0-11-0</td>
+      <td id="T_ffb48cda_row9_col4" class="data row9 col4" >3-8-0</td>
+      <td id="T_ffb48cda_row9_col5" class="data row9 col5" >7</td>
+      <td id="T_ffb48cda_row9_col6" class="data row9 col6" >26</td>
+      <td id="T_ffb48cda_row9_col7" class="data row9 col7" >0</td>
+      <td id="T_ffb48cda_row9_col8" class="data row9 col8" >0.21</td>
+      <td id="T_ffb48cda_row9_col9" class="data row9 col9" >0.21</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_ffb48cda_row10_col1" class="data row10 col1" >Arsen Wenger</td>
+      <td id="T_ffb48cda_row10_col2" class="data row10 col2" >2-9-0</td>
+      <td id="T_ffb48cda_row10_col3" class="data row10 col3" >3-8-0</td>
+      <td id="T_ffb48cda_row10_col4" class="data row10 col4" >1-10-0</td>
+      <td id="T_ffb48cda_row10_col5" class="data row10 col5" >6</td>
+      <td id="T_ffb48cda_row10_col6" class="data row10 col6" >27</td>
+      <td id="T_ffb48cda_row10_col7" class="data row10 col7" >0</td>
+      <td id="T_ffb48cda_row10_col8" class="data row10 col8" >0.18</td>
+      <td id="T_ffb48cda_row10_col9" class="data row10 col9" >0.18</td>
+    </tr>
+    <tr>
+      <td id="T_ffb48cda_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_ffb48cda_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_ffb48cda_row11_col2" class="data row11 col2" >0-11-0</td>
+      <td id="T_ffb48cda_row11_col3" class="data row11 col3" >3-8-0</td>
+      <td id="T_ffb48cda_row11_col4" class="data row11 col4" >1-10-0</td>
+      <td id="T_ffb48cda_row11_col5" class="data row11 col5" >4</td>
+      <td id="T_ffb48cda_row11_col6" class="data row11 col6" >29</td>
+      <td id="T_ffb48cda_row11_col7" class="data row11 col7" >0</td>
+      <td id="T_ffb48cda_row11_col8" class="data row11 col8" >0.12</td>
+      <td id="T_ffb48cda_row11_col9" class="data row11 col9" >0.12</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Pairwise comparisons by matchup for opponent</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица статистики личных встреч соперников в лиге за каждый отдельный матчап. У каждого игрока на самом деле один соперник в матчапе, но ничего не мешает сравнить результаты каждого игрока с каждый в конкретный матчап. У каждого игрока после сравнения с другими игроками формируется статистика побед, поражений и ничьих в данный матчап. Данная таблица отражает результаты соперников команды по итогам матчапа. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_0a120d1f_row0_col3, #T_0a120d1f_row0_col4, #T_0a120d1f_row1_col4, #T_0a120d1f_row2_col4, #T_0a120d1f_row3_col2 {
+  background-color: lightgreen;
+}
+#T_0a120d1f_row0_col8, #T_0a120d1f_row0_col9, #T_0a120d1f_row1_col8, #T_0a120d1f_row1_col9 {
+  color: red;
+}
+#T_0a120d1f_row2_col2, #T_0a120d1f_row3_col3, #T_0a120d1f_row5_col4, #T_0a120d1f_row10_col2 {
+  background-color: orange;
+}
+#T_0a120d1f_row2_col8, #T_0a120d1f_row2_col9, #T_0a120d1f_row3_col8, #T_0a120d1f_row3_col9, #T_0a120d1f_row4_col8, #T_0a120d1f_row4_col9, #T_0a120d1f_row5_col8, #T_0a120d1f_row5_col9, #T_0a120d1f_row6_col8, #T_0a120d1f_row6_col9, #T_0a120d1f_row7_col8, #T_0a120d1f_row7_col9, #T_0a120d1f_row8_col8, #T_0a120d1f_row8_col9, #T_0a120d1f_row9_col8, #T_0a120d1f_row9_col9, #T_0a120d1f_row10_col8, #T_0a120d1f_row10_col9 {
+  color: black;
+}
+#T_0a120d1f_row11_col8, #T_0a120d1f_row11_col9 {
+  color: green;
+}
+</style>
+<table id="T_0a120d1f" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_0a120d1f_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_0a120d1f_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_0a120d1f_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_0a120d1f_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_0a120d1f_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_0a120d1f_level0_col5" class="col_heading level0 col5" >W  </th>
+      <th id="T_0a120d1f_level0_col6" class="col_heading level0 col6" >L</th>
+      <th id="T_0a120d1f_level0_col7" class="col_heading level0 col7" >D</th>
+      <th id="T_0a120d1f_level0_col8" class="col_heading level0 col8" >L4%</th>
+      <th id="T_0a120d1f_level0_col9" class="col_heading level0 col9" >%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_0a120d1f_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_0a120d1f_row0_col1" class="data row0 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_0a120d1f_row0_col2" class="data row0 col2" >7-2-2</td>
+      <td id="T_0a120d1f_row0_col3" class="data row0 col3" >0-11-0</td>
+      <td id="T_0a120d1f_row0_col4" class="data row0 col4" >1-10-0</td>
+      <td id="T_0a120d1f_row0_col5" class="data row0 col5" >8</td>
+      <td id="T_0a120d1f_row0_col6" class="data row0 col6" >23</td>
+      <td id="T_0a120d1f_row0_col7" class="data row0 col7" >2</td>
+      <td id="T_0a120d1f_row0_col8" class="data row0 col8" >0.27</td>
+      <td id="T_0a120d1f_row0_col9" class="data row0 col9" >0.27</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_0a120d1f_row1_col1" class="data row1 col1" >Kringe Teamka</td>
+      <td id="T_0a120d1f_row1_col2" class="data row1 col2" >7-4-0</td>
+      <td id="T_0a120d1f_row1_col3" class="data row1 col3" >1-10-0</td>
+      <td id="T_0a120d1f_row1_col4" class="data row1 col4" >1-10-0</td>
+      <td id="T_0a120d1f_row1_col5" class="data row1 col5" >9</td>
+      <td id="T_0a120d1f_row1_col6" class="data row1 col6" >24</td>
+      <td id="T_0a120d1f_row1_col7" class="data row1 col7" >0</td>
+      <td id="T_0a120d1f_row1_col8" class="data row1 col8" >0.27</td>
+      <td id="T_0a120d1f_row1_col9" class="data row1 col9" >0.27</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_0a120d1f_row2_col1" class="data row2 col1" >Gorgeous George</td>
+      <td id="T_0a120d1f_row2_col2" class="data row2 col2" >9-2-0</td>
+      <td id="T_0a120d1f_row2_col3" class="data row2 col3" >3-8-0</td>
+      <td id="T_0a120d1f_row2_col4" class="data row2 col4" >1-10-0</td>
+      <td id="T_0a120d1f_row2_col5" class="data row2 col5" >13</td>
+      <td id="T_0a120d1f_row2_col6" class="data row2 col6" >20</td>
+      <td id="T_0a120d1f_row2_col7" class="data row2 col7" >0</td>
+      <td id="T_0a120d1f_row2_col8" class="data row2 col8" >0.39</td>
+      <td id="T_0a120d1f_row2_col9" class="data row2 col9" >0.39</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_0a120d1f_row3_col1" class="data row3 col1" >Stir and Dimi</td>
+      <td id="T_0a120d1f_row3_col2" class="data row3 col2" >0-11-0</td>
+      <td id="T_0a120d1f_row3_col3" class="data row3 col3" >11-0-0</td>
+      <td id="T_0a120d1f_row3_col4" class="data row3 col4" >4-7-0</td>
+      <td id="T_0a120d1f_row3_col5" class="data row3 col5" >15</td>
+      <td id="T_0a120d1f_row3_col6" class="data row3 col6" >18</td>
+      <td id="T_0a120d1f_row3_col7" class="data row3 col7" >0</td>
+      <td id="T_0a120d1f_row3_col8" class="data row3 col8" >0.45</td>
+      <td id="T_0a120d1f_row3_col9" class="data row3 col9" >0.45</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_0a120d1f_row4_col1" class="data row4 col1" > Mad Maxey</td>
+      <td id="T_0a120d1f_row4_col2" class="data row4 col2" >2-9-0</td>
+      <td id="T_0a120d1f_row4_col3" class="data row4 col3" >5-6-0</td>
+      <td id="T_0a120d1f_row4_col4" class="data row4 col4" >9-2-0</td>
+      <td id="T_0a120d1f_row4_col5" class="data row4 col5" >16</td>
+      <td id="T_0a120d1f_row4_col6" class="data row4 col6" >17</td>
+      <td id="T_0a120d1f_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_0a120d1f_row4_col8" class="data row4 col8" >0.48</td>
+      <td id="T_0a120d1f_row4_col9" class="data row4 col9" >0.48</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_0a120d1f_row5_col1" class="data row5 col1" >2 KABANA</td>
+      <td id="T_0a120d1f_row5_col2" class="data row5 col2" >2-9-0</td>
+      <td id="T_0a120d1f_row5_col3" class="data row5 col3" >3-8-0</td>
+      <td id="T_0a120d1f_row5_col4" class="data row5 col4" >11-0-0</td>
+      <td id="T_0a120d1f_row5_col5" class="data row5 col5" >16</td>
+      <td id="T_0a120d1f_row5_col6" class="data row5 col6" >17</td>
+      <td id="T_0a120d1f_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_0a120d1f_row5_col8" class="data row5 col8" >0.48</td>
+      <td id="T_0a120d1f_row5_col9" class="data row5 col9" >0.48</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_0a120d1f_row6_col1" class="data row6 col1" >Volga Vibes</td>
+      <td id="T_0a120d1f_row6_col2" class="data row6 col2" >5-6-0</td>
+      <td id="T_0a120d1f_row6_col3" class="data row6 col3" >6-4-1</td>
+      <td id="T_0a120d1f_row6_col4" class="data row6 col4" >6-4-1</td>
+      <td id="T_0a120d1f_row6_col5" class="data row6 col5" >17</td>
+      <td id="T_0a120d1f_row6_col6" class="data row6 col6" >14</td>
+      <td id="T_0a120d1f_row6_col7" class="data row6 col7" >2</td>
+      <td id="T_0a120d1f_row6_col8" class="data row6 col8" >0.55</td>
+      <td id="T_0a120d1f_row6_col9" class="data row6 col9" >0.55</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_0a120d1f_row7_col1" class="data row7 col1" >Arsen Wenger</td>
+      <td id="T_0a120d1f_row7_col2" class="data row7 col2" >6-4-1</td>
+      <td id="T_0a120d1f_row7_col3" class="data row7 col3" >8-1-2</td>
+      <td id="T_0a120d1f_row7_col4" class="data row7 col4" >3-8-0</td>
+      <td id="T_0a120d1f_row7_col5" class="data row7 col5" >17</td>
+      <td id="T_0a120d1f_row7_col6" class="data row7 col6" >13</td>
+      <td id="T_0a120d1f_row7_col7" class="data row7 col7" >3</td>
+      <td id="T_0a120d1f_row7_col8" class="data row7 col8" >0.56</td>
+      <td id="T_0a120d1f_row7_col9" class="data row7 col9" >0.56</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_0a120d1f_row8_col1" class="data row8 col1" >de_puta_madre</td>
+      <td id="T_0a120d1f_row8_col2" class="data row8 col2" >4-7-0</td>
+      <td id="T_0a120d1f_row8_col3" class="data row8 col3" >8-2-1</td>
+      <td id="T_0a120d1f_row8_col4" class="data row8 col4" >6-5-0</td>
+      <td id="T_0a120d1f_row8_col5" class="data row8 col5" >18</td>
+      <td id="T_0a120d1f_row8_col6" class="data row8 col6" >14</td>
+      <td id="T_0a120d1f_row8_col7" class="data row8 col7" >1</td>
+      <td id="T_0a120d1f_row8_col8" class="data row8 col8" >0.56</td>
+      <td id="T_0a120d1f_row8_col9" class="data row8 col9" >0.56</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_0a120d1f_row9_col1" class="data row9 col1" >Morning dawn</td>
+      <td id="T_0a120d1f_row9_col2" class="data row9 col2" >7-3-1</td>
+      <td id="T_0a120d1f_row9_col3" class="data row9 col3" >7-4-0</td>
+      <td id="T_0a120d1f_row9_col4" class="data row9 col4" >5-5-1</td>
+      <td id="T_0a120d1f_row9_col5" class="data row9 col5" >19</td>
+      <td id="T_0a120d1f_row9_col6" class="data row9 col6" >12</td>
+      <td id="T_0a120d1f_row9_col7" class="data row9 col7" >2</td>
+      <td id="T_0a120d1f_row9_col8" class="data row9 col8" >0.61</td>
+      <td id="T_0a120d1f_row9_col9" class="data row9 col9" >0.61</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_0a120d1f_row10_col1" class="data row10 col1" >alexvbondar</td>
+      <td id="T_0a120d1f_row10_col2" class="data row10 col2" >9-2-0</td>
+      <td id="T_0a120d1f_row10_col3" class="data row10 col3" >3-8-0</td>
+      <td id="T_0a120d1f_row10_col4" class="data row10 col4" >9-2-0</td>
+      <td id="T_0a120d1f_row10_col5" class="data row10 col5" >21</td>
+      <td id="T_0a120d1f_row10_col6" class="data row10 col6" >12</td>
+      <td id="T_0a120d1f_row10_col7" class="data row10 col7" >0</td>
+      <td id="T_0a120d1f_row10_col8" class="data row10 col8" >0.64</td>
+      <td id="T_0a120d1f_row10_col9" class="data row10 col9" >0.64</td>
+    </tr>
+    <tr>
+      <td id="T_0a120d1f_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_0a120d1f_row11_col1" class="data row11 col1" >Yan's Hearty Team</td>
+      <td id="T_0a120d1f_row11_col2" class="data row11 col2" >6-5-0</td>
+      <td id="T_0a120d1f_row11_col3" class="data row11 col3" >9-2-0</td>
+      <td id="T_0a120d1f_row11_col4" class="data row11 col4" >9-2-0</td>
+      <td id="T_0a120d1f_row11_col5" class="data row11 col5" >24</td>
+      <td id="T_0a120d1f_row11_col6" class="data row11 col6" >9</td>
+      <td id="T_0a120d1f_row11_col7" class="data row11 col7" >0</td>
+      <td id="T_0a120d1f_row11_col8" class="data row11 col8" >0.73</td>
+      <td id="T_0a120d1f_row11_col9" class="data row11 col9" >0.73</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Pairwise comparisons h2h</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица статистики личных встреч в лиге. У каждого игрока на самом деле один соперник в матчапе, но ничего не мешает сравнить результаты каждого игрока с каждый в конкретный матчап. У каждого игрока с каждым формируется гипотетическая статистика личных встреч. В столбце номер соответствуют команде, которая в данной таблице занимает место под этим номером.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_b479ec78_row0_col17, #T_b479ec78_row1_col17, #T_b479ec78_row2_col17 {
+  color: green;
+}
+#T_b479ec78_row3_col17, #T_b479ec78_row4_col17, #T_b479ec78_row5_col17, #T_b479ec78_row6_col17, #T_b479ec78_row7_col17, #T_b479ec78_row8_col17 {
+  color: black;
+}
+#T_b479ec78_row9_col17, #T_b479ec78_row10_col17, #T_b479ec78_row11_col17 {
+  color: red;
+}
+</style>
+<table id="T_b479ec78" ; align="center"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_b479ec78_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_b479ec78_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_b479ec78_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_b479ec78_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_b479ec78_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_b479ec78_level0_col5" class="col_heading level0 col5" >4</th>
+      <th id="T_b479ec78_level0_col6" class="col_heading level0 col6" >5</th>
+      <th id="T_b479ec78_level0_col7" class="col_heading level0 col7" >6</th>
+      <th id="T_b479ec78_level0_col8" class="col_heading level0 col8" >7</th>
+      <th id="T_b479ec78_level0_col9" class="col_heading level0 col9" >8</th>
+      <th id="T_b479ec78_level0_col10" class="col_heading level0 col10" >9</th>
+      <th id="T_b479ec78_level0_col11" class="col_heading level0 col11" >10</th>
+      <th id="T_b479ec78_level0_col12" class="col_heading level0 col12" >11</th>
+      <th id="T_b479ec78_level0_col13" class="col_heading level0 col13" >12</th>
+      <th id="T_b479ec78_level0_col14" class="col_heading level0 col14" >W  </th>
+      <th id="T_b479ec78_level0_col15" class="col_heading level0 col15" >L</th>
+      <th id="T_b479ec78_level0_col16" class="col_heading level0 col16" >D</th>
+      <th id="T_b479ec78_level0_col17" class="col_heading level0 col17" >%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_b479ec78_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_b479ec78_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_b479ec78_row0_col2" class="data row0 col2" ></td>
+      <td id="T_b479ec78_row0_col3" class="data row0 col3" >2-1-0</td>
+      <td id="T_b479ec78_row0_col4" class="data row0 col4" >2-1-0</td>
+      <td id="T_b479ec78_row0_col5" class="data row0 col5" >2-1-0</td>
+      <td id="T_b479ec78_row0_col6" class="data row0 col6" >3-0-0</td>
+      <td id="T_b479ec78_row0_col7" class="data row0 col7" >2-1-0</td>
+      <td id="T_b479ec78_row0_col8" class="data row0 col8" >2-1-0</td>
+      <td id="T_b479ec78_row0_col9" class="data row0 col9" >2-1-0</td>
+      <td id="T_b479ec78_row0_col10" class="data row0 col10" >3-0-0</td>
+      <td id="T_b479ec78_row0_col11" class="data row0 col11" >3-0-0</td>
+      <td id="T_b479ec78_row0_col12" class="data row0 col12" >3-0-0</td>
+      <td id="T_b479ec78_row0_col13" class="data row0 col13" >3-0-0</td>
+      <td id="T_b479ec78_row0_col14" class="data row0 col14" >27</td>
+      <td id="T_b479ec78_row0_col15" class="data row0 col15" >6</td>
+      <td id="T_b479ec78_row0_col16" class="data row0 col16" >0</td>
+      <td id="T_b479ec78_row0_col17" class="data row0 col17" >0.82</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_b479ec78_row1_col1" class="data row1 col1" >Gorgeous George</td>
+      <td id="T_b479ec78_row1_col2" class="data row1 col2" >1-2-0</td>
+      <td id="T_b479ec78_row1_col3" class="data row1 col3" ></td>
+      <td id="T_b479ec78_row1_col4" class="data row1 col4" >2-1-0</td>
+      <td id="T_b479ec78_row1_col5" class="data row1 col5" >2-1-0</td>
+      <td id="T_b479ec78_row1_col6" class="data row1 col6" >2-0-1</td>
+      <td id="T_b479ec78_row1_col7" class="data row1 col7" >2-1-0</td>
+      <td id="T_b479ec78_row1_col8" class="data row1 col8" >2-0-1</td>
+      <td id="T_b479ec78_row1_col9" class="data row1 col9" >2-0-1</td>
+      <td id="T_b479ec78_row1_col10" class="data row1 col10" >2-0-1</td>
+      <td id="T_b479ec78_row1_col11" class="data row1 col11" >3-0-0</td>
+      <td id="T_b479ec78_row1_col12" class="data row1 col12" >3-0-0</td>
+      <td id="T_b479ec78_row1_col13" class="data row1 col13" >3-0-0</td>
+      <td id="T_b479ec78_row1_col14" class="data row1 col14" >24</td>
+      <td id="T_b479ec78_row1_col15" class="data row1 col15" >5</td>
+      <td id="T_b479ec78_row1_col16" class="data row1 col16" >4</td>
+      <td id="T_b479ec78_row1_col17" class="data row1 col17" >0.79</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_b479ec78_row2_col1" class="data row2 col1" >Stir and Dimi</td>
+      <td id="T_b479ec78_row2_col2" class="data row2 col2" >1-2-0</td>
+      <td id="T_b479ec78_row2_col3" class="data row2 col3" >1-2-0</td>
+      <td id="T_b479ec78_row2_col4" class="data row2 col4" ></td>
+      <td id="T_b479ec78_row2_col5" class="data row2 col5" >1-2-0</td>
+      <td id="T_b479ec78_row2_col6" class="data row2 col6" >2-1-0</td>
+      <td id="T_b479ec78_row2_col7" class="data row2 col7" >1-2-0</td>
+      <td id="T_b479ec78_row2_col8" class="data row2 col8" >2-1-0</td>
+      <td id="T_b479ec78_row2_col9" class="data row2 col9" >2-0-1</td>
+      <td id="T_b479ec78_row2_col10" class="data row2 col10" >3-0-0</td>
+      <td id="T_b479ec78_row2_col11" class="data row2 col11" >3-0-0</td>
+      <td id="T_b479ec78_row2_col12" class="data row2 col12" >3-0-0</td>
+      <td id="T_b479ec78_row2_col13" class="data row2 col13" >3-0-0</td>
+      <td id="T_b479ec78_row2_col14" class="data row2 col14" >22</td>
+      <td id="T_b479ec78_row2_col15" class="data row2 col15" >10</td>
+      <td id="T_b479ec78_row2_col16" class="data row2 col16" >1</td>
+      <td id="T_b479ec78_row2_col17" class="data row2 col17" >0.68</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_b479ec78_row3_col1" class="data row3 col1" >de_puta_madre</td>
+      <td id="T_b479ec78_row3_col2" class="data row3 col2" >1-2-0</td>
+      <td id="T_b479ec78_row3_col3" class="data row3 col3" >1-2-0</td>
+      <td id="T_b479ec78_row3_col4" class="data row3 col4" >2-1-0</td>
+      <td id="T_b479ec78_row3_col5" class="data row3 col5" ></td>
+      <td id="T_b479ec78_row3_col6" class="data row3 col6" >1-2-0</td>
+      <td id="T_b479ec78_row3_col7" class="data row3 col7" >2-1-0</td>
+      <td id="T_b479ec78_row3_col8" class="data row3 col8" >2-1-0</td>
+      <td id="T_b479ec78_row3_col9" class="data row3 col9" >2-1-0</td>
+      <td id="T_b479ec78_row3_col10" class="data row3 col10" >2-1-0</td>
+      <td id="T_b479ec78_row3_col11" class="data row3 col11" >2-1-0</td>
+      <td id="T_b479ec78_row3_col12" class="data row3 col12" >3-0-0</td>
+      <td id="T_b479ec78_row3_col13" class="data row3 col13" >3-0-0</td>
+      <td id="T_b479ec78_row3_col14" class="data row3 col14" >21</td>
+      <td id="T_b479ec78_row3_col15" class="data row3 col15" >12</td>
+      <td id="T_b479ec78_row3_col16" class="data row3 col16" >0</td>
+      <td id="T_b479ec78_row3_col17" class="data row3 col17" >0.64</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_b479ec78_row4_col1" class="data row4 col1" >Volga Vibes</td>
+      <td id="T_b479ec78_row4_col2" class="data row4 col2" >0-3-0</td>
+      <td id="T_b479ec78_row4_col3" class="data row4 col3" >0-2-1</td>
+      <td id="T_b479ec78_row4_col4" class="data row4 col4" >1-2-0</td>
+      <td id="T_b479ec78_row4_col5" class="data row4 col5" >2-1-0</td>
+      <td id="T_b479ec78_row4_col6" class="data row4 col6" ></td>
+      <td id="T_b479ec78_row4_col7" class="data row4 col7" >1-2-0</td>
+      <td id="T_b479ec78_row4_col8" class="data row4 col8" >3-0-0</td>
+      <td id="T_b479ec78_row4_col9" class="data row4 col9" >2-1-0</td>
+      <td id="T_b479ec78_row4_col10" class="data row4 col10" >2-1-0</td>
+      <td id="T_b479ec78_row4_col11" class="data row4 col11" >3-0-0</td>
+      <td id="T_b479ec78_row4_col12" class="data row4 col12" >3-0-0</td>
+      <td id="T_b479ec78_row4_col13" class="data row4 col13" >3-0-0</td>
+      <td id="T_b479ec78_row4_col14" class="data row4 col14" >20</td>
+      <td id="T_b479ec78_row4_col15" class="data row4 col15" >12</td>
+      <td id="T_b479ec78_row4_col16" class="data row4 col16" >1</td>
+      <td id="T_b479ec78_row4_col17" class="data row4 col17" >0.62</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_b479ec78_row5_col1" class="data row5 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_b479ec78_row5_col2" class="data row5 col2" >1-2-0</td>
+      <td id="T_b479ec78_row5_col3" class="data row5 col3" >1-2-0</td>
+      <td id="T_b479ec78_row5_col4" class="data row5 col4" >2-1-0</td>
+      <td id="T_b479ec78_row5_col5" class="data row5 col5" >1-2-0</td>
+      <td id="T_b479ec78_row5_col6" class="data row5 col6" >2-1-0</td>
+      <td id="T_b479ec78_row5_col7" class="data row5 col7" ></td>
+      <td id="T_b479ec78_row5_col8" class="data row5 col8" >1-2-0</td>
+      <td id="T_b479ec78_row5_col9" class="data row5 col9" >2-1-0</td>
+      <td id="T_b479ec78_row5_col10" class="data row5 col10" >2-1-0</td>
+      <td id="T_b479ec78_row5_col11" class="data row5 col11" >3-0-0</td>
+      <td id="T_b479ec78_row5_col12" class="data row5 col12" >2-1-0</td>
+      <td id="T_b479ec78_row5_col13" class="data row5 col13" >2-1-0</td>
+      <td id="T_b479ec78_row5_col14" class="data row5 col14" >19</td>
+      <td id="T_b479ec78_row5_col15" class="data row5 col15" >14</td>
+      <td id="T_b479ec78_row5_col16" class="data row5 col16" >0</td>
+      <td id="T_b479ec78_row5_col17" class="data row5 col17" >0.58</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_b479ec78_row6_col1" class="data row6 col1" > Mad Maxey</td>
+      <td id="T_b479ec78_row6_col2" class="data row6 col2" >1-2-0</td>
+      <td id="T_b479ec78_row6_col3" class="data row6 col3" >0-2-1</td>
+      <td id="T_b479ec78_row6_col4" class="data row6 col4" >1-2-0</td>
+      <td id="T_b479ec78_row6_col5" class="data row6 col5" >1-2-0</td>
+      <td id="T_b479ec78_row6_col6" class="data row6 col6" >0-3-0</td>
+      <td id="T_b479ec78_row6_col7" class="data row6 col7" >2-1-0</td>
+      <td id="T_b479ec78_row6_col8" class="data row6 col8" ></td>
+      <td id="T_b479ec78_row6_col9" class="data row6 col9" >2-1-0</td>
+      <td id="T_b479ec78_row6_col10" class="data row6 col10" >2-1-0</td>
+      <td id="T_b479ec78_row6_col11" class="data row6 col11" >2-1-0</td>
+      <td id="T_b479ec78_row6_col12" class="data row6 col12" >1-2-0</td>
+      <td id="T_b479ec78_row6_col13" class="data row6 col13" >3-0-0</td>
+      <td id="T_b479ec78_row6_col14" class="data row6 col14" >15</td>
+      <td id="T_b479ec78_row6_col15" class="data row6 col15" >17</td>
+      <td id="T_b479ec78_row6_col16" class="data row6 col16" >1</td>
+      <td id="T_b479ec78_row6_col17" class="data row6 col17" >0.47</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_b479ec78_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_b479ec78_row7_col2" class="data row7 col2" >1-2-0</td>
+      <td id="T_b479ec78_row7_col3" class="data row7 col3" >0-2-1</td>
+      <td id="T_b479ec78_row7_col4" class="data row7 col4" >0-2-1</td>
+      <td id="T_b479ec78_row7_col5" class="data row7 col5" >1-2-0</td>
+      <td id="T_b479ec78_row7_col6" class="data row7 col6" >1-2-0</td>
+      <td id="T_b479ec78_row7_col7" class="data row7 col7" >1-2-0</td>
+      <td id="T_b479ec78_row7_col8" class="data row7 col8" >1-2-0</td>
+      <td id="T_b479ec78_row7_col9" class="data row7 col9" ></td>
+      <td id="T_b479ec78_row7_col10" class="data row7 col10" >1-2-0</td>
+      <td id="T_b479ec78_row7_col11" class="data row7 col11" >3-0-0</td>
+      <td id="T_b479ec78_row7_col12" class="data row7 col12" >3-0-0</td>
+      <td id="T_b479ec78_row7_col13" class="data row7 col13" >2-1-0</td>
+      <td id="T_b479ec78_row7_col14" class="data row7 col14" >14</td>
+      <td id="T_b479ec78_row7_col15" class="data row7 col15" >17</td>
+      <td id="T_b479ec78_row7_col16" class="data row7 col16" >2</td>
+      <td id="T_b479ec78_row7_col17" class="data row7 col17" >0.45</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_b479ec78_row8_col1" class="data row8 col1" >Yan's Hearty Team</td>
+      <td id="T_b479ec78_row8_col2" class="data row8 col2" >0-3-0</td>
+      <td id="T_b479ec78_row8_col3" class="data row8 col3" >0-2-1</td>
+      <td id="T_b479ec78_row8_col4" class="data row8 col4" >0-3-0</td>
+      <td id="T_b479ec78_row8_col5" class="data row8 col5" >1-2-0</td>
+      <td id="T_b479ec78_row8_col6" class="data row8 col6" >1-2-0</td>
+      <td id="T_b479ec78_row8_col7" class="data row8 col7" >1-2-0</td>
+      <td id="T_b479ec78_row8_col8" class="data row8 col8" >1-2-0</td>
+      <td id="T_b479ec78_row8_col9" class="data row8 col9" >2-1-0</td>
+      <td id="T_b479ec78_row8_col10" class="data row8 col10" ></td>
+      <td id="T_b479ec78_row8_col11" class="data row8 col11" >2-1-0</td>
+      <td id="T_b479ec78_row8_col12" class="data row8 col12" >3-0-0</td>
+      <td id="T_b479ec78_row8_col13" class="data row8 col13" >3-0-0</td>
+      <td id="T_b479ec78_row8_col14" class="data row8 col14" >14</td>
+      <td id="T_b479ec78_row8_col15" class="data row8 col15" >18</td>
+      <td id="T_b479ec78_row8_col16" class="data row8 col16" >1</td>
+      <td id="T_b479ec78_row8_col17" class="data row8 col17" >0.44</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_b479ec78_row9_col1" class="data row9 col1" >Kringe Teamka</td>
+      <td id="T_b479ec78_row9_col2" class="data row9 col2" >0-3-0</td>
+      <td id="T_b479ec78_row9_col3" class="data row9 col3" >0-3-0</td>
+      <td id="T_b479ec78_row9_col4" class="data row9 col4" >0-3-0</td>
+      <td id="T_b479ec78_row9_col5" class="data row9 col5" >1-2-0</td>
+      <td id="T_b479ec78_row9_col6" class="data row9 col6" >0-3-0</td>
+      <td id="T_b479ec78_row9_col7" class="data row9 col7" >0-3-0</td>
+      <td id="T_b479ec78_row9_col8" class="data row9 col8" >1-2-0</td>
+      <td id="T_b479ec78_row9_col9" class="data row9 col9" >0-3-0</td>
+      <td id="T_b479ec78_row9_col10" class="data row9 col10" >1-2-0</td>
+      <td id="T_b479ec78_row9_col11" class="data row9 col11" ></td>
+      <td id="T_b479ec78_row9_col12" class="data row9 col12" >2-1-0</td>
+      <td id="T_b479ec78_row9_col13" class="data row9 col13" >2-1-0</td>
+      <td id="T_b479ec78_row9_col14" class="data row9 col14" >7</td>
+      <td id="T_b479ec78_row9_col15" class="data row9 col15" >26</td>
+      <td id="T_b479ec78_row9_col16" class="data row9 col16" >0</td>
+      <td id="T_b479ec78_row9_col17" class="data row9 col17" >0.21</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_b479ec78_row10_col1" class="data row10 col1" >Arsen Wenger</td>
+      <td id="T_b479ec78_row10_col2" class="data row10 col2" >0-3-0</td>
+      <td id="T_b479ec78_row10_col3" class="data row10 col3" >0-3-0</td>
+      <td id="T_b479ec78_row10_col4" class="data row10 col4" >0-3-0</td>
+      <td id="T_b479ec78_row10_col5" class="data row10 col5" >0-3-0</td>
+      <td id="T_b479ec78_row10_col6" class="data row10 col6" >0-3-0</td>
+      <td id="T_b479ec78_row10_col7" class="data row10 col7" >1-2-0</td>
+      <td id="T_b479ec78_row10_col8" class="data row10 col8" >2-1-0</td>
+      <td id="T_b479ec78_row10_col9" class="data row10 col9" >0-3-0</td>
+      <td id="T_b479ec78_row10_col10" class="data row10 col10" >0-3-0</td>
+      <td id="T_b479ec78_row10_col11" class="data row10 col11" >1-2-0</td>
+      <td id="T_b479ec78_row10_col12" class="data row10 col12" ></td>
+      <td id="T_b479ec78_row10_col13" class="data row10 col13" >2-1-0</td>
+      <td id="T_b479ec78_row10_col14" class="data row10 col14" >6</td>
+      <td id="T_b479ec78_row10_col15" class="data row10 col15" >27</td>
+      <td id="T_b479ec78_row10_col16" class="data row10 col16" >0</td>
+      <td id="T_b479ec78_row10_col17" class="data row10 col17" >0.18</td>
+    </tr>
+    <tr>
+      <td id="T_b479ec78_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_b479ec78_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_b479ec78_row11_col2" class="data row11 col2" >0-3-0</td>
+      <td id="T_b479ec78_row11_col3" class="data row11 col3" >0-3-0</td>
+      <td id="T_b479ec78_row11_col4" class="data row11 col4" >0-3-0</td>
+      <td id="T_b479ec78_row11_col5" class="data row11 col5" >0-3-0</td>
+      <td id="T_b479ec78_row11_col6" class="data row11 col6" >0-3-0</td>
+      <td id="T_b479ec78_row11_col7" class="data row11 col7" >1-2-0</td>
+      <td id="T_b479ec78_row11_col8" class="data row11 col8" >0-3-0</td>
+      <td id="T_b479ec78_row11_col9" class="data row11 col9" >1-2-0</td>
+      <td id="T_b479ec78_row11_col10" class="data row11 col10" >0-3-0</td>
+      <td id="T_b479ec78_row11_col11" class="data row11 col11" >1-2-0</td>
+      <td id="T_b479ec78_row11_col12" class="data row11 col12" >1-2-0</td>
+      <td id="T_b479ec78_row11_col13" class="data row11 col13" ></td>
+      <td id="T_b479ec78_row11_col14" class="data row11 col14" >4</td>
+      <td id="T_b479ec78_row11_col15" class="data row11 col15" >29</td>
+      <td id="T_b479ec78_row11_col16" class="data row11 col16" >0</td>
+      <td id="T_b479ec78_row11_col17" class="data row11 col17" >0.12</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Expected matchup win stats</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица ожидаемого результата в матчапе. Вычисляется как результат сравнения ожидаемых счетов команд по категориям. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_10cb5c27_row0_col2, #T_10cb5c27_row1_col2, #T_10cb5c27_row1_col3, #T_10cb5c27_row1_col4, #T_10cb5c27_row2_col4, #T_10cb5c27_row3_col2, #T_10cb5c27_row3_col3, #T_10cb5c27_row3_col4, #T_10cb5c27_row4_col2, #T_10cb5c27_row5_col3, #T_10cb5c27_row7_col3, #T_10cb5c27_row8_col2, #T_10cb5c27_row8_col3, #T_10cb5c27_row8_col4, #T_10cb5c27_row9_col2, #T_10cb5c27_row9_col3, #T_10cb5c27_row10_col4, #T_10cb5c27_row11_col4 {
+  color: darkred;
+}
+#T_10cb5c27_row0_col3, #T_10cb5c27_row0_col4, #T_10cb5c27_row2_col2, #T_10cb5c27_row2_col3, #T_10cb5c27_row4_col3, #T_10cb5c27_row4_col4, #T_10cb5c27_row5_col2, #T_10cb5c27_row5_col4, #T_10cb5c27_row6_col2, #T_10cb5c27_row6_col3, #T_10cb5c27_row6_col4, #T_10cb5c27_row7_col2, #T_10cb5c27_row7_col4, #T_10cb5c27_row9_col4, #T_10cb5c27_row10_col2, #T_10cb5c27_row10_col3, #T_10cb5c27_row11_col2, #T_10cb5c27_row11_col3 {
+  color: darkgreen;
+}
+#T_10cb5c27_row0_col10, #T_10cb5c27_row1_col10 {
+  color: green;
+}
+#T_10cb5c27_row2_col10, #T_10cb5c27_row3_col10, #T_10cb5c27_row4_col10, #T_10cb5c27_row5_col10, #T_10cb5c27_row6_col10, #T_10cb5c27_row7_col10, #T_10cb5c27_row8_col10, #T_10cb5c27_row9_col10 {
+  color: black;
+}
+#T_10cb5c27_row10_col10, #T_10cb5c27_row11_col10 {
+  color: red;
+}
+</style>
+<table id="T_10cb5c27" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_10cb5c27_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_10cb5c27_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_10cb5c27_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_10cb5c27_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_10cb5c27_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_10cb5c27_level0_col5" class="col_heading level0 col5" >Total</th>
+      <th id="T_10cb5c27_level0_col6" class="col_heading level0 col6" >Real</th>
+      <th id="T_10cb5c27_level0_col7" class="col_heading level0 col7" >WD</th>
+      <th id="T_10cb5c27_level0_col8" class="col_heading level0 col8" >LD</th>
+      <th id="T_10cb5c27_level0_col9" class="col_heading level0 col9" >DD  </th>
+      <th id="T_10cb5c27_level0_col10" class="col_heading level0 col10" >Diff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_10cb5c27_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_10cb5c27_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_10cb5c27_row0_col2" class="data row0 col2" >L</td>
+      <td id="T_10cb5c27_row0_col3" class="data row0 col3" >W</td>
+      <td id="T_10cb5c27_row0_col4" class="data row0 col4" >W</td>
+      <td id="T_10cb5c27_row0_col5" class="data row0 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row0_col6" class="data row0 col6" >3-0-0</td>
+      <td id="T_10cb5c27_row0_col7" class="data row0 col7" >1</td>
+      <td id="T_10cb5c27_row0_col8" class="data row0 col8" >-1</td>
+      <td id="T_10cb5c27_row0_col9" class="data row0 col9" >0</td>
+      <td id="T_10cb5c27_row0_col10" class="data row0 col10" >1</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_10cb5c27_row1_col1" class="data row1 col1" >alexvbondar</td>
+      <td id="T_10cb5c27_row1_col2" class="data row1 col2" >L</td>
+      <td id="T_10cb5c27_row1_col3" class="data row1 col3" >L</td>
+      <td id="T_10cb5c27_row1_col4" class="data row1 col4" >L</td>
+      <td id="T_10cb5c27_row1_col5" class="data row1 col5" >0-3-0</td>
+      <td id="T_10cb5c27_row1_col6" class="data row1 col6" >1-2-0</td>
+      <td id="T_10cb5c27_row1_col7" class="data row1 col7" >1</td>
+      <td id="T_10cb5c27_row1_col8" class="data row1 col8" >-1</td>
+      <td id="T_10cb5c27_row1_col9" class="data row1 col9" >0</td>
+      <td id="T_10cb5c27_row1_col10" class="data row1 col10" >1</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_10cb5c27_row2_col1" class="data row2 col1" > Mad Maxey</td>
+      <td id="T_10cb5c27_row2_col2" class="data row2 col2" >W</td>
+      <td id="T_10cb5c27_row2_col3" class="data row2 col3" >W</td>
+      <td id="T_10cb5c27_row2_col4" class="data row2 col4" >L</td>
+      <td id="T_10cb5c27_row2_col5" class="data row2 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row2_col6" class="data row2 col6" >2-1-0</td>
+      <td id="T_10cb5c27_row2_col7" class="data row2 col7" >0</td>
+      <td id="T_10cb5c27_row2_col8" class="data row2 col8" >0</td>
+      <td id="T_10cb5c27_row2_col9" class="data row2 col9" >0</td>
+      <td id="T_10cb5c27_row2_col10" class="data row2 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_10cb5c27_row3_col1" class="data row3 col1" >Arsen Wenger</td>
+      <td id="T_10cb5c27_row3_col2" class="data row3 col2" >L</td>
+      <td id="T_10cb5c27_row3_col3" class="data row3 col3" >L</td>
+      <td id="T_10cb5c27_row3_col4" class="data row3 col4" >L</td>
+      <td id="T_10cb5c27_row3_col5" class="data row3 col5" >0-3-0</td>
+      <td id="T_10cb5c27_row3_col6" class="data row3 col6" >0-3-0</td>
+      <td id="T_10cb5c27_row3_col7" class="data row3 col7" >0</td>
+      <td id="T_10cb5c27_row3_col8" class="data row3 col8" >0</td>
+      <td id="T_10cb5c27_row3_col9" class="data row3 col9" >0</td>
+      <td id="T_10cb5c27_row3_col10" class="data row3 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_10cb5c27_row4_col1" class="data row4 col1" >Gorgeous George</td>
+      <td id="T_10cb5c27_row4_col2" class="data row4 col2" >L</td>
+      <td id="T_10cb5c27_row4_col3" class="data row4 col3" >W</td>
+      <td id="T_10cb5c27_row4_col4" class="data row4 col4" >W</td>
+      <td id="T_10cb5c27_row4_col5" class="data row4 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row4_col6" class="data row4 col6" >2-1-0</td>
+      <td id="T_10cb5c27_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_10cb5c27_row4_col8" class="data row4 col8" >0</td>
+      <td id="T_10cb5c27_row4_col9" class="data row4 col9" >0</td>
+      <td id="T_10cb5c27_row4_col10" class="data row4 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_10cb5c27_row5_col1" class="data row5 col1" >Kringe Teamka</td>
+      <td id="T_10cb5c27_row5_col2" class="data row5 col2" >W</td>
+      <td id="T_10cb5c27_row5_col3" class="data row5 col3" >L</td>
+      <td id="T_10cb5c27_row5_col4" class="data row5 col4" >W</td>
+      <td id="T_10cb5c27_row5_col5" class="data row5 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row5_col6" class="data row5 col6" >2-1-0</td>
+      <td id="T_10cb5c27_row5_col7" class="data row5 col7" >0</td>
+      <td id="T_10cb5c27_row5_col8" class="data row5 col8" >0</td>
+      <td id="T_10cb5c27_row5_col9" class="data row5 col9" >0</td>
+      <td id="T_10cb5c27_row5_col10" class="data row5 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_10cb5c27_row6_col1" class="data row6 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_10cb5c27_row6_col2" class="data row6 col2" >W</td>
+      <td id="T_10cb5c27_row6_col3" class="data row6 col3" >W</td>
+      <td id="T_10cb5c27_row6_col4" class="data row6 col4" >W</td>
+      <td id="T_10cb5c27_row6_col5" class="data row6 col5" >3-0-0</td>
+      <td id="T_10cb5c27_row6_col6" class="data row6 col6" >3-0-0</td>
+      <td id="T_10cb5c27_row6_col7" class="data row6 col7" >0</td>
+      <td id="T_10cb5c27_row6_col8" class="data row6 col8" >0</td>
+      <td id="T_10cb5c27_row6_col9" class="data row6 col9" >0</td>
+      <td id="T_10cb5c27_row6_col10" class="data row6 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_10cb5c27_row7_col1" class="data row7 col1" >Stir and Dimi</td>
+      <td id="T_10cb5c27_row7_col2" class="data row7 col2" >W</td>
+      <td id="T_10cb5c27_row7_col3" class="data row7 col3" >L</td>
+      <td id="T_10cb5c27_row7_col4" class="data row7 col4" >W</td>
+      <td id="T_10cb5c27_row7_col5" class="data row7 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row7_col6" class="data row7 col6" >2-1-0</td>
+      <td id="T_10cb5c27_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_10cb5c27_row7_col8" class="data row7 col8" >0</td>
+      <td id="T_10cb5c27_row7_col9" class="data row7 col9" >0</td>
+      <td id="T_10cb5c27_row7_col10" class="data row7 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_10cb5c27_row8_col1" class="data row8 col1" >Yan's Hearty Team</td>
+      <td id="T_10cb5c27_row8_col2" class="data row8 col2" >L</td>
+      <td id="T_10cb5c27_row8_col3" class="data row8 col3" >L</td>
+      <td id="T_10cb5c27_row8_col4" class="data row8 col4" >L</td>
+      <td id="T_10cb5c27_row8_col5" class="data row8 col5" >0-3-0</td>
+      <td id="T_10cb5c27_row8_col6" class="data row8 col6" >0-3-0</td>
+      <td id="T_10cb5c27_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_10cb5c27_row8_col8" class="data row8 col8" >0</td>
+      <td id="T_10cb5c27_row8_col9" class="data row8 col9" >0</td>
+      <td id="T_10cb5c27_row8_col10" class="data row8 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_10cb5c27_row9_col1" class="data row9 col1" >de_puta_madre</td>
+      <td id="T_10cb5c27_row9_col2" class="data row9 col2" >L</td>
+      <td id="T_10cb5c27_row9_col3" class="data row9 col3" >L</td>
+      <td id="T_10cb5c27_row9_col4" class="data row9 col4" >W</td>
+      <td id="T_10cb5c27_row9_col5" class="data row9 col5" >1-2-0</td>
+      <td id="T_10cb5c27_row9_col6" class="data row9 col6" >1-2-0</td>
+      <td id="T_10cb5c27_row9_col7" class="data row9 col7" >0</td>
+      <td id="T_10cb5c27_row9_col8" class="data row9 col8" >0</td>
+      <td id="T_10cb5c27_row9_col9" class="data row9 col9" >0</td>
+      <td id="T_10cb5c27_row9_col10" class="data row9 col10" >0</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_10cb5c27_row10_col1" class="data row10 col1" >2 KABANA</td>
+      <td id="T_10cb5c27_row10_col2" class="data row10 col2" >W</td>
+      <td id="T_10cb5c27_row10_col3" class="data row10 col3" >W</td>
+      <td id="T_10cb5c27_row10_col4" class="data row10 col4" >L</td>
+      <td id="T_10cb5c27_row10_col5" class="data row10 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row10_col6" class="data row10 col6" >1-2-0</td>
+      <td id="T_10cb5c27_row10_col7" class="data row10 col7" >-1</td>
+      <td id="T_10cb5c27_row10_col8" class="data row10 col8" >1</td>
+      <td id="T_10cb5c27_row10_col9" class="data row10 col9" >0</td>
+      <td id="T_10cb5c27_row10_col10" class="data row10 col10" >-1</td>
+    </tr>
+    <tr>
+      <td id="T_10cb5c27_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_10cb5c27_row11_col1" class="data row11 col1" >Volga Vibes</td>
+      <td id="T_10cb5c27_row11_col2" class="data row11 col2" >W</td>
+      <td id="T_10cb5c27_row11_col3" class="data row11 col3" >W</td>
+      <td id="T_10cb5c27_row11_col4" class="data row11 col4" >L</td>
+      <td id="T_10cb5c27_row11_col5" class="data row11 col5" >2-1-0</td>
+      <td id="T_10cb5c27_row11_col6" class="data row11 col6" >1-2-0</td>
+      <td id="T_10cb5c27_row11_col7" class="data row11 col7" >-1</td>
+      <td id="T_10cb5c27_row11_col8" class="data row11 col8" >1</td>
+      <td id="T_10cb5c27_row11_col9" class="data row11 col9" >0</td>
+      <td id="T_10cb5c27_row11_col10" class="data row11 col10" >-1</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Each category scoring stats</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица с результатами команд по системе скоринга Head to Head Each Category. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_81d84e2b_row0_col3, #T_81d84e2b_row0_col5, #T_81d84e2b_row1_col4, #T_81d84e2b_row4_col2 {
+  background-color: lightgreen;
+}
+#T_81d84e2b_row4_col3, #T_81d84e2b_row5_col4, #T_81d84e2b_row10_col5, #T_81d84e2b_row11_col2, #T_81d84e2b_row11_col5 {
+  background-color: orange;
+}
+</style>
+<table id="T_81d84e2b" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_81d84e2b_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_81d84e2b_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_81d84e2b_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_81d84e2b_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_81d84e2b_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_81d84e2b_level0_col5" class="col_heading level0 col5" >Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_81d84e2b_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_81d84e2b_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_81d84e2b_row0_col2" class="data row0 col2" >6-3-0</td>
+      <td id="T_81d84e2b_row0_col3" class="data row0 col3" >7-2-0</td>
+      <td id="T_81d84e2b_row0_col4" class="data row0 col4" >7-2-0</td>
+      <td id="T_81d84e2b_row0_col5" class="data row0 col5" >20-7-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_81d84e2b_row1_col1" class="data row1 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_81d84e2b_row1_col2" class="data row1 col2" >5-4-0</td>
+      <td id="T_81d84e2b_row1_col3" class="data row1 col3" >5-4-0</td>
+      <td id="T_81d84e2b_row1_col4" class="data row1 col4" >8-1-0</td>
+      <td id="T_81d84e2b_row1_col5" class="data row1 col5" >18-9-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_81d84e2b_row2_col1" class="data row2 col1" >Kringe Teamka</td>
+      <td id="T_81d84e2b_row2_col2" class="data row2 col2" >6-3-0</td>
+      <td id="T_81d84e2b_row2_col3" class="data row2 col3" >4-5-0</td>
+      <td id="T_81d84e2b_row2_col4" class="data row2 col4" >6-3-0</td>
+      <td id="T_81d84e2b_row2_col5" class="data row2 col5" >16-11-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_81d84e2b_row3_col1" class="data row3 col1" >Gorgeous George</td>
+      <td id="T_81d84e2b_row3_col2" class="data row3 col2" >4-5-0</td>
+      <td id="T_81d84e2b_row3_col3" class="data row3 col3" >5-4-0</td>
+      <td id="T_81d84e2b_row3_col4" class="data row3 col4" >6-3-0</td>
+      <td id="T_81d84e2b_row3_col5" class="data row3 col5" >15-12-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_81d84e2b_row4_col1" class="data row4 col1" >Stir and Dimi</td>
+      <td id="T_81d84e2b_row4_col2" class="data row4 col2" >7-2-0</td>
+      <td id="T_81d84e2b_row4_col3" class="data row4 col3" >2-7-0</td>
+      <td id="T_81d84e2b_row4_col4" class="data row4 col4" >6-3-0</td>
+      <td id="T_81d84e2b_row4_col5" class="data row4 col5" >15-12-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_81d84e2b_row5_col1" class="data row5 col1" > Mad Maxey</td>
+      <td id="T_81d84e2b_row5_col2" class="data row5 col2" >6-3-0</td>
+      <td id="T_81d84e2b_row5_col3" class="data row5 col3" >5-3-1</td>
+      <td id="T_81d84e2b_row5_col4" class="data row5 col4" >1-8-0</td>
+      <td id="T_81d84e2b_row5_col5" class="data row5 col5" >12-14-1</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_81d84e2b_row6_col1" class="data row6 col1" >de_puta_madre</td>
+      <td id="T_81d84e2b_row6_col2" class="data row6 col2" >3-6-0</td>
+      <td id="T_81d84e2b_row6_col3" class="data row6 col3" >3-5-1</td>
+      <td id="T_81d84e2b_row6_col4" class="data row6 col4" >6-3-0</td>
+      <td id="T_81d84e2b_row6_col5" class="data row6 col5" >12-14-1</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_81d84e2b_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_81d84e2b_row7_col2" class="data row7 col2" >5-4-0</td>
+      <td id="T_81d84e2b_row7_col3" class="data row7 col3" >4-5-0</td>
+      <td id="T_81d84e2b_row7_col4" class="data row7 col4" >2-7-0</td>
+      <td id="T_81d84e2b_row7_col5" class="data row7 col5" >11-16-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_81d84e2b_row8_col1" class="data row8 col1" >Arsen Wenger</td>
+      <td id="T_81d84e2b_row8_col2" class="data row8 col2" >4-5-0</td>
+      <td id="T_81d84e2b_row8_col3" class="data row8 col3" >4-5-0</td>
+      <td id="T_81d84e2b_row8_col4" class="data row8 col4" >3-6-0</td>
+      <td id="T_81d84e2b_row8_col5" class="data row8 col5" >11-16-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_81d84e2b_row9_col1" class="data row9 col1" >Volga Vibes</td>
+      <td id="T_81d84e2b_row9_col2" class="data row9 col2" >3-6-0</td>
+      <td id="T_81d84e2b_row9_col3" class="data row9 col3" >5-4-0</td>
+      <td id="T_81d84e2b_row9_col4" class="data row9 col4" >3-6-0</td>
+      <td id="T_81d84e2b_row9_col5" class="data row9 col5" >11-16-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_81d84e2b_row10_col1" class="data row10 col1" >Yan's Hearty Team</td>
+      <td id="T_81d84e2b_row10_col2" class="data row10 col2" >3-6-0</td>
+      <td id="T_81d84e2b_row10_col3" class="data row10 col3" >4-5-0</td>
+      <td id="T_81d84e2b_row10_col4" class="data row10 col4" >3-6-0</td>
+      <td id="T_81d84e2b_row10_col5" class="data row10 col5" >10-17-0</td>
+    </tr>
+    <tr>
+      <td id="T_81d84e2b_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_81d84e2b_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_81d84e2b_row11_col2" class="data row11 col2" >2-7-0</td>
+      <td id="T_81d84e2b_row11_col3" class="data row11 col3" >5-4-0</td>
+      <td id="T_81d84e2b_row11_col4" class="data row11 col4" >3-6-0</td>
+      <td id="T_81d84e2b_row11_col5" class="data row11 col5" >10-17-0</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Minutes</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица сыгранных минут баскетболистами игрока в лиге по матчапам. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_aed832d2_row0_col2, #T_aed832d2_row0_col4, #T_aed832d2_row1_col2, #T_aed832d2_row1_col3, #T_aed832d2_row1_col4, #T_aed832d2_row2_col2, #T_aed832d2_row2_col4, #T_aed832d2_row3_col2, #T_aed832d2_row3_col3, #T_aed832d2_row3_col4, #T_aed832d2_row4_col2, #T_aed832d2_row4_col3, #T_aed832d2_row4_col4, #T_aed832d2_row5_col4, #T_aed832d2_row6_col2, #T_aed832d2_row6_col3, #T_aed832d2_row6_col4, #T_aed832d2_row7_col2, #T_aed832d2_row7_col3, #T_aed832d2_row7_col4, #T_aed832d2_row8_col2, #T_aed832d2_row8_col3, #T_aed832d2_row8_col4, #T_aed832d2_row9_col3, #T_aed832d2_row9_col4, #T_aed832d2_row10_col2, #T_aed832d2_row10_col3, #T_aed832d2_row11_col2, #T_aed832d2_row11_col3, #T_aed832d2_row11_col4 {
+  color: ;
+}
+#T_aed832d2_row0_col3, #T_aed832d2_row2_col3, #T_aed832d2_row5_col2 {
+  color: green;
+}
+#T_aed832d2_row5_col3, #T_aed832d2_row9_col2, #T_aed832d2_row10_col4 {
+  color: orange;
+}
+</style>
+<table id="T_aed832d2" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_aed832d2_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_aed832d2_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_aed832d2_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_aed832d2_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_aed832d2_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_aed832d2_level0_col5" class="col_heading level0 col5" >&#128526;</th>
+      <th id="T_aed832d2_level0_col6" class="col_heading level0 col6" >&#128527;</th>
+      <th id="T_aed832d2_level0_col7" class="col_heading level0 col7" >&#128532;</th>
+      <th id="T_aed832d2_level0_col8" class="col_heading level0 col8" >&#128557;</th>
+      <th id="T_aed832d2_level0_col9" class="col_heading level0 col9" >Last4</th>
+      <th id="T_aed832d2_level0_col10" class="col_heading level0 col10" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_aed832d2_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_aed832d2_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_aed832d2_row0_col2" class="data row0 col2" >1027</td>
+      <td id="T_aed832d2_row0_col3" class="data row0 col3" >1403</td>
+      <td id="T_aed832d2_row0_col4" class="data row0 col4" >1323</td>
+      <td id="T_aed832d2_row0_col5" class="data row0 col5" >0</td>
+      <td id="T_aed832d2_row0_col6" class="data row0 col6" >1</td>
+      <td id="T_aed832d2_row0_col7" class="data row0 col7" >0</td>
+      <td id="T_aed832d2_row0_col8" class="data row0 col8" >0</td>
+      <td id="T_aed832d2_row0_col9" class="data row0 col9" >3753</td>
+      <td id="T_aed832d2_row0_col10" class="data row0 col10" >3753</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_aed832d2_row1_col1" class="data row1 col1" >Stir and Dimi</td>
+      <td id="T_aed832d2_row1_col2" class="data row1 col2" >1106</td>
+      <td id="T_aed832d2_row1_col3" class="data row1 col3" >1220</td>
+      <td id="T_aed832d2_row1_col4" class="data row1 col4" >1292</td>
+      <td id="T_aed832d2_row1_col5" class="data row1 col5" >0</td>
+      <td id="T_aed832d2_row1_col6" class="data row1 col6" >0</td>
+      <td id="T_aed832d2_row1_col7" class="data row1 col7" >0</td>
+      <td id="T_aed832d2_row1_col8" class="data row1 col8" >0</td>
+      <td id="T_aed832d2_row1_col9" class="data row1 col9" >3618</td>
+      <td id="T_aed832d2_row1_col10" class="data row1 col10" >3618</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_aed832d2_row2_col1" class="data row2 col1" > Mad Maxey</td>
+      <td id="T_aed832d2_row2_col2" class="data row2 col2" >1092</td>
+      <td id="T_aed832d2_row2_col3" class="data row2 col3" >1343</td>
+      <td id="T_aed832d2_row2_col4" class="data row2 col4" >1141</td>
+      <td id="T_aed832d2_row2_col5" class="data row2 col5" >0</td>
+      <td id="T_aed832d2_row2_col6" class="data row2 col6" >1</td>
+      <td id="T_aed832d2_row2_col7" class="data row2 col7" >0</td>
+      <td id="T_aed832d2_row2_col8" class="data row2 col8" >0</td>
+      <td id="T_aed832d2_row2_col9" class="data row2 col9" >3576</td>
+      <td id="T_aed832d2_row2_col10" class="data row2 col10" >3576</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_aed832d2_row3_col1" class="data row3 col1" >Gorgeous George</td>
+      <td id="T_aed832d2_row3_col2" class="data row3 col2" >1019</td>
+      <td id="T_aed832d2_row3_col3" class="data row3 col3" >1252</td>
+      <td id="T_aed832d2_row3_col4" class="data row3 col4" >1302</td>
+      <td id="T_aed832d2_row3_col5" class="data row3 col5" >0</td>
+      <td id="T_aed832d2_row3_col6" class="data row3 col6" >0</td>
+      <td id="T_aed832d2_row3_col7" class="data row3 col7" >0</td>
+      <td id="T_aed832d2_row3_col8" class="data row3 col8" >0</td>
+      <td id="T_aed832d2_row3_col9" class="data row3 col9" >3573</td>
+      <td id="T_aed832d2_row3_col10" class="data row3 col10" >3573</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_aed832d2_row4_col1" class="data row4 col1" >de_puta_madre</td>
+      <td id="T_aed832d2_row4_col2" class="data row4 col2" >1070</td>
+      <td id="T_aed832d2_row4_col3" class="data row4 col3" >1164</td>
+      <td id="T_aed832d2_row4_col4" class="data row4 col4" >1327</td>
+      <td id="T_aed832d2_row4_col5" class="data row4 col5" >0</td>
+      <td id="T_aed832d2_row4_col6" class="data row4 col6" >0</td>
+      <td id="T_aed832d2_row4_col7" class="data row4 col7" >0</td>
+      <td id="T_aed832d2_row4_col8" class="data row4 col8" >0</td>
+      <td id="T_aed832d2_row4_col9" class="data row4 col9" >3561</td>
+      <td id="T_aed832d2_row4_col10" class="data row4 col10" >3561</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_aed832d2_row5_col1" class="data row5 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_aed832d2_row5_col2" class="data row5 col2" >1155</td>
+      <td id="T_aed832d2_row5_col3" class="data row5 col3" >1020</td>
+      <td id="T_aed832d2_row5_col4" class="data row5 col4" >1298</td>
+      <td id="T_aed832d2_row5_col5" class="data row5 col5" >0</td>
+      <td id="T_aed832d2_row5_col6" class="data row5 col6" >1</td>
+      <td id="T_aed832d2_row5_col7" class="data row5 col7" >1</td>
+      <td id="T_aed832d2_row5_col8" class="data row5 col8" >0</td>
+      <td id="T_aed832d2_row5_col9" class="data row5 col9" >3473</td>
+      <td id="T_aed832d2_row5_col10" class="data row5 col10" >3473</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_aed832d2_row6_col1" class="data row6 col1" >Yan's Hearty Team</td>
+      <td id="T_aed832d2_row6_col2" class="data row6 col2" >956</td>
+      <td id="T_aed832d2_row6_col3" class="data row6 col3" >1259</td>
+      <td id="T_aed832d2_row6_col4" class="data row6 col4" >1256</td>
+      <td id="T_aed832d2_row6_col5" class="data row6 col5" >0</td>
+      <td id="T_aed832d2_row6_col6" class="data row6 col6" >0</td>
+      <td id="T_aed832d2_row6_col7" class="data row6 col7" >0</td>
+      <td id="T_aed832d2_row6_col8" class="data row6 col8" >0</td>
+      <td id="T_aed832d2_row6_col9" class="data row6 col9" >3471</td>
+      <td id="T_aed832d2_row6_col10" class="data row6 col10" >3471</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_aed832d2_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_aed832d2_row7_col2" class="data row7 col2" >1057</td>
+      <td id="T_aed832d2_row7_col3" class="data row7 col3" >1183</td>
+      <td id="T_aed832d2_row7_col4" class="data row7 col4" >1204</td>
+      <td id="T_aed832d2_row7_col5" class="data row7 col5" >0</td>
+      <td id="T_aed832d2_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_aed832d2_row7_col7" class="data row7 col7" >0</td>
+      <td id="T_aed832d2_row7_col8" class="data row7 col8" >0</td>
+      <td id="T_aed832d2_row7_col9" class="data row7 col9" >3444</td>
+      <td id="T_aed832d2_row7_col10" class="data row7 col10" >3444</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_aed832d2_row8_col1" class="data row8 col1" >Volga Vibes</td>
+      <td id="T_aed832d2_row8_col2" class="data row8 col2" >942</td>
+      <td id="T_aed832d2_row8_col3" class="data row8 col3" >1241</td>
+      <td id="T_aed832d2_row8_col4" class="data row8 col4" >1233</td>
+      <td id="T_aed832d2_row8_col5" class="data row8 col5" >0</td>
+      <td id="T_aed832d2_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_aed832d2_row8_col7" class="data row8 col7" >0</td>
+      <td id="T_aed832d2_row8_col8" class="data row8 col8" >0</td>
+      <td id="T_aed832d2_row8_col9" class="data row8 col9" >3416</td>
+      <td id="T_aed832d2_row8_col10" class="data row8 col10" >3416</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_aed832d2_row9_col1" class="data row9 col1" >Kringe Teamka</td>
+      <td id="T_aed832d2_row9_col2" class="data row9 col2" >915</td>
+      <td id="T_aed832d2_row9_col3" class="data row9 col3" >1146</td>
+      <td id="T_aed832d2_row9_col4" class="data row9 col4" >1167</td>
+      <td id="T_aed832d2_row9_col5" class="data row9 col5" >0</td>
+      <td id="T_aed832d2_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_aed832d2_row9_col7" class="data row9 col7" >1</td>
+      <td id="T_aed832d2_row9_col8" class="data row9 col8" >0</td>
+      <td id="T_aed832d2_row9_col9" class="data row9 col9" >3228</td>
+      <td id="T_aed832d2_row9_col10" class="data row9 col10" >3228</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_aed832d2_row10_col1" class="data row10 col1" >Arsen Wenger</td>
+      <td id="T_aed832d2_row10_col2" class="data row10 col2" >958</td>
+      <td id="T_aed832d2_row10_col3" class="data row10 col3" >1127</td>
+      <td id="T_aed832d2_row10_col4" class="data row10 col4" >1092</td>
+      <td id="T_aed832d2_row10_col5" class="data row10 col5" >0</td>
+      <td id="T_aed832d2_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_aed832d2_row10_col7" class="data row10 col7" >1</td>
+      <td id="T_aed832d2_row10_col8" class="data row10 col8" >0</td>
+      <td id="T_aed832d2_row10_col9" class="data row10 col9" >3177</td>
+      <td id="T_aed832d2_row10_col10" class="data row10 col10" >3177</td>
+    </tr>
+    <tr>
+      <td id="T_aed832d2_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_aed832d2_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_aed832d2_row11_col2" class="data row11 col2" >930</td>
+      <td id="T_aed832d2_row11_col3" class="data row11 col3" >1098</td>
+      <td id="T_aed832d2_row11_col4" class="data row11 col4" >1122</td>
+      <td id="T_aed832d2_row11_col5" class="data row11 col5" >0</td>
+      <td id="T_aed832d2_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_aed832d2_row11_col7" class="data row11 col7" >0</td>
+      <td id="T_aed832d2_row11_col8" class="data row11 col8" >0</td>
+      <td id="T_aed832d2_row11_col9" class="data row11 col9" >3150</td>
+      <td id="T_aed832d2_row11_col10" class="data row11 col10" >3150</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+                &nbsp;
+                <button class="collapsible"><h3>Minutes places</h3></button>
+                <div class="content">
+                    <div class="text-box">
+                        Таблица мест по сыгранным минутам баскетболистами игрока в лиге по матчапам. При нажатии на заголовок столбца работает сортировка.
+                    </div>
+                    <div class="table-scroll">
+                        <style type="text/css">
+#T_a2b31a6a_row0_col3, #T_a2b31a6a_row0_col4, #T_a2b31a6a_row1_col2, #T_a2b31a6a_row1_col4, #T_a2b31a6a_row2_col2, #T_a2b31a6a_row3_col3, #T_a2b31a6a_row3_col4, #T_a2b31a6a_row4_col2, #T_a2b31a6a_row4_col3, #T_a2b31a6a_row5_col2, #T_a2b31a6a_row5_col4, #T_a2b31a6a_row6_col3 {
+  color: blue;
+}
+#T_a2b31a6a_row4_col4, #T_a2b31a6a_row5_col3, #T_a2b31a6a_row6_col2, #T_a2b31a6a_row8_col2, #T_a2b31a6a_row9_col3, #T_a2b31a6a_row9_col4, #T_a2b31a6a_row10_col2, #T_a2b31a6a_row10_col3, #T_a2b31a6a_row10_col4, #T_a2b31a6a_row11_col2, #T_a2b31a6a_row11_col3, #T_a2b31a6a_row11_col4 {
+  color: red;
+}
+</style>
+<table id="T_a2b31a6a" ; align="center"; class="sortable"; data-sticky="2"; >
+  <thead>
+    <tr>
+      <th id="T_a2b31a6a_level0_col0" class="col_heading level0 col0" >Pos</th>
+      <th id="T_a2b31a6a_level0_col1" class="col_heading level0 col1" >Team</th>
+      <th id="T_a2b31a6a_level0_col2" class="col_heading level0 col2" >1</th>
+      <th id="T_a2b31a6a_level0_col3" class="col_heading level0 col3" >2</th>
+      <th id="T_a2b31a6a_level0_col4" class="col_heading level0 col4" >3</th>
+      <th id="T_a2b31a6a_level0_col5" class="col_heading level0 col5" >&#128532;</th>
+      <th id="T_a2b31a6a_level0_col6" class="col_heading level0 col6" >&#128526;</th>
+      <th id="T_a2b31a6a_level0_col7" class="col_heading level0 col7" >Last4</th>
+      <th id="T_a2b31a6a_level0_col8" class="col_heading level0 col8" >SUM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_a2b31a6a_row0_col0" class="data row0 col0" >1</td>
+      <td id="T_a2b31a6a_row0_col1" class="data row0 col1" >Morning dawn</td>
+      <td id="T_a2b31a6a_row0_col2" class="data row0 col2" >6</td>
+      <td id="T_a2b31a6a_row0_col3" class="data row0 col3" >1</td>
+      <td id="T_a2b31a6a_row0_col4" class="data row0 col4" >2</td>
+      <td id="T_a2b31a6a_row0_col5" class="data row0 col5" >0</td>
+      <td id="T_a2b31a6a_row0_col6" class="data row0 col6" >2</td>
+      <td id="T_a2b31a6a_row0_col7" class="data row0 col7" >9</td>
+      <td id="T_a2b31a6a_row0_col8" class="data row0 col8" >9</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row1_col0" class="data row1 col0" >2</td>
+      <td id="T_a2b31a6a_row1_col1" class="data row1 col1" >de_puta_madre</td>
+      <td id="T_a2b31a6a_row1_col2" class="data row1 col2" >4</td>
+      <td id="T_a2b31a6a_row1_col3" class="data row1 col3" >8</td>
+      <td id="T_a2b31a6a_row1_col4" class="data row1 col4" >1</td>
+      <td id="T_a2b31a6a_row1_col5" class="data row1 col5" >0</td>
+      <td id="T_a2b31a6a_row1_col6" class="data row1 col6" >2</td>
+      <td id="T_a2b31a6a_row1_col7" class="data row1 col7" >13</td>
+      <td id="T_a2b31a6a_row1_col8" class="data row1 col8" >13</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row2_col0" class="data row2 col0" >3</td>
+      <td id="T_a2b31a6a_row2_col1" class="data row2 col1" >Stir and Dimi</td>
+      <td id="T_a2b31a6a_row2_col2" class="data row2 col2" >2</td>
+      <td id="T_a2b31a6a_row2_col3" class="data row2 col3" >6</td>
+      <td id="T_a2b31a6a_row2_col4" class="data row2 col4" >5</td>
+      <td id="T_a2b31a6a_row2_col5" class="data row2 col5" >0</td>
+      <td id="T_a2b31a6a_row2_col6" class="data row2 col6" >1</td>
+      <td id="T_a2b31a6a_row2_col7" class="data row2 col7" >13</td>
+      <td id="T_a2b31a6a_row2_col8" class="data row2 col8" >13</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row3_col0" class="data row3 col0" >4</td>
+      <td id="T_a2b31a6a_row3_col1" class="data row3 col1" >Gorgeous George</td>
+      <td id="T_a2b31a6a_row3_col2" class="data row3 col2" >7</td>
+      <td id="T_a2b31a6a_row3_col3" class="data row3 col3" >4</td>
+      <td id="T_a2b31a6a_row3_col4" class="data row3 col4" >3</td>
+      <td id="T_a2b31a6a_row3_col5" class="data row3 col5" >0</td>
+      <td id="T_a2b31a6a_row3_col6" class="data row3 col6" >2</td>
+      <td id="T_a2b31a6a_row3_col7" class="data row3 col7" >14</td>
+      <td id="T_a2b31a6a_row3_col8" class="data row3 col8" >14</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row4_col0" class="data row4 col0" >5</td>
+      <td id="T_a2b31a6a_row4_col1" class="data row4 col1" > Mad Maxey</td>
+      <td id="T_a2b31a6a_row4_col2" class="data row4 col2" >3</td>
+      <td id="T_a2b31a6a_row4_col3" class="data row4 col3" >2</td>
+      <td id="T_a2b31a6a_row4_col4" class="data row4 col4" >10</td>
+      <td id="T_a2b31a6a_row4_col5" class="data row4 col5" >1</td>
+      <td id="T_a2b31a6a_row4_col6" class="data row4 col6" >2</td>
+      <td id="T_a2b31a6a_row4_col7" class="data row4 col7" >15</td>
+      <td id="T_a2b31a6a_row4_col8" class="data row4 col8" >15</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row5_col0" class="data row5 col0" >6</td>
+      <td id="T_a2b31a6a_row5_col1" class="data row5 col1" >Rook n Pick-and-Roll</td>
+      <td id="T_a2b31a6a_row5_col2" class="data row5 col2" >1</td>
+      <td id="T_a2b31a6a_row5_col3" class="data row5 col3" >12</td>
+      <td id="T_a2b31a6a_row5_col4" class="data row5 col4" >4</td>
+      <td id="T_a2b31a6a_row5_col5" class="data row5 col5" >1</td>
+      <td id="T_a2b31a6a_row5_col6" class="data row5 col6" >2</td>
+      <td id="T_a2b31a6a_row5_col7" class="data row5 col7" >17</td>
+      <td id="T_a2b31a6a_row5_col8" class="data row5 col8" >17</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row6_col0" class="data row6 col0" >7</td>
+      <td id="T_a2b31a6a_row6_col1" class="data row6 col1" >Yan's Hearty Team</td>
+      <td id="T_a2b31a6a_row6_col2" class="data row6 col2" >9</td>
+      <td id="T_a2b31a6a_row6_col3" class="data row6 col3" >3</td>
+      <td id="T_a2b31a6a_row6_col4" class="data row6 col4" >6</td>
+      <td id="T_a2b31a6a_row6_col5" class="data row6 col5" >1</td>
+      <td id="T_a2b31a6a_row6_col6" class="data row6 col6" >1</td>
+      <td id="T_a2b31a6a_row6_col7" class="data row6 col7" >18</td>
+      <td id="T_a2b31a6a_row6_col8" class="data row6 col8" >18</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row7_col0" class="data row7 col0" >8</td>
+      <td id="T_a2b31a6a_row7_col1" class="data row7 col1" >2 KABANA</td>
+      <td id="T_a2b31a6a_row7_col2" class="data row7 col2" >5</td>
+      <td id="T_a2b31a6a_row7_col3" class="data row7 col3" >7</td>
+      <td id="T_a2b31a6a_row7_col4" class="data row7 col4" >8</td>
+      <td id="T_a2b31a6a_row7_col5" class="data row7 col5" >0</td>
+      <td id="T_a2b31a6a_row7_col6" class="data row7 col6" >0</td>
+      <td id="T_a2b31a6a_row7_col7" class="data row7 col7" >20</td>
+      <td id="T_a2b31a6a_row7_col8" class="data row7 col8" >20</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row8_col0" class="data row8 col0" >9</td>
+      <td id="T_a2b31a6a_row8_col1" class="data row8 col1" >Volga Vibes</td>
+      <td id="T_a2b31a6a_row8_col2" class="data row8 col2" >10</td>
+      <td id="T_a2b31a6a_row8_col3" class="data row8 col3" >5</td>
+      <td id="T_a2b31a6a_row8_col4" class="data row8 col4" >7</td>
+      <td id="T_a2b31a6a_row8_col5" class="data row8 col5" >1</td>
+      <td id="T_a2b31a6a_row8_col6" class="data row8 col6" >0</td>
+      <td id="T_a2b31a6a_row8_col7" class="data row8 col7" >22</td>
+      <td id="T_a2b31a6a_row8_col8" class="data row8 col8" >22</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row9_col0" class="data row9 col0" >10</td>
+      <td id="T_a2b31a6a_row9_col1" class="data row9 col1" >Arsen Wenger</td>
+      <td id="T_a2b31a6a_row9_col2" class="data row9 col2" >8</td>
+      <td id="T_a2b31a6a_row9_col3" class="data row9 col3" >10</td>
+      <td id="T_a2b31a6a_row9_col4" class="data row9 col4" >12</td>
+      <td id="T_a2b31a6a_row9_col5" class="data row9 col5" >2</td>
+      <td id="T_a2b31a6a_row9_col6" class="data row9 col6" >0</td>
+      <td id="T_a2b31a6a_row9_col7" class="data row9 col7" >30</td>
+      <td id="T_a2b31a6a_row9_col8" class="data row9 col8" >30</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row10_col0" class="data row10 col0" >11</td>
+      <td id="T_a2b31a6a_row10_col1" class="data row10 col1" >Kringe Teamka</td>
+      <td id="T_a2b31a6a_row10_col2" class="data row10 col2" >12</td>
+      <td id="T_a2b31a6a_row10_col3" class="data row10 col3" >9</td>
+      <td id="T_a2b31a6a_row10_col4" class="data row10 col4" >9</td>
+      <td id="T_a2b31a6a_row10_col5" class="data row10 col5" >3</td>
+      <td id="T_a2b31a6a_row10_col6" class="data row10 col6" >0</td>
+      <td id="T_a2b31a6a_row10_col7" class="data row10 col7" >30</td>
+      <td id="T_a2b31a6a_row10_col8" class="data row10 col8" >30</td>
+    </tr>
+    <tr>
+      <td id="T_a2b31a6a_row11_col0" class="data row11 col0" >12</td>
+      <td id="T_a2b31a6a_row11_col1" class="data row11 col1" >alexvbondar</td>
+      <td id="T_a2b31a6a_row11_col2" class="data row11 col2" >11</td>
+      <td id="T_a2b31a6a_row11_col3" class="data row11 col3" >11</td>
+      <td id="T_a2b31a6a_row11_col4" class="data row11 col4" >11</td>
+      <td id="T_a2b31a6a_row11_col5" class="data row11 col5" >3</td>
+      <td id="T_a2b31a6a_row11_col6" class="data row11 col6" >0</td>
+      <td id="T_a2b31a6a_row11_col7" class="data row11 col7" >33</td>
+      <td id="T_a2b31a6a_row11_col8" class="data row11 col8" >33</td>
+    </tr>
+  </tbody>
+</table>
+
+                    </div>
+                </div>
+            <h2 class="list-heading">Previous reports</h2>
+            <ul class="centered-list">
+                    <li><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff\reports\basketball\471862341\2026-27/matchup_2.html">Matchup 2 (26/10/2026 - 01/11/2026).</a></li>
+                    <li><a href="https://klicogogo.github.io/Fantasy-Fun-Stuff\reports\basketball\471862341\2026-27/matchup_1.html">Matchup 1 (20/10/2026 - 25/10/2026).</a></li>
+            </ul>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    content.classList.toggle("expanded");
+                });
+            }
+        </script>
+        <script src="https://klicogogo.github.io/res/sorttable.js"></script>
+        <script>
+            function makeStickyTables() {
+                const tables = document.querySelectorAll('table[data-sticky]');
+
+                tables.forEach(table => {
+                    const numSticky = parseInt(table.getAttribute('data-sticky'), 0);
+                    const rows = table.rows;
+                    const offsets = [];
+
+                    // Calculate cumulative widths
+                    for (let col = 0; col < numSticky; col++) {
+                        let width = rows[0].cells[col].offsetWidth;
+                        offsets[col] = (offsets[col - 1] || -1) + width - 2;
+                    }
+
+                    // Apply sticky + left offsets
+                    for (let row of rows) {
+                        for (let col = 0; col < numSticky; col++) {
+                            let cell = row.cells[col];
+                            cell.style.position = "sticky";
+                            cell.style.left = (offsets[col - 1] || -1) + "px";
+                            cell.style.zIndex = 2;
+                        }
+                    }
+                });
+            }
+
+            window.addEventListener("DOMContentLoaded", makeStickyTables);
+            window.addEventListener("resize", makeStickyTables);
+            window.addEventListener("orientationchange", makeStickyTables);
+        </script>
+    </body>
+</html>
